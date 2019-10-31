@@ -1,0 +1,92 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test,,,,2019-08-05 16:01:31,2019-08-05 16:01:39,8.489s,INCOMPLETE
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1,,,,2019-08-05 16:01:31,2019-08-05 16:01:35,3.759s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/AlterationScoringRuleApps"", [""transactionType"":findTestData(""AlterationScoringRuleApps/AlterationScoringRuleApps"").getValue(1, 1), ""alterType"":findTestData(""AlterationScoringRuleApps/AlterationScoringRuleApps"").getValue(2, 1), ... ]))",,,,2019-08-05 16:01:32,2019-08-05 16:01:35,2.984s,PASSED
+jsonSlurper = new groovy.json.JsonSlurper(),,,,2019-08-05 16:01:35,2019-08-05 16:01:35,0.014s,PASSED
+content_length = response.getResponseBodyContent(),,,,2019-08-05 16:01:35,2019-08-05 16:01:35,0.010s,PASSED
+println(content_length),,,,2019-08-05 16:01:35,2019-08-05 16:01:35,0.006s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-05 16:01:35,2019-08-05 16:01:35,0.020s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-05 16:01:35,2019-08-05 16:01:35,0.099s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-05 16:01:35,2019-08-05 16:01:35,0.008s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1,,,,2019-08-05 16:01:35,2019-08-05 16:01:35,0.533s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/AlterationScoringRuleApps"", [""transactionType"":findTestData(""AlterationScoringRuleApps/AlterationScoringRuleApps"").getValue(1, 1), ""alterType"":findTestData(""AlterationScoringRuleApps/AlterationScoringRuleApps"").getValue(2, 1), ... ]))",,,,2019-08-05 16:01:35,2019-08-05 16:01:35,0.429s,PASSED
+jsonSlurper = new groovy.json.JsonSlurper(),,,,2019-08-05 16:01:35,2019-08-05 16:01:35,0.001s,PASSED
+content_length = response.getResponseBodyContent(),,,,2019-08-05 16:01:35,2019-08-05 16:01:35,0.001s,PASSED
+println(content_length),,,,2019-08-05 16:01:35,2019-08-05 16:01:35,0.004s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-05 16:01:35,2019-08-05 16:01:35,0.004s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-05 16:01:35,2019-08-05 16:01:35,0.041s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-05 16:01:35,2019-08-05 16:01:35,0.001s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1,,,,2019-08-05 16:01:35,2019-08-05 16:01:36,0.390s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/AlterationScoringRuleApps"", [""transactionType"":findTestData(""AlterationScoringRuleApps/AlterationScoringRuleApps"").getValue(1, 1), ""alterType"":findTestData(""AlterationScoringRuleApps/AlterationScoringRuleApps"").getValue(2, 1), ... ]))",,,,2019-08-05 16:01:35,2019-08-05 16:01:36,0.286s,PASSED
+jsonSlurper = new groovy.json.JsonSlurper(),,,,2019-08-05 16:01:36,2019-08-05 16:01:36,0.001s,PASSED
+content_length = response.getResponseBodyContent(),,,,2019-08-05 16:01:36,2019-08-05 16:01:36,0.001s,PASSED
+println(content_length),,,,2019-08-05 16:01:36,2019-08-05 16:01:36,0.002s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-05 16:01:36,2019-08-05 16:01:36,0.005s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-05 16:01:36,2019-08-05 16:01:36,0.051s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-05 16:01:36,2019-08-05 16:01:36,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1,,,,2019-08-05 16:01:36,2019-08-05 16:01:36,0.342s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/AlterationScoringRuleApps"", [""transactionType"":findTestData(""AlterationScoringRuleApps/AlterationScoringRuleApps"").getValue(1, 1), ""alterType"":findTestData(""AlterationScoringRuleApps/AlterationScoringRuleApps"").getValue(2, 1), ... ]))",,,,2019-08-05 16:01:36,2019-08-05 16:01:36,0.270s,PASSED
+jsonSlurper = new groovy.json.JsonSlurper(),,,,2019-08-05 16:01:36,2019-08-05 16:01:36,0.000s,PASSED
+content_length = response.getResponseBodyContent(),,,,2019-08-05 16:01:36,2019-08-05 16:01:36,0.000s,PASSED
+println(content_length),,,,2019-08-05 16:01:36,2019-08-05 16:01:36,0.004s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-05 16:01:36,2019-08-05 16:01:36,0.004s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-05 16:01:36,2019-08-05 16:01:36,0.041s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-05 16:01:36,2019-08-05 16:01:36,0.001s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1,,,,2019-08-05 16:01:36,2019-08-05 16:01:37,0.419s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/AlterationScoringRuleApps"", [""transactionType"":findTestData(""AlterationScoringRuleApps/AlterationScoringRuleApps"").getValue(1, 1), ""alterType"":findTestData(""AlterationScoringRuleApps/AlterationScoringRuleApps"").getValue(2, 1), ... ]))",,,,2019-08-05 16:01:36,2019-08-05 16:01:37,0.350s,PASSED
+jsonSlurper = new groovy.json.JsonSlurper(),,,,2019-08-05 16:01:37,2019-08-05 16:01:37,0.000s,PASSED
+content_length = response.getResponseBodyContent(),,,,2019-08-05 16:01:37,2019-08-05 16:01:37,0.000s,PASSED
+println(content_length),,,,2019-08-05 16:01:37,2019-08-05 16:01:37,0.001s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-05 16:01:37,2019-08-05 16:01:37,0.004s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-05 16:01:37,2019-08-05 16:01:37,0.043s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-05 16:01:37,2019-08-05 16:01:37,0.001s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1,,,,2019-08-05 16:01:37,2019-08-05 16:01:37,0.385s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/AlterationScoringRuleApps"", [""transactionType"":findTestData(""AlterationScoringRuleApps/AlterationScoringRuleApps"").getValue(1, 1), ""alterType"":findTestData(""AlterationScoringRuleApps/AlterationScoringRuleApps"").getValue(2, 1), ... ]))",,,,2019-08-05 16:01:37,2019-08-05 16:01:37,0.312s,PASSED
+jsonSlurper = new groovy.json.JsonSlurper(),,,,2019-08-05 16:01:37,2019-08-05 16:01:37,0.000s,PASSED
+content_length = response.getResponseBodyContent(),,,,2019-08-05 16:01:37,2019-08-05 16:01:37,0.001s,PASSED
+println(content_length),,,,2019-08-05 16:01:37,2019-08-05 16:01:37,0.005s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-05 16:01:37,2019-08-05 16:01:37,0.007s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-05 16:01:37,2019-08-05 16:01:37,0.040s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-05 16:01:37,2019-08-05 16:01:37,0.001s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1,,,,2019-08-05 16:01:37,2019-08-05 16:01:37,0.392s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/AlterationScoringRuleApps"", [""transactionType"":findTestData(""AlterationScoringRuleApps/AlterationScoringRuleApps"").getValue(1, 1), ""alterType"":findTestData(""AlterationScoringRuleApps/AlterationScoringRuleApps"").getValue(2, 1), ... ]))",,,,2019-08-05 16:01:37,2019-08-05 16:01:37,0.285s,PASSED
+jsonSlurper = new groovy.json.JsonSlurper(),,,,2019-08-05 16:01:37,2019-08-05 16:01:37,0.000s,PASSED
+content_length = response.getResponseBodyContent(),,,,2019-08-05 16:01:37,2019-08-05 16:01:37,0.000s,PASSED
+println(content_length),,,,2019-08-05 16:01:37,2019-08-05 16:01:37,0.000s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-05 16:01:37,2019-08-05 16:01:37,0.054s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-05 16:01:37,2019-08-05 16:01:37,0.035s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-05 16:01:37,2019-08-05 16:01:37,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1,,,,2019-08-05 16:01:37,2019-08-05 16:01:38,0.442s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/AlterationScoringRuleApps"", [""transactionType"":findTestData(""AlterationScoringRuleApps/AlterationScoringRuleApps"").getValue(1, 1), ""alterType"":findTestData(""AlterationScoringRuleApps/AlterationScoringRuleApps"").getValue(2, 1), ... ]))",,,,2019-08-05 16:01:37,2019-08-05 16:01:38,0.232s,PASSED
+jsonSlurper = new groovy.json.JsonSlurper(),,,,2019-08-05 16:01:38,2019-08-05 16:01:38,0.160s,PASSED
+content_length = response.getResponseBodyContent(),,,,2019-08-05 16:01:38,2019-08-05 16:01:38,0.001s,PASSED
+println(content_length),,,,2019-08-05 16:01:38,2019-08-05 16:01:38,0.001s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-05 16:01:38,2019-08-05 16:01:38,0.004s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-05 16:01:38,2019-08-05 16:01:38,0.032s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-05 16:01:38,2019-08-05 16:01:38,0.001s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1,,,,2019-08-05 16:01:38,2019-08-05 16:01:39,0.794s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/AlterationScoringRuleApps"", [""transactionType"":findTestData(""AlterationScoringRuleApps/AlterationScoringRuleApps"").getValue(1, 1), ""alterType"":findTestData(""AlterationScoringRuleApps/AlterationScoringRuleApps"").getValue(2, 1), ... ]))",,,,2019-08-05 16:01:38,2019-08-05 16:01:38,0.224s,PASSED
+jsonSlurper = new groovy.json.JsonSlurper(),,,,2019-08-05 16:01:38,2019-08-05 16:01:38,0.000s,PASSED
+content_length = response.getResponseBodyContent(),,,,2019-08-05 16:01:38,2019-08-05 16:01:38,0.001s,PASSED
+println(content_length),,,,2019-08-05 16:01:38,2019-08-05 16:01:38,0.001s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-05 16:01:38,2019-08-05 16:01:38,0.002s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-05 16:01:38,2019-08-05 16:01:38,0.027s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-05 16:01:38,2019-08-05 16:01:39,0.302s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1,,,,2019-08-05 16:01:39,2019-08-05 16:01:39,0.546s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/AlterationScoringRuleApps"", [""transactionType"":findTestData(""AlterationScoringRuleApps/AlterationScoringRuleApps"").getValue(1, 1), ""alterType"":findTestData(""AlterationScoringRuleApps/AlterationScoringRuleApps"").getValue(2, 1), ... ]))",,,,2019-08-05 16:01:39,2019-08-05 16:01:39,0.234s,PASSED
+jsonSlurper = new groovy.json.JsonSlurper(),,,,2019-08-05 16:01:39,2019-08-05 16:01:39,0.001s,PASSED
+content_length = response.getResponseBodyContent(),,,,2019-08-05 16:01:39,2019-08-05 16:01:39,0.000s,PASSED
+println(content_length),,,,2019-08-05 16:01:39,2019-08-05 16:01:39,0.001s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-05 16:01:39,2019-08-05 16:01:39,0.002s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-05 16:01:39,2019-08-05 16:01:39,0.026s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-05 16:01:39,2019-08-05 16:01:39,0.000s,PASSED

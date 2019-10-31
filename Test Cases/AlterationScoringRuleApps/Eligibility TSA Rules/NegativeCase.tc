@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>NegativeCase</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>805128be-dc03-494c-b672-6701b5d01339</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('AlterationScoringRuleApps/AlterationScoringRuleAppsNegative').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>654376a4-78ed-4b0d-ad22-9291c874d4c0</id>
+      <masked>false</masked>
+      <name>transactionType</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('AlterationScoringRuleApps/AlterationScoringRuleAppsNegative').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>dd2dbcce-bff9-4a4b-a419-fe0a1ffd6033</id>
+      <masked>false</masked>
+      <name>alterType</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('AlterationScoringRuleApps/AlterationScoringRuleAppsNegative').getValue(3, 1)</defaultValue>
+      <description></description>
+      <id>0e6ea1f5-7147-43cb-baf9-9d1d1d021872</id>
+      <masked>false</masked>
+      <name>role</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('AlterationScoringRuleApps/AlterationScoringRuleAppsNegative').getValue(4, 1)</defaultValue>
+      <description></description>
+      <id>73c6389c-d582-4fe7-9146-6a9ca10c5e8a</id>
+      <masked>false</masked>
+      <name>occupation</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('AlterationScoringRuleApps/AlterationScoringRuleAppsNegative').getValue(5, 1)</defaultValue>
+      <description></description>
+      <id>3cc9b122-d5da-4b5e-8ed7-f461834d1321</id>
+      <masked>false</masked>
+      <name>vendorName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('AlterationScoringRuleApps/AlterationScoringRuleAppsNegative').getValue(6, 1)</defaultValue>
+      <description></description>
+      <id>84af28b9-b835-4561-920b-601cb351508c</id>
+      <masked>false</masked>
+      <name>compareNewFsaDeathandTotalccWithoutWop</name>
+   </variable>
+</TestCaseEntity>

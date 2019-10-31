@@ -1,0 +1,2825 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-09-20T14:45:51</date>
+  <millis>1568965551338</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/AlterationScoringNBMajor/PPH Limitation for Student and Housewife</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">PPH Limitation for Student and Housewife</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/AlterationScoringNBMajor/PPH Limitation for Student and Housewife</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:51</date>
+  <millis>1568965551372</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = c19679 - LIDLIFE38B0WS.PRU.intranet.asia</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">c19679 - LIDLIFE38B0WS.PRU.intranet.asia</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:51</date>
+  <millis>1568965551373</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 7 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 7 64bit</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:51</date>
+  <millis>1568965551374</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 10.170.236.30</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">10.170.236.30</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:51</date>
+  <millis>1568965551386</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.2.2.4</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.2.2.4</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:52</date>
+  <millis>1568965552088</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/AlterationScoringNBMajor/PPH Limitation for Student and Housewife/PPH Limitation for Student and Housewife</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/AlterationScoringNBMajor/PPH Limitation for Student and Housewife/PPH Limitation for Student and Housewife</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/AlterationScoringNBMajor/PPH Limitation for Student and Housewife/PPH Limitation for Student and Housewife</property>
+  <property name="source">C:\\SURYAPURBA\\PHS\\PHS-BRMS\\Test Cases\\AlterationScoringNBMajor\\PPH Limitation for Student and Housewife\\PPH Limitation for Student and Housewife.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:52</date>
+  <millis>1568965552158</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>transactionType = Major</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:52</date>
+  <millis>1568965552158</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>clientType = P</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:52</date>
+  <millis>1568965552159</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>role = LA1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:52</date>
+  <millis>1568965552159</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>subAlter = AddRider</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:52</date>
+  <millis>1568965552160</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>eviCode = IRD</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:52</date>
+  <millis>1568965552160</millis>
+  <sequence>12</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>riderCode = H1X1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:52</date>
+  <millis>1568965552161</millis>
+  <sequence>13</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>occupationCode = STDN</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:52</date>
+  <millis>1568965552161</millis>
+  <sequence>14</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ageNextBirthday = 17</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:52</date>
+  <millis>1568965552162</millis>
+  <sequence>15</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>totalSumAssured = 5000000</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:52</date>
+  <millis>1568965552163</millis>
+  <sequence>16</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>expectedEvidenceCode = JP4</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:52</date>
+  <millis>1568965552165</millis>
+  <sequence>17</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>expectedDescription = Refer to processor karena UP PRUprime healthcare maksimal 4 juta - PPH Limitation for Student and HouseWife</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:52</date>
+  <millis>1568965552973</millis>
+  <sequence>18</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(\&amp;quot;AlterationScroingNBMajor/PPH Limitation for Student and Housewife/Version 1.0_Check_1.391/Object Request\&amp;quot;, [\&amp;quot;transactionType\&amp;quot;:transactionType, \&amp;quot;clientType\&amp;quot;:clientType, \&amp;quot;role\&amp;quot;:role, \&amp;quot;subAlter\&amp;quot;:subAlter, \&amp;quot;eviCode\&amp;quot;:eviCode, \&amp;quot;riderCode\&amp;quot;:riderCode, ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">9</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:54</date>
+  <millis>1568965554480</millis>
+  <sequence>21</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\SURYAPURBA\\PHS\\PHS-BRMS\\Reports\\AlterationScoringNBMajor\\PPH Limitation for Student and Housewife\\20190920_144545\\requests\\main\\0.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">f652cbc7-0dc3-4103-b543-3ad9f7b1a73b</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:54</date>
+  <millis>1568965554684</millis>
+  <sequence>22</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:54</date>
+  <millis>1568965554685</millis>
+  <sequence>23</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(\&amp;quot;AlterationScroingNBMajor/PPH Limitation for Student and Housewife/Version 1.0_Check_1.391/Object Request\&amp;quot;, [\&amp;quot;transactionType\&amp;quot;:transactionType, \&amp;quot;clientType\&amp;quot;:clientType, \&amp;quot;role\&amp;quot;:role, \&amp;quot;subAlter\&amp;quot;:subAlter, \&amp;quot;eviCode\&amp;quot;:eviCode, \&amp;quot;riderCode\&amp;quot;:riderCode, ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:54</date>
+  <millis>1568965554686</millis>
+  <sequence>24</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : slurper = new groovy.json.JsonSlurper()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">13</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:54</date>
+  <millis>1568965554702</millis>
+  <sequence>25</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : slurper = new groovy.json.JsonSlurper()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:54</date>
+  <millis>1568965554703</millis>
+  <sequence>26</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : parsingResponse = slurper.parseText(response.getResponseText())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">15</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:54</date>
+  <millis>1568965554746</millis>
+  <sequence>27</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : parsingResponse = slurper.parseText(response.getResponseText())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:54</date>
+  <millis>1568965554747</millis>
+  <sequence>28</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(parsingResponse)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:54</date>
+  <millis>1568965554767</millis>
+  <sequence>29</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(parsingResponse)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:54</date>
+  <millis>1568965554767</millis>
+  <sequence>30</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : evidenceCode = evidenceCode</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:54</date>
+  <millis>1568965554787</millis>
+  <sequence>31</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : evidenceCode = evidenceCode</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:54</date>
+  <millis>1568965554787</millis>
+  <sequence>32</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(evidenceCode)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:54</date>
+  <millis>1568965554789</millis>
+  <sequence>33</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(evidenceCode)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:54</date>
+  <millis>1568965554789</millis>
+  <sequence>34</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(expectedEvidenceCode)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:54</date>
+  <millis>1568965554791</millis>
+  <sequence>35</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(expectedEvidenceCode)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:54</date>
+  <millis>1568965554792</millis>
+  <sequence>36</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (expectedEvidenceCode != \&amp;quot;STD\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">23</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:54</date>
+  <millis>1568965554795</millis>
+  <sequence>37</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : actual = description == expectedDescription</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:54</date>
+  <millis>1568965554803</millis>
+  <sequence>38</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : actual = description == expectedDescription</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:54</date>
+  <millis>1568965554804</millis>
+  <sequence>39</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyEqual(actual, true, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">29</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:54</date>
+  <millis>1568965554874</millis>
+  <sequence>41</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Actual object &amp;apos;true&amp;apos; and expected object &amp;apos;true&amp;apos; are equal</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:54</date>
+  <millis>1568965554875</millis>
+  <sequence>42</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyEqual(actual, true, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:54</date>
+  <millis>1568965554875</millis>
+  <sequence>43</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (actual == false)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:54</date>
+  <millis>1568965554879</millis>
+  <sequence>44</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (actual == false)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:54</date>
+  <millis>1568965554880</millis>
+  <sequence>45</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (expectedEvidenceCode != \&amp;quot;STD\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:54</date>
+  <millis>1568965554880</millis>
+  <sequence>46</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/AlterationScoringNBMajor/PPH Limitation for Student and Housewife/PPH Limitation for Student and Housewife</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:54</date>
+  <millis>1568965554881</millis>
+  <sequence>47</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/AlterationScoringNBMajor/PPH Limitation for Student and Housewife/PPH Limitation for Student and Housewife</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:54</date>
+  <millis>1568965554891</millis>
+  <sequence>48</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/AlterationScoringNBMajor/PPH Limitation for Student and Housewife/PPH Limitation for Student and Housewife</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/AlterationScoringNBMajor/PPH Limitation for Student and Housewife/PPH Limitation for Student and Housewife</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/AlterationScoringNBMajor/PPH Limitation for Student and Housewife/PPH Limitation for Student and Housewife</property>
+  <property name="source">C:\\SURYAPURBA\\PHS\\PHS-BRMS\\Test Cases\\AlterationScoringNBMajor\\PPH Limitation for Student and Housewife\\PPH Limitation for Student and Housewife.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:54</date>
+  <millis>1568965554907</millis>
+  <sequence>50</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>transactionType = Major</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:54</date>
+  <millis>1568965554907</millis>
+  <sequence>51</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>clientType = P</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:54</date>
+  <millis>1568965554908</millis>
+  <sequence>52</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>role = LA1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:54</date>
+  <millis>1568965554908</millis>
+  <sequence>53</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>subAlter = AddRider</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:54</date>
+  <millis>1568965554909</millis>
+  <sequence>54</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>eviCode = IRD</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:54</date>
+  <millis>1568965554909</millis>
+  <sequence>55</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>riderCode = H1X3</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:54</date>
+  <millis>1568965554909</millis>
+  <sequence>56</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>occupationCode = STDN</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:54</date>
+  <millis>1568965554910</millis>
+  <sequence>57</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ageNextBirthday = 17</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:54</date>
+  <millis>1568965554910</millis>
+  <sequence>58</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>totalSumAssured = 5000000</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:54</date>
+  <millis>1568965554910</millis>
+  <sequence>59</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>expectedEvidenceCode = JP4</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:54</date>
+  <millis>1568965554911</millis>
+  <sequence>60</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>expectedDescription = Refer to processor karena UP PRUprime healthcare maksimal 4 juta - PPH Limitation for Student and HouseWife</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:54</date>
+  <millis>1568965554914</millis>
+  <sequence>61</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(\&amp;quot;AlterationScroingNBMajor/PPH Limitation for Student and Housewife/Version 1.0_Check_1.391/Object Request\&amp;quot;, [\&amp;quot;transactionType\&amp;quot;:transactionType, \&amp;quot;clientType\&amp;quot;:clientType, \&amp;quot;role\&amp;quot;:role, \&amp;quot;subAlter\&amp;quot;:subAlter, \&amp;quot;eviCode\&amp;quot;:eviCode, \&amp;quot;riderCode\&amp;quot;:riderCode, ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">9</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:54</date>
+  <millis>1568965554987</millis>
+  <sequence>64</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\SURYAPURBA\\PHS\\PHS-BRMS\\Reports\\AlterationScoringNBMajor\\PPH Limitation for Student and Housewife\\20190920_144545\\requests\\main\\1.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">e350b0f5-aa03-4368-9e46-87974719a427</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:54</date>
+  <millis>1568965554993</millis>
+  <sequence>65</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:54</date>
+  <millis>1568965554994</millis>
+  <sequence>66</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(\&amp;quot;AlterationScroingNBMajor/PPH Limitation for Student and Housewife/Version 1.0_Check_1.391/Object Request\&amp;quot;, [\&amp;quot;transactionType\&amp;quot;:transactionType, \&amp;quot;clientType\&amp;quot;:clientType, \&amp;quot;role\&amp;quot;:role, \&amp;quot;subAlter\&amp;quot;:subAlter, \&amp;quot;eviCode\&amp;quot;:eviCode, \&amp;quot;riderCode\&amp;quot;:riderCode, ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:54</date>
+  <millis>1568965554994</millis>
+  <sequence>67</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : slurper = new groovy.json.JsonSlurper()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">13</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:54</date>
+  <millis>1568965554995</millis>
+  <sequence>68</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : slurper = new groovy.json.JsonSlurper()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:54</date>
+  <millis>1568965554995</millis>
+  <sequence>69</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : parsingResponse = slurper.parseText(response.getResponseText())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">15</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:54</date>
+  <millis>1568965554997</millis>
+  <sequence>70</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : parsingResponse = slurper.parseText(response.getResponseText())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:54</date>
+  <millis>1568965554997</millis>
+  <sequence>71</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(parsingResponse)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555015</millis>
+  <sequence>72</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(parsingResponse)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555016</millis>
+  <sequence>73</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : evidenceCode = evidenceCode</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555018</millis>
+  <sequence>74</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : evidenceCode = evidenceCode</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555018</millis>
+  <sequence>75</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(evidenceCode)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555020</millis>
+  <sequence>76</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(evidenceCode)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555020</millis>
+  <sequence>77</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(expectedEvidenceCode)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555028</millis>
+  <sequence>78</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(expectedEvidenceCode)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555028</millis>
+  <sequence>79</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (expectedEvidenceCode != \&amp;quot;STD\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">23</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555030</millis>
+  <sequence>80</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : actual = description == expectedDescription</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555274</millis>
+  <sequence>81</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : actual = description == expectedDescription</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555274</millis>
+  <sequence>82</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyEqual(actual, true, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">29</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555286</millis>
+  <sequence>84</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Actual object &amp;apos;true&amp;apos; and expected object &amp;apos;true&amp;apos; are equal</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555286</millis>
+  <sequence>85</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyEqual(actual, true, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555295</millis>
+  <sequence>86</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (actual == false)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555296</millis>
+  <sequence>87</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (actual == false)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555296</millis>
+  <sequence>88</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (expectedEvidenceCode != \&amp;quot;STD\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555298</millis>
+  <sequence>89</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/AlterationScoringNBMajor/PPH Limitation for Student and Housewife/PPH Limitation for Student and Housewife</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555299</millis>
+  <sequence>90</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/AlterationScoringNBMajor/PPH Limitation for Student and Housewife/PPH Limitation for Student and Housewife</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555320</millis>
+  <sequence>91</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/AlterationScoringNBMajor/PPH Limitation for Student and Housewife/PPH Limitation for Student and Housewife</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/AlterationScoringNBMajor/PPH Limitation for Student and Housewife/PPH Limitation for Student and Housewife</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/AlterationScoringNBMajor/PPH Limitation for Student and Housewife/PPH Limitation for Student and Housewife</property>
+  <property name="source">C:\\SURYAPURBA\\PHS\\PHS-BRMS\\Test Cases\\AlterationScoringNBMajor\\PPH Limitation for Student and Housewife\\PPH Limitation for Student and Housewife.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555336</millis>
+  <sequence>93</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>transactionType = Major</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555336</millis>
+  <sequence>94</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>clientType = P</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555337</millis>
+  <sequence>95</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>role = LA1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555337</millis>
+  <sequence>96</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>subAlter = AddRider</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555371</millis>
+  <sequence>97</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>eviCode = IRD</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555372</millis>
+  <sequence>98</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>riderCode = H1X5</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555372</millis>
+  <sequence>99</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>occupationCode = STDN</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555374</millis>
+  <sequence>100</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ageNextBirthday = 17</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555375</millis>
+  <sequence>101</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>totalSumAssured = 5000000</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555375</millis>
+  <sequence>102</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>expectedEvidenceCode = JP4</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555376</millis>
+  <sequence>103</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>expectedDescription = Refer to processor karena UP PRUprime healthcare maksimal 4 juta - PPH Limitation for Student and HouseWife</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555380</millis>
+  <sequence>104</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(\&amp;quot;AlterationScroingNBMajor/PPH Limitation for Student and Housewife/Version 1.0_Check_1.391/Object Request\&amp;quot;, [\&amp;quot;transactionType\&amp;quot;:transactionType, \&amp;quot;clientType\&amp;quot;:clientType, \&amp;quot;role\&amp;quot;:role, \&amp;quot;subAlter\&amp;quot;:subAlter, \&amp;quot;eviCode\&amp;quot;:eviCode, \&amp;quot;riderCode\&amp;quot;:riderCode, ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">9</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555441</millis>
+  <sequence>107</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\SURYAPURBA\\PHS\\PHS-BRMS\\Reports\\AlterationScoringNBMajor\\PPH Limitation for Student and Housewife\\20190920_144545\\requests\\main\\2.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">deb7d4da-ccbc-4c77-ad54-9bcb38f9b5ca</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555446</millis>
+  <sequence>108</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555447</millis>
+  <sequence>109</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(\&amp;quot;AlterationScroingNBMajor/PPH Limitation for Student and Housewife/Version 1.0_Check_1.391/Object Request\&amp;quot;, [\&amp;quot;transactionType\&amp;quot;:transactionType, \&amp;quot;clientType\&amp;quot;:clientType, \&amp;quot;role\&amp;quot;:role, \&amp;quot;subAlter\&amp;quot;:subAlter, \&amp;quot;eviCode\&amp;quot;:eviCode, \&amp;quot;riderCode\&amp;quot;:riderCode, ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555447</millis>
+  <sequence>110</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : slurper = new groovy.json.JsonSlurper()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">13</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555448</millis>
+  <sequence>111</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : slurper = new groovy.json.JsonSlurper()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555448</millis>
+  <sequence>112</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : parsingResponse = slurper.parseText(response.getResponseText())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">15</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555449</millis>
+  <sequence>113</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : parsingResponse = slurper.parseText(response.getResponseText())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555450</millis>
+  <sequence>114</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(parsingResponse)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555461</millis>
+  <sequence>115</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(parsingResponse)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555462</millis>
+  <sequence>116</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : evidenceCode = evidenceCode</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555463</millis>
+  <sequence>117</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : evidenceCode = evidenceCode</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555463</millis>
+  <sequence>118</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(evidenceCode)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555468</millis>
+  <sequence>119</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(evidenceCode)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555469</millis>
+  <sequence>120</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(expectedEvidenceCode)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555811</millis>
+  <sequence>121</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(expectedEvidenceCode)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555812</millis>
+  <sequence>122</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (expectedEvidenceCode != \&amp;quot;STD\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">23</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555813</millis>
+  <sequence>123</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : actual = description == expectedDescription</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555814</millis>
+  <sequence>124</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : actual = description == expectedDescription</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555814</millis>
+  <sequence>125</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyEqual(actual, true, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">29</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555819</millis>
+  <sequence>127</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Actual object &amp;apos;true&amp;apos; and expected object &amp;apos;true&amp;apos; are equal</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555826</millis>
+  <sequence>128</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyEqual(actual, true, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555826</millis>
+  <sequence>129</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (actual == false)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555827</millis>
+  <sequence>130</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (actual == false)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555827</millis>
+  <sequence>131</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (expectedEvidenceCode != \&amp;quot;STD\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555827</millis>
+  <sequence>132</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/AlterationScoringNBMajor/PPH Limitation for Student and Housewife/PPH Limitation for Student and Housewife</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555828</millis>
+  <sequence>133</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/AlterationScoringNBMajor/PPH Limitation for Student and Housewife/PPH Limitation for Student and Housewife</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555835</millis>
+  <sequence>134</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/AlterationScoringNBMajor/PPH Limitation for Student and Housewife/PPH Limitation for Student and Housewife</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/AlterationScoringNBMajor/PPH Limitation for Student and Housewife/PPH Limitation for Student and Housewife</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/AlterationScoringNBMajor/PPH Limitation for Student and Housewife/PPH Limitation for Student and Housewife</property>
+  <property name="source">C:\\SURYAPURBA\\PHS\\PHS-BRMS\\Test Cases\\AlterationScoringNBMajor\\PPH Limitation for Student and Housewife\\PPH Limitation for Student and Housewife.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555846</millis>
+  <sequence>136</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>transactionType = Major</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555847</millis>
+  <sequence>137</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>clientType = P</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555847</millis>
+  <sequence>138</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>role = LA1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555847</millis>
+  <sequence>139</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>subAlter = AddRider</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555847</millis>
+  <sequence>140</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>eviCode = IRD</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555848</millis>
+  <sequence>141</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>riderCode = H1Y1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555848</millis>
+  <sequence>142</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>occupationCode = STDN</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555848</millis>
+  <sequence>143</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ageNextBirthday = 17</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555848</millis>
+  <sequence>144</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>totalSumAssured = 5000000</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555849</millis>
+  <sequence>145</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>expectedEvidenceCode = JP4</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555849</millis>
+  <sequence>146</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>expectedDescription = Refer to processor karena UP PRUprime healthcare maksimal 4 juta - PPH Limitation for Student and HouseWife</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:55</date>
+  <millis>1568965555852</millis>
+  <sequence>147</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(\&amp;quot;AlterationScroingNBMajor/PPH Limitation for Student and Housewife/Version 1.0_Check_1.391/Object Request\&amp;quot;, [\&amp;quot;transactionType\&amp;quot;:transactionType, \&amp;quot;clientType\&amp;quot;:clientType, \&amp;quot;role\&amp;quot;:role, \&amp;quot;subAlter\&amp;quot;:subAlter, \&amp;quot;eviCode\&amp;quot;:eviCode, \&amp;quot;riderCode\&amp;quot;:riderCode, ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">9</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556088</millis>
+  <sequence>150</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\SURYAPURBA\\PHS\\PHS-BRMS\\Reports\\AlterationScoringNBMajor\\PPH Limitation for Student and Housewife\\20190920_144545\\requests\\main\\3.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">70590964-ff05-4b03-acc8-6832fe87d0dd</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556202</millis>
+  <sequence>151</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556203</millis>
+  <sequence>152</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(\&amp;quot;AlterationScroingNBMajor/PPH Limitation for Student and Housewife/Version 1.0_Check_1.391/Object Request\&amp;quot;, [\&amp;quot;transactionType\&amp;quot;:transactionType, \&amp;quot;clientType\&amp;quot;:clientType, \&amp;quot;role\&amp;quot;:role, \&amp;quot;subAlter\&amp;quot;:subAlter, \&amp;quot;eviCode\&amp;quot;:eviCode, \&amp;quot;riderCode\&amp;quot;:riderCode, ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556205</millis>
+  <sequence>153</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : slurper = new groovy.json.JsonSlurper()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">13</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556206</millis>
+  <sequence>154</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : slurper = new groovy.json.JsonSlurper()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556207</millis>
+  <sequence>155</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : parsingResponse = slurper.parseText(response.getResponseText())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">15</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556210</millis>
+  <sequence>156</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : parsingResponse = slurper.parseText(response.getResponseText())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556213</millis>
+  <sequence>157</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(parsingResponse)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556227</millis>
+  <sequence>158</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(parsingResponse)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556227</millis>
+  <sequence>159</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : evidenceCode = evidenceCode</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556228</millis>
+  <sequence>160</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : evidenceCode = evidenceCode</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556228</millis>
+  <sequence>161</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(evidenceCode)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556229</millis>
+  <sequence>162</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(evidenceCode)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556229</millis>
+  <sequence>163</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(expectedEvidenceCode)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556230</millis>
+  <sequence>164</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(expectedEvidenceCode)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556230</millis>
+  <sequence>165</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (expectedEvidenceCode != \&amp;quot;STD\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">23</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556230</millis>
+  <sequence>166</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : actual = description == expectedDescription</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556231</millis>
+  <sequence>167</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : actual = description == expectedDescription</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556231</millis>
+  <sequence>168</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyEqual(actual, true, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">29</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556546</millis>
+  <sequence>170</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Actual object &amp;apos;true&amp;apos; and expected object &amp;apos;true&amp;apos; are equal</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556549</millis>
+  <sequence>171</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyEqual(actual, true, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556551</millis>
+  <sequence>172</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (actual == false)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556551</millis>
+  <sequence>173</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (actual == false)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556551</millis>
+  <sequence>174</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (expectedEvidenceCode != \&amp;quot;STD\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556552</millis>
+  <sequence>175</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/AlterationScoringNBMajor/PPH Limitation for Student and Housewife/PPH Limitation for Student and Housewife</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556552</millis>
+  <sequence>176</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/AlterationScoringNBMajor/PPH Limitation for Student and Housewife/PPH Limitation for Student and Housewife</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556559</millis>
+  <sequence>177</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/AlterationScoringNBMajor/PPH Limitation for Student and Housewife/PPH Limitation for Student and Housewife</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/AlterationScoringNBMajor/PPH Limitation for Student and Housewife/PPH Limitation for Student and Housewife</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/AlterationScoringNBMajor/PPH Limitation for Student and Housewife/PPH Limitation for Student and Housewife</property>
+  <property name="source">C:\\SURYAPURBA\\PHS\\PHS-BRMS\\Test Cases\\AlterationScoringNBMajor\\PPH Limitation for Student and Housewife\\PPH Limitation for Student and Housewife.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556571</millis>
+  <sequence>179</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>transactionType = Major</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556571</millis>
+  <sequence>180</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>clientType = P</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556572</millis>
+  <sequence>181</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>role = LA1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556572</millis>
+  <sequence>182</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>subAlter = AddRider</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556572</millis>
+  <sequence>183</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>eviCode = IRD</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556573</millis>
+  <sequence>184</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>riderCode = H1Y3</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556573</millis>
+  <sequence>185</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>occupationCode = STDN</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556573</millis>
+  <sequence>186</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ageNextBirthday = 17</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556573</millis>
+  <sequence>187</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>totalSumAssured = 5000000</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556573</millis>
+  <sequence>188</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>expectedEvidenceCode = JP4</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556574</millis>
+  <sequence>189</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>expectedDescription = Refer to processor karena UP PRUprime healthcare maksimal 4 juta - PPH Limitation for Student and HouseWife</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556577</millis>
+  <sequence>190</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(\&amp;quot;AlterationScroingNBMajor/PPH Limitation for Student and Housewife/Version 1.0_Check_1.391/Object Request\&amp;quot;, [\&amp;quot;transactionType\&amp;quot;:transactionType, \&amp;quot;clientType\&amp;quot;:clientType, \&amp;quot;role\&amp;quot;:role, \&amp;quot;subAlter\&amp;quot;:subAlter, \&amp;quot;eviCode\&amp;quot;:eviCode, \&amp;quot;riderCode\&amp;quot;:riderCode, ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">9</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556628</millis>
+  <sequence>193</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\SURYAPURBA\\PHS\\PHS-BRMS\\Reports\\AlterationScoringNBMajor\\PPH Limitation for Student and Housewife\\20190920_144545\\requests\\main\\4.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">2b98ec5b-fef1-411b-97be-fda9e4fd48e6</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556870</millis>
+  <sequence>194</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556870</millis>
+  <sequence>195</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(\&amp;quot;AlterationScroingNBMajor/PPH Limitation for Student and Housewife/Version 1.0_Check_1.391/Object Request\&amp;quot;, [\&amp;quot;transactionType\&amp;quot;:transactionType, \&amp;quot;clientType\&amp;quot;:clientType, \&amp;quot;role\&amp;quot;:role, \&amp;quot;subAlter\&amp;quot;:subAlter, \&amp;quot;eviCode\&amp;quot;:eviCode, \&amp;quot;riderCode\&amp;quot;:riderCode, ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556870</millis>
+  <sequence>196</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : slurper = new groovy.json.JsonSlurper()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">13</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556871</millis>
+  <sequence>197</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : slurper = new groovy.json.JsonSlurper()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556871</millis>
+  <sequence>198</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : parsingResponse = slurper.parseText(response.getResponseText())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">15</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556875</millis>
+  <sequence>199</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : parsingResponse = slurper.parseText(response.getResponseText())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556875</millis>
+  <sequence>200</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(parsingResponse)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556878</millis>
+  <sequence>201</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(parsingResponse)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556879</millis>
+  <sequence>202</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : evidenceCode = evidenceCode</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556879</millis>
+  <sequence>203</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : evidenceCode = evidenceCode</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556879</millis>
+  <sequence>204</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(evidenceCode)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556881</millis>
+  <sequence>205</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(evidenceCode)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556882</millis>
+  <sequence>206</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(expectedEvidenceCode)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556884</millis>
+  <sequence>207</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(expectedEvidenceCode)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556885</millis>
+  <sequence>208</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (expectedEvidenceCode != \&amp;quot;STD\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">23</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556886</millis>
+  <sequence>209</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : actual = description == expectedDescription</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556888</millis>
+  <sequence>210</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : actual = description == expectedDescription</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:56</date>
+  <millis>1568965556888</millis>
+  <sequence>211</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyEqual(actual, true, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">29</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:57</date>
+  <millis>1568965557204</millis>
+  <sequence>213</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Actual object &amp;apos;true&amp;apos; and expected object &amp;apos;true&amp;apos; are equal</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:57</date>
+  <millis>1568965557205</millis>
+  <sequence>214</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyEqual(actual, true, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:57</date>
+  <millis>1568965557205</millis>
+  <sequence>215</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (actual == false)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:57</date>
+  <millis>1568965557206</millis>
+  <sequence>216</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (actual == false)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:57</date>
+  <millis>1568965557206</millis>
+  <sequence>217</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (expectedEvidenceCode != \&amp;quot;STD\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:57</date>
+  <millis>1568965557206</millis>
+  <sequence>218</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/AlterationScoringNBMajor/PPH Limitation for Student and Housewife/PPH Limitation for Student and Housewife</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:57</date>
+  <millis>1568965557207</millis>
+  <sequence>219</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/AlterationScoringNBMajor/PPH Limitation for Student and Housewife/PPH Limitation for Student and Housewife</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:57</date>
+  <millis>1568965557213</millis>
+  <sequence>220</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/AlterationScoringNBMajor/PPH Limitation for Student and Housewife/PPH Limitation for Student and Housewife</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/AlterationScoringNBMajor/PPH Limitation for Student and Housewife/PPH Limitation for Student and Housewife</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/AlterationScoringNBMajor/PPH Limitation for Student and Housewife/PPH Limitation for Student and Housewife</property>
+  <property name="source">C:\\SURYAPURBA\\PHS\\PHS-BRMS\\Test Cases\\AlterationScoringNBMajor\\PPH Limitation for Student and Housewife\\PPH Limitation for Student and Housewife.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:57</date>
+  <millis>1568965557224</millis>
+  <sequence>222</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>transactionType = Major</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:57</date>
+  <millis>1568965557225</millis>
+  <sequence>223</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>clientType = P</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:57</date>
+  <millis>1568965557225</millis>
+  <sequence>224</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>role = LA1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:57</date>
+  <millis>1568965557225</millis>
+  <sequence>225</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>subAlter = AddRider</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:57</date>
+  <millis>1568965557226</millis>
+  <sequence>226</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>eviCode = IRD</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:57</date>
+  <millis>1568965557226</millis>
+  <sequence>227</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>riderCode = H1Y5</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:57</date>
+  <millis>1568965557226</millis>
+  <sequence>228</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>occupationCode = STDN</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:57</date>
+  <millis>1568965557226</millis>
+  <sequence>229</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ageNextBirthday = 17</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:57</date>
+  <millis>1568965557226</millis>
+  <sequence>230</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>totalSumAssured = 5000000</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:57</date>
+  <millis>1568965557227</millis>
+  <sequence>231</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>expectedEvidenceCode = JP4</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:57</date>
+  <millis>1568965557227</millis>
+  <sequence>232</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>expectedDescription = Refer to processor karena UP PRUprime healthcare maksimal 4 juta - PPH Limitation for Student and HouseWife</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:57</date>
+  <millis>1568965557230</millis>
+  <sequence>233</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(\&amp;quot;AlterationScroingNBMajor/PPH Limitation for Student and Housewife/Version 1.0_Check_1.391/Object Request\&amp;quot;, [\&amp;quot;transactionType\&amp;quot;:transactionType, \&amp;quot;clientType\&amp;quot;:clientType, \&amp;quot;role\&amp;quot;:role, \&amp;quot;subAlter\&amp;quot;:subAlter, \&amp;quot;eviCode\&amp;quot;:eviCode, \&amp;quot;riderCode\&amp;quot;:riderCode, ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">9</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:57</date>
+  <millis>1568965557303</millis>
+  <sequence>236</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\SURYAPURBA\\PHS\\PHS-BRMS\\Reports\\AlterationScoringNBMajor\\PPH Limitation for Student and Housewife\\20190920_144545\\requests\\main\\5.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">20881f55-aeb7-48d2-8759-339d36258bba</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:57</date>
+  <millis>1568965557567</millis>
+  <sequence>237</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:57</date>
+  <millis>1568965557568</millis>
+  <sequence>238</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(\&amp;quot;AlterationScroingNBMajor/PPH Limitation for Student and Housewife/Version 1.0_Check_1.391/Object Request\&amp;quot;, [\&amp;quot;transactionType\&amp;quot;:transactionType, \&amp;quot;clientType\&amp;quot;:clientType, \&amp;quot;role\&amp;quot;:role, \&amp;quot;subAlter\&amp;quot;:subAlter, \&amp;quot;eviCode\&amp;quot;:eviCode, \&amp;quot;riderCode\&amp;quot;:riderCode, ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:57</date>
+  <millis>1568965557568</millis>
+  <sequence>239</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : slurper = new groovy.json.JsonSlurper()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">13</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:57</date>
+  <millis>1568965557569</millis>
+  <sequence>240</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : slurper = new groovy.json.JsonSlurper()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:57</date>
+  <millis>1568965557569</millis>
+  <sequence>241</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : parsingResponse = slurper.parseText(response.getResponseText())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">15</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:57</date>
+  <millis>1568965557570</millis>
+  <sequence>242</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : parsingResponse = slurper.parseText(response.getResponseText())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:57</date>
+  <millis>1568965557570</millis>
+  <sequence>243</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(parsingResponse)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:57</date>
+  <millis>1568965557572</millis>
+  <sequence>244</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(parsingResponse)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:57</date>
+  <millis>1568965557573</millis>
+  <sequence>245</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : evidenceCode = evidenceCode</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:57</date>
+  <millis>1568965557573</millis>
+  <sequence>246</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : evidenceCode = evidenceCode</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:57</date>
+  <millis>1568965557573</millis>
+  <sequence>247</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(evidenceCode)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:57</date>
+  <millis>1568965557574</millis>
+  <sequence>248</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(evidenceCode)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:57</date>
+  <millis>1568965557574</millis>
+  <sequence>249</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(expectedEvidenceCode)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:57</date>
+  <millis>1568965557574</millis>
+  <sequence>250</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(expectedEvidenceCode)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:57</date>
+  <millis>1568965557575</millis>
+  <sequence>251</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (expectedEvidenceCode != \&amp;quot;STD\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">23</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:57</date>
+  <millis>1568965557575</millis>
+  <sequence>252</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : actual = description == expectedDescription</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:57</date>
+  <millis>1568965557575</millis>
+  <sequence>253</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : actual = description == expectedDescription</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:57</date>
+  <millis>1568965557576</millis>
+  <sequence>254</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyEqual(actual, true, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">29</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:57</date>
+  <millis>1568965557951</millis>
+  <sequence>256</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Actual object &amp;apos;true&amp;apos; and expected object &amp;apos;true&amp;apos; are equal</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:57</date>
+  <millis>1568965557952</millis>
+  <sequence>257</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyEqual(actual, true, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:57</date>
+  <millis>1568965557952</millis>
+  <sequence>258</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (actual == false)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-09-20T14:45:57</date>
+  <millis>1568965557952</millis>
+  <sequence>259</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (actual == false)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:57</date>
+  <millis>1568965557952</millis>
+  <sequence>260</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (expectedEvidenceCode != \&amp;quot;STD\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:57</date>
+  <millis>1568965557953</millis>
+  <sequence>261</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/AlterationScoringNBMajor/PPH Limitation for Student and Housewife/PPH Limitation for Student and Housewife</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:57</date>
+  <millis>1568965557953</millis>
+  <sequence>262</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/AlterationScoringNBMajor/PPH Limitation for Student and Housewife/PPH Limitation for Student and Housewife</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-09-20T14:45:58</date>
+  <millis>1568965558080</millis>
+  <sequence>263</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/AlterationScoringNBMajor/PPH Limitation for Student and Housewife</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

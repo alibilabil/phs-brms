@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-2 IDR Standard</name>
+   <tag></tag>
+   <comment>Send request
+Verify response status code</comment>
+   <testCaseGuid>e7cb1468-fd7b-4e34-bf3b-8d64c324ab95</testCaseGuid>
+   <variable>
+      <defaultValue>'Major'</defaultValue>
+      <description></description>
+      <id>8814de15-958c-4694-aa48-7c82930852fb</id>
+      <masked>false</masked>
+      <name>transactionType</name>
+   </variable>
+   <variable>
+      <defaultValue>'LA1'</defaultValue>
+      <description></description>
+      <id>4220757d-5d60-4f41-b47f-12c9f38bc515</id>
+      <masked>false</masked>
+      <name>role</name>
+   </variable>
+   <variable>
+      <defaultValue>'Y'</defaultValue>
+      <description></description>
+      <id>44ab530d-8af8-418a-82b0-b57ec53d7735</id>
+      <masked>false</masked>
+      <name>increasingFsaFlag</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>0938a61f-c3a9-4693-8d54-1cb856b0a734</id>
+      <masked>false</masked>
+      <name>pecFlag</name>
+   </variable>
+   <variable>
+      <defaultValue>'COMS'</defaultValue>
+      <description></description>
+      <id>3995f06f-c994-4378-8dbb-915ec7920f6d</id>
+      <masked>false</masked>
+      <name>occupationCode</name>
+   </variable>
+</TestCaseEntity>

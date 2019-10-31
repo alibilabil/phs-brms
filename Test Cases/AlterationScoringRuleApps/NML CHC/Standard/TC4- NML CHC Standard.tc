@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC4- NML CHC Standard</name>
+   <tag></tag>
+   <comment>Verify response status code</comment>
+   <testCaseGuid>ca18889d-45d4-4fe3-abc3-aacbe47c785f</testCaseGuid>
+   <variable>
+      <defaultValue>'Major'</defaultValue>
+      <description></description>
+      <id>71ee9d35-8ea9-451e-981b-a1bb3132bdc1</id>
+      <masked>false</masked>
+      <name>transactionType</name>
+   </variable>
+   <variable>
+      <defaultValue>'5'</defaultValue>
+      <description></description>
+      <id>fdae85ef-e110-4867-93f8-5580d1d8e0fc</id>
+      <masked>false</masked>
+      <name>nmlFlag</name>
+   </variable>
+   <variable>
+      <defaultValue>'IDR'</defaultValue>
+      <description></description>
+      <id>3b22ed52-cae5-4460-9ded-9bb6c160fb93</id>
+      <masked>false</masked>
+      <name>currency</name>
+   </variable>
+</TestCaseEntity>

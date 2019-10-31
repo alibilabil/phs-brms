@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="FinancialNonEmployee_NonUltimate" time="9" tests="21" failures="0" errors="0">
+    <testsuite name="FinancialNonEmployee_NonUltimate" tests="21" failures="0" errors="0" time="9" timestamp="2019-08-27 14:44:13" hostname="c19679 - LIDLIFE38B0WS.PRU.intranet.asia" id="Test Suites/FinancialNonEmployee_NonUltimate">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\SURYAPURBA\\PHS\\PHS-BRMS\\Reports\\FinancialNonEmployee_NonUltimate\\20190827_144410"/>
+            <property name="logFiles" value="C:\\SURYAPURBA\\PHS\\PHS-BRMS\\Reports\\FinancialNonEmployee_NonUltimate\\20190827_144410\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="c19679 - LIDLIFE38B0WS.PRU.intranet.asia"/>
+            <property name="hostAddress" value="10.170.236.47"/>
+            <property name="os" value="Windows 7 64bit"/>
+            <property name="katalonVersion" value="6.2.2.4"/>
+        </properties>
+        <testcase name="Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard" classname="Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard" status="PASSED">
+            <system-out>2019-08-27 14:44:14 - [TEST_CASE][PASSED] - Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard: Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard&#xD;
+&#xD;
+2019-08-27 14:44:14 - [TEST_STEP][PASSED] - random = new java.util.Random(): null&#xD;
+&#xD;
+2019-08-27 14:44:14 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddccMax = 5000000000: null&#xD;
+&#xD;
+2019-08-27 14:44:14 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddccMin = 0: null&#xD;
+&#xD;
+2019-08-27 14:44:14 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddcc = random.nextInt(compareHighestValueFsaDeathVsAddccMax - compareHighestValueFsaDeathVsAddccMin) + compareHighestValueFsaDeathVsAddccMin: null&#xD;
+&#xD;
+2019-08-27 14:44:14 - [TEST_STEP][PASSED] - println(compareHighestValueFsaDeathVsAddcc): null&#xD;
+&#xD;
+2019-08-27 14:44:14 - [TEST_STEP][PASSED] - comment("Send request"): Send request&#xD;
+&#xD;
+2019-08-27 14:44:14 - [MESSAGE][INFO] - Send request&#xD;
+&#xD;
+2019-08-27 14:44:15 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Object Request", ["transactionType":transactionType, "role":role, "increasingFsaFlag":increasingFsaFlag, "pecFlag":pecFlag, "occupationCode":occupationCode, ... ])): Send request successfully&#xD;
+&#xD;
+2019-08-27 14:44:16 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS-BRMS\Reports\FinancialNonEmployee_NonUltimate\20190827_144410\requests\main\0.har&#xD;
+&#xD;
+2019-08-27 14:44:16 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-08-27 14:44:16 - [TEST_STEP][PASSED] - comment("Verify response status code"): Verify response status code&#xD;
+&#xD;
+2019-08-27 14:44:16 - [MESSAGE][INFO] - Verify response status code&#xD;
+&#xD;
+2019-08-27 14:44:16 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-08-27 14:44:16 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-08-27 14:44:16 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard" classname="Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard" status="PASSED">
+            <system-out>2019-08-27 14:44:16 - [TEST_CASE][PASSED] - Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard: Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard&#xD;
+&#xD;
+2019-08-27 14:44:16 - [TEST_STEP][PASSED] - random = new java.util.Random(): null&#xD;
+&#xD;
+2019-08-27 14:44:16 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddccMax = 5000000000: null&#xD;
+&#xD;
+2019-08-27 14:44:16 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddccMin = 0: null&#xD;
+&#xD;
+2019-08-27 14:44:16 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddcc = random.nextInt(compareHighestValueFsaDeathVsAddccMax - compareHighestValueFsaDeathVsAddccMin) + compareHighestValueFsaDeathVsAddccMin: null&#xD;
+&#xD;
+2019-08-27 14:44:16 - [TEST_STEP][PASSED] - println(compareHighestValueFsaDeathVsAddcc): null&#xD;
+&#xD;
+2019-08-27 14:44:16 - [TEST_STEP][PASSED] - comment("Send request"): Send request&#xD;
+&#xD;
+2019-08-27 14:44:16 - [MESSAGE][INFO] - Send request&#xD;
+&#xD;
+2019-08-27 14:44:16 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Object Request", ["transactionType":transactionType, "role":role, "increasingFsaFlag":increasingFsaFlag, "pecFlag":pecFlag, "occupationCode":occupationCode, ... ])): Send request successfully&#xD;
+&#xD;
+2019-08-27 14:44:16 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS-BRMS\Reports\FinancialNonEmployee_NonUltimate\20190827_144410\requests\main\1.har&#xD;
+&#xD;
+2019-08-27 14:44:16 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-08-27 14:44:16 - [TEST_STEP][PASSED] - comment("Verify response status code"): Verify response status code&#xD;
+&#xD;
+2019-08-27 14:44:16 - [MESSAGE][INFO] - Verify response status code&#xD;
+&#xD;
+2019-08-27 14:44:16 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-08-27 14:44:16 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-08-27 14:44:16 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard" classname="Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard" status="PASSED">
+            <system-out>2019-08-27 14:44:16 - [TEST_CASE][PASSED] - Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard: Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard&#xD;
+&#xD;
+2019-08-27 14:44:16 - [TEST_STEP][PASSED] - random = new java.util.Random(): null&#xD;
+&#xD;
+2019-08-27 14:44:16 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddccMax = 5000000000: null&#xD;
+&#xD;
+2019-08-27 14:44:16 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddccMin = 0: null&#xD;
+&#xD;
+2019-08-27 14:44:16 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddcc = random.nextInt(compareHighestValueFsaDeathVsAddccMax - compareHighestValueFsaDeathVsAddccMin) + compareHighestValueFsaDeathVsAddccMin: null&#xD;
+&#xD;
+2019-08-27 14:44:16 - [TEST_STEP][PASSED] - println(compareHighestValueFsaDeathVsAddcc): null&#xD;
+&#xD;
+2019-08-27 14:44:16 - [TEST_STEP][PASSED] - comment("Send request"): Send request&#xD;
+&#xD;
+2019-08-27 14:44:16 - [MESSAGE][INFO] - Send request&#xD;
+&#xD;
+2019-08-27 14:44:16 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Object Request", ["transactionType":transactionType, "role":role, "increasingFsaFlag":increasingFsaFlag, "pecFlag":pecFlag, "occupationCode":occupationCode, ... ])): Send request successfully&#xD;
+&#xD;
+2019-08-27 14:44:16 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS-BRMS\Reports\FinancialNonEmployee_NonUltimate\20190827_144410\requests\main\2.har&#xD;
+&#xD;
+2019-08-27 14:44:16 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-08-27 14:44:16 - [TEST_STEP][PASSED] - comment("Verify response status code"): Verify response status code&#xD;
+&#xD;
+2019-08-27 14:44:16 - [MESSAGE][INFO] - Verify response status code&#xD;
+&#xD;
+2019-08-27 14:44:16 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-08-27 14:44:16 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-08-27 14:44:16 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard" classname="Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard" status="PASSED">
+            <system-out>2019-08-27 14:44:16 - [TEST_CASE][PASSED] - Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard: Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard&#xD;
+&#xD;
+2019-08-27 14:44:16 - [TEST_STEP][PASSED] - random = new java.util.Random(): null&#xD;
+&#xD;
+2019-08-27 14:44:16 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddccMax = 5000000000: null&#xD;
+&#xD;
+2019-08-27 14:44:16 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddccMin = 0: null&#xD;
+&#xD;
+2019-08-27 14:44:16 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddcc = random.nextInt(compareHighestValueFsaDeathVsAddccMax - compareHighestValueFsaDeathVsAddccMin) + compareHighestValueFsaDeathVsAddccMin: null&#xD;
+&#xD;
+2019-08-27 14:44:16 - [TEST_STEP][PASSED] - println(compareHighestValueFsaDeathVsAddcc): null&#xD;
+&#xD;
+2019-08-27 14:44:16 - [TEST_STEP][PASSED] - comment("Send request"): Send request&#xD;
+&#xD;
+2019-08-27 14:44:16 - [MESSAGE][INFO] - Send request&#xD;
+&#xD;
+2019-08-27 14:44:16 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Object Request", ["transactionType":transactionType, "role":role, "increasingFsaFlag":increasingFsaFlag, "pecFlag":pecFlag, "occupationCode":occupationCode, ... ])): Send request successfully&#xD;
+&#xD;
+2019-08-27 14:44:16 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS-BRMS\Reports\FinancialNonEmployee_NonUltimate\20190827_144410\requests\main\3.har&#xD;
+&#xD;
+2019-08-27 14:44:16 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-08-27 14:44:16 - [TEST_STEP][PASSED] - comment("Verify response status code"): Verify response status code&#xD;
+&#xD;
+2019-08-27 14:44:16 - [MESSAGE][INFO] - Verify response status code&#xD;
+&#xD;
+2019-08-27 14:44:16 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-08-27 14:44:16 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-08-27 14:44:16 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard" classname="Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard" status="PASSED">
+            <system-out>2019-08-27 14:44:16 - [TEST_CASE][PASSED] - Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard: Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard&#xD;
+&#xD;
+2019-08-27 14:44:17 - [TEST_STEP][PASSED] - random = new java.util.Random(): null&#xD;
+&#xD;
+2019-08-27 14:44:17 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddccMax = 5000000000: null&#xD;
+&#xD;
+2019-08-27 14:44:17 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddccMin = 0: null&#xD;
+&#xD;
+2019-08-27 14:44:17 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddcc = random.nextInt(compareHighestValueFsaDeathVsAddccMax - compareHighestValueFsaDeathVsAddccMin) + compareHighestValueFsaDeathVsAddccMin: null&#xD;
+&#xD;
+2019-08-27 14:44:17 - [TEST_STEP][PASSED] - println(compareHighestValueFsaDeathVsAddcc): null&#xD;
+&#xD;
+2019-08-27 14:44:17 - [TEST_STEP][PASSED] - comment("Send request"): Send request&#xD;
+&#xD;
+2019-08-27 14:44:17 - [MESSAGE][INFO] - Send request&#xD;
+&#xD;
+2019-08-27 14:44:17 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Object Request", ["transactionType":transactionType, "role":role, "increasingFsaFlag":increasingFsaFlag, "pecFlag":pecFlag, "occupationCode":occupationCode, ... ])): Send request successfully&#xD;
+&#xD;
+2019-08-27 14:44:17 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS-BRMS\Reports\FinancialNonEmployee_NonUltimate\20190827_144410\requests\main\4.har&#xD;
+&#xD;
+2019-08-27 14:44:17 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-08-27 14:44:17 - [TEST_STEP][PASSED] - comment("Verify response status code"): Verify response status code&#xD;
+&#xD;
+2019-08-27 14:44:17 - [MESSAGE][INFO] - Verify response status code&#xD;
+&#xD;
+2019-08-27 14:44:17 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-08-27 14:44:17 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-08-27 14:44:17 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard" classname="Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard" status="PASSED">
+            <system-out>2019-08-27 14:44:17 - [TEST_CASE][PASSED] - Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard: Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard&#xD;
+&#xD;
+2019-08-27 14:44:17 - [TEST_STEP][PASSED] - random = new java.util.Random(): null&#xD;
+&#xD;
+2019-08-27 14:44:17 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddccMax = 5000000000: null&#xD;
+&#xD;
+2019-08-27 14:44:17 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddccMin = 0: null&#xD;
+&#xD;
+2019-08-27 14:44:17 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddcc = random.nextInt(compareHighestValueFsaDeathVsAddccMax - compareHighestValueFsaDeathVsAddccMin) + compareHighestValueFsaDeathVsAddccMin: null&#xD;
+&#xD;
+2019-08-27 14:44:17 - [TEST_STEP][PASSED] - println(compareHighestValueFsaDeathVsAddcc): null&#xD;
+&#xD;
+2019-08-27 14:44:17 - [TEST_STEP][PASSED] - comment("Send request"): Send request&#xD;
+&#xD;
+2019-08-27 14:44:17 - [MESSAGE][INFO] - Send request&#xD;
+&#xD;
+2019-08-27 14:44:17 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Object Request", ["transactionType":transactionType, "role":role, "increasingFsaFlag":increasingFsaFlag, "pecFlag":pecFlag, "occupationCode":occupationCode, ... ])): Send request successfully&#xD;
+&#xD;
+2019-08-27 14:44:17 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS-BRMS\Reports\FinancialNonEmployee_NonUltimate\20190827_144410\requests\main\5.har&#xD;
+&#xD;
+2019-08-27 14:44:17 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-08-27 14:44:17 - [TEST_STEP][PASSED] - comment("Verify response status code"): Verify response status code&#xD;
+&#xD;
+2019-08-27 14:44:17 - [MESSAGE][INFO] - Verify response status code&#xD;
+&#xD;
+2019-08-27 14:44:17 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-08-27 14:44:17 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-08-27 14:44:17 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard" classname="Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard" status="PASSED">
+            <system-out>2019-08-27 14:44:17 - [TEST_CASE][PASSED] - Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard: Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard&#xD;
+&#xD;
+2019-08-27 14:44:17 - [TEST_STEP][PASSED] - random = new java.util.Random(): null&#xD;
+&#xD;
+2019-08-27 14:44:17 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddccMax = 5000000000: null&#xD;
+&#xD;
+2019-08-27 14:44:17 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddccMin = 0: null&#xD;
+&#xD;
+2019-08-27 14:44:17 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddcc = random.nextInt(compareHighestValueFsaDeathVsAddccMax - compareHighestValueFsaDeathVsAddccMin) + compareHighestValueFsaDeathVsAddccMin: null&#xD;
+&#xD;
+2019-08-27 14:44:17 - [TEST_STEP][PASSED] - println(compareHighestValueFsaDeathVsAddcc): null&#xD;
+&#xD;
+2019-08-27 14:44:17 - [TEST_STEP][PASSED] - comment("Send request"): Send request&#xD;
+&#xD;
+2019-08-27 14:44:17 - [MESSAGE][INFO] - Send request&#xD;
+&#xD;
+2019-08-27 14:44:17 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Object Request", ["transactionType":transactionType, "role":role, "increasingFsaFlag":increasingFsaFlag, "pecFlag":pecFlag, "occupationCode":occupationCode, ... ])): Send request successfully&#xD;
+&#xD;
+2019-08-27 14:44:17 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS-BRMS\Reports\FinancialNonEmployee_NonUltimate\20190827_144410\requests\main\6.har&#xD;
+&#xD;
+2019-08-27 14:44:17 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-08-27 14:44:17 - [TEST_STEP][PASSED] - comment("Verify response status code"): Verify response status code&#xD;
+&#xD;
+2019-08-27 14:44:17 - [MESSAGE][INFO] - Verify response status code&#xD;
+&#xD;
+2019-08-27 14:44:17 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-08-27 14:44:17 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-08-27 14:44:17 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard" classname="Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard" status="PASSED">
+            <system-out>2019-08-27 14:44:17 - [TEST_CASE][PASSED] - Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard: Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard&#xD;
+&#xD;
+2019-08-27 14:44:17 - [TEST_STEP][PASSED] - random = new java.util.Random(): null&#xD;
+&#xD;
+2019-08-27 14:44:17 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddccMax = 5000000000: null&#xD;
+&#xD;
+2019-08-27 14:44:17 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddccMin = 0: null&#xD;
+&#xD;
+2019-08-27 14:44:17 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddcc = random.nextInt(compareHighestValueFsaDeathVsAddccMax - compareHighestValueFsaDeathVsAddccMin) + compareHighestValueFsaDeathVsAddccMin: null&#xD;
+&#xD;
+2019-08-27 14:44:17 - [TEST_STEP][PASSED] - println(compareHighestValueFsaDeathVsAddcc): null&#xD;
+&#xD;
+2019-08-27 14:44:17 - [TEST_STEP][PASSED] - comment("Send request"): Send request&#xD;
+&#xD;
+2019-08-27 14:44:17 - [MESSAGE][INFO] - Send request&#xD;
+&#xD;
+2019-08-27 14:44:17 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Object Request", ["transactionType":transactionType, "role":role, "increasingFsaFlag":increasingFsaFlag, "pecFlag":pecFlag, "occupationCode":occupationCode, ... ])): Send request successfully&#xD;
+&#xD;
+2019-08-27 14:44:17 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS-BRMS\Reports\FinancialNonEmployee_NonUltimate\20190827_144410\requests\main\7.har&#xD;
+&#xD;
+2019-08-27 14:44:17 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-08-27 14:44:17 - [TEST_STEP][PASSED] - comment("Verify response status code"): Verify response status code&#xD;
+&#xD;
+2019-08-27 14:44:17 - [MESSAGE][INFO] - Verify response status code&#xD;
+&#xD;
+2019-08-27 14:44:17 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-08-27 14:44:17 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-08-27 14:44:17 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard" classname="Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard" status="PASSED">
+            <system-out>2019-08-27 14:44:17 - [TEST_CASE][PASSED] - Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard: Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard&#xD;
+&#xD;
+2019-08-27 14:44:17 - [TEST_STEP][PASSED] - random = new java.util.Random(): null&#xD;
+&#xD;
+2019-08-27 14:44:17 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddccMax = 5000000000: null&#xD;
+&#xD;
+2019-08-27 14:44:17 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddccMin = 0: null&#xD;
+&#xD;
+2019-08-27 14:44:17 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddcc = random.nextInt(compareHighestValueFsaDeathVsAddccMax - compareHighestValueFsaDeathVsAddccMin) + compareHighestValueFsaDeathVsAddccMin: null&#xD;
+&#xD;
+2019-08-27 14:44:17 - [TEST_STEP][PASSED] - println(compareHighestValueFsaDeathVsAddcc): null&#xD;
+&#xD;
+2019-08-27 14:44:17 - [TEST_STEP][PASSED] - comment("Send request"): Send request&#xD;
+&#xD;
+2019-08-27 14:44:17 - [MESSAGE][INFO] - Send request&#xD;
+&#xD;
+2019-08-27 14:44:17 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Object Request", ["transactionType":transactionType, "role":role, "increasingFsaFlag":increasingFsaFlag, "pecFlag":pecFlag, "occupationCode":occupationCode, ... ])): Send request successfully&#xD;
+&#xD;
+2019-08-27 14:44:18 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS-BRMS\Reports\FinancialNonEmployee_NonUltimate\20190827_144410\requests\main\8.har&#xD;
+&#xD;
+2019-08-27 14:44:18 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-08-27 14:44:18 - [TEST_STEP][PASSED] - comment("Verify response status code"): Verify response status code&#xD;
+&#xD;
+2019-08-27 14:44:18 - [MESSAGE][INFO] - Verify response status code&#xD;
+&#xD;
+2019-08-27 14:44:18 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-08-27 14:44:18 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-08-27 14:44:18 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard" classname="Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard" status="PASSED">
+            <system-out>2019-08-27 14:44:18 - [TEST_CASE][PASSED] - Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard: Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard&#xD;
+&#xD;
+2019-08-27 14:44:18 - [TEST_STEP][PASSED] - random = new java.util.Random(): null&#xD;
+&#xD;
+2019-08-27 14:44:18 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddccMax = 5000000000: null&#xD;
+&#xD;
+2019-08-27 14:44:18 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddccMin = 0: null&#xD;
+&#xD;
+2019-08-27 14:44:18 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddcc = random.nextInt(compareHighestValueFsaDeathVsAddccMax - compareHighestValueFsaDeathVsAddccMin) + compareHighestValueFsaDeathVsAddccMin: null&#xD;
+&#xD;
+2019-08-27 14:44:18 - [TEST_STEP][PASSED] - println(compareHighestValueFsaDeathVsAddcc): null&#xD;
+&#xD;
+2019-08-27 14:44:18 - [TEST_STEP][PASSED] - comment("Send request"): Send request&#xD;
+&#xD;
+2019-08-27 14:44:18 - [MESSAGE][INFO] - Send request&#xD;
+&#xD;
+2019-08-27 14:44:18 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Object Request", ["transactionType":transactionType, "role":role, "increasingFsaFlag":increasingFsaFlag, "pecFlag":pecFlag, "occupationCode":occupationCode, ... ])): Send request successfully&#xD;
+&#xD;
+2019-08-27 14:44:18 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS-BRMS\Reports\FinancialNonEmployee_NonUltimate\20190827_144410\requests\main\9.har&#xD;
+&#xD;
+2019-08-27 14:44:18 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-08-27 14:44:18 - [TEST_STEP][PASSED] - comment("Verify response status code"): Verify response status code&#xD;
+&#xD;
+2019-08-27 14:44:18 - [MESSAGE][INFO] - Verify response status code&#xD;
+&#xD;
+2019-08-27 14:44:18 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-08-27 14:44:18 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-08-27 14:44:18 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard" classname="Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard" status="PASSED">
+            <system-out>2019-08-27 14:44:18 - [TEST_CASE][PASSED] - Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard: Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard&#xD;
+&#xD;
+2019-08-27 14:44:18 - [TEST_STEP][PASSED] - random = new java.util.Random(): null&#xD;
+&#xD;
+2019-08-27 14:44:18 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddccMax = 5000000000: null&#xD;
+&#xD;
+2019-08-27 14:44:18 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddccMin = 0: null&#xD;
+&#xD;
+2019-08-27 14:44:18 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddcc = random.nextInt(compareHighestValueFsaDeathVsAddccMax - compareHighestValueFsaDeathVsAddccMin) + compareHighestValueFsaDeathVsAddccMin: null&#xD;
+&#xD;
+2019-08-27 14:44:18 - [TEST_STEP][PASSED] - println(compareHighestValueFsaDeathVsAddcc): null&#xD;
+&#xD;
+2019-08-27 14:44:18 - [TEST_STEP][PASSED] - comment("Send request"): Send request&#xD;
+&#xD;
+2019-08-27 14:44:18 - [MESSAGE][INFO] - Send request&#xD;
+&#xD;
+2019-08-27 14:44:18 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Object Request", ["transactionType":transactionType, "role":role, "increasingFsaFlag":increasingFsaFlag, "pecFlag":pecFlag, "occupationCode":occupationCode, ... ])): Send request successfully&#xD;
+&#xD;
+2019-08-27 14:44:18 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS-BRMS\Reports\FinancialNonEmployee_NonUltimate\20190827_144410\requests\main\10.har&#xD;
+&#xD;
+2019-08-27 14:44:18 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-08-27 14:44:18 - [TEST_STEP][PASSED] - comment("Verify response status code"): Verify response status code&#xD;
+&#xD;
+2019-08-27 14:44:18 - [MESSAGE][INFO] - Verify response status code&#xD;
+&#xD;
+2019-08-27 14:44:18 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-08-27 14:44:18 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-08-27 14:44:18 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard" classname="Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard" status="PASSED">
+            <system-out>2019-08-27 14:44:18 - [TEST_CASE][PASSED] - Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard: Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard&#xD;
+&#xD;
+2019-08-27 14:44:18 - [TEST_STEP][PASSED] - random = new java.util.Random(): null&#xD;
+&#xD;
+2019-08-27 14:44:18 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddccMax = 5000000000: null&#xD;
+&#xD;
+2019-08-27 14:44:18 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddccMin = 0: null&#xD;
+&#xD;
+2019-08-27 14:44:18 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddcc = random.nextInt(compareHighestValueFsaDeathVsAddccMax - compareHighestValueFsaDeathVsAddccMin) + compareHighestValueFsaDeathVsAddccMin: null&#xD;
+&#xD;
+2019-08-27 14:44:18 - [TEST_STEP][PASSED] - println(compareHighestValueFsaDeathVsAddcc): null&#xD;
+&#xD;
+2019-08-27 14:44:18 - [TEST_STEP][PASSED] - comment("Send request"): Send request&#xD;
+&#xD;
+2019-08-27 14:44:18 - [MESSAGE][INFO] - Send request&#xD;
+&#xD;
+2019-08-27 14:44:18 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Object Request", ["transactionType":transactionType, "role":role, "increasingFsaFlag":increasingFsaFlag, "pecFlag":pecFlag, "occupationCode":occupationCode, ... ])): Send request successfully&#xD;
+&#xD;
+2019-08-27 14:44:18 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS-BRMS\Reports\FinancialNonEmployee_NonUltimate\20190827_144410\requests\main\11.har&#xD;
+&#xD;
+2019-08-27 14:44:18 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-08-27 14:44:18 - [TEST_STEP][PASSED] - comment("Verify response status code"): Verify response status code&#xD;
+&#xD;
+2019-08-27 14:44:18 - [MESSAGE][INFO] - Verify response status code&#xD;
+&#xD;
+2019-08-27 14:44:18 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-08-27 14:44:18 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-08-27 14:44:18 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard" classname="Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard" status="PASSED">
+            <system-out>2019-08-27 14:44:18 - [TEST_CASE][PASSED] - Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard: Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard&#xD;
+&#xD;
+2019-08-27 14:44:18 - [TEST_STEP][PASSED] - random = new java.util.Random(): null&#xD;
+&#xD;
+2019-08-27 14:44:18 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddccMax = 5000000000: null&#xD;
+&#xD;
+2019-08-27 14:44:18 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddccMin = 0: null&#xD;
+&#xD;
+2019-08-27 14:44:18 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddcc = random.nextInt(compareHighestValueFsaDeathVsAddccMax - compareHighestValueFsaDeathVsAddccMin) + compareHighestValueFsaDeathVsAddccMin: null&#xD;
+&#xD;
+2019-08-27 14:44:18 - [TEST_STEP][PASSED] - println(compareHighestValueFsaDeathVsAddcc): null&#xD;
+&#xD;
+2019-08-27 14:44:18 - [TEST_STEP][PASSED] - comment("Send request"): Send request&#xD;
+&#xD;
+2019-08-27 14:44:18 - [MESSAGE][INFO] - Send request&#xD;
+&#xD;
+2019-08-27 14:44:18 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Object Request", ["transactionType":transactionType, "role":role, "increasingFsaFlag":increasingFsaFlag, "pecFlag":pecFlag, "occupationCode":occupationCode, ... ])): Send request successfully&#xD;
+&#xD;
+2019-08-27 14:44:18 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS-BRMS\Reports\FinancialNonEmployee_NonUltimate\20190827_144410\requests\main\12.har&#xD;
+&#xD;
+2019-08-27 14:44:19 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-08-27 14:44:19 - [TEST_STEP][PASSED] - comment("Verify response status code"): Verify response status code&#xD;
+&#xD;
+2019-08-27 14:44:19 - [MESSAGE][INFO] - Verify response status code&#xD;
+&#xD;
+2019-08-27 14:44:19 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-08-27 14:44:19 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-08-27 14:44:19 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard" classname="Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard" status="PASSED">
+            <system-out>2019-08-27 14:44:19 - [TEST_CASE][PASSED] - Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard: Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard&#xD;
+&#xD;
+2019-08-27 14:44:19 - [TEST_STEP][PASSED] - random = new java.util.Random(): null&#xD;
+&#xD;
+2019-08-27 14:44:19 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddccMax = 5000000000: null&#xD;
+&#xD;
+2019-08-27 14:44:19 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddccMin = 0: null&#xD;
+&#xD;
+2019-08-27 14:44:19 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddcc = random.nextInt(compareHighestValueFsaDeathVsAddccMax - compareHighestValueFsaDeathVsAddccMin) + compareHighestValueFsaDeathVsAddccMin: null&#xD;
+&#xD;
+2019-08-27 14:44:19 - [TEST_STEP][PASSED] - println(compareHighestValueFsaDeathVsAddcc): null&#xD;
+&#xD;
+2019-08-27 14:44:19 - [TEST_STEP][PASSED] - comment("Send request"): Send request&#xD;
+&#xD;
+2019-08-27 14:44:19 - [MESSAGE][INFO] - Send request&#xD;
+&#xD;
+2019-08-27 14:44:19 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Object Request", ["transactionType":transactionType, "role":role, "increasingFsaFlag":increasingFsaFlag, "pecFlag":pecFlag, "occupationCode":occupationCode, ... ])): Send request successfully&#xD;
+&#xD;
+2019-08-27 14:44:19 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS-BRMS\Reports\FinancialNonEmployee_NonUltimate\20190827_144410\requests\main\13.har&#xD;
+&#xD;
+2019-08-27 14:44:19 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-08-27 14:44:19 - [TEST_STEP][PASSED] - comment("Verify response status code"): Verify response status code&#xD;
+&#xD;
+2019-08-27 14:44:19 - [MESSAGE][INFO] - Verify response status code&#xD;
+&#xD;
+2019-08-27 14:44:19 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-08-27 14:44:19 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-08-27 14:44:19 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard" classname="Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard" status="PASSED">
+            <system-out>2019-08-27 14:44:19 - [TEST_CASE][PASSED] - Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard: Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard&#xD;
+&#xD;
+2019-08-27 14:44:19 - [TEST_STEP][PASSED] - random = new java.util.Random(): null&#xD;
+&#xD;
+2019-08-27 14:44:19 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddccMax = 5000000000: null&#xD;
+&#xD;
+2019-08-27 14:44:19 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddccMin = 0: null&#xD;
+&#xD;
+2019-08-27 14:44:19 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddcc = random.nextInt(compareHighestValueFsaDeathVsAddccMax - compareHighestValueFsaDeathVsAddccMin) + compareHighestValueFsaDeathVsAddccMin: null&#xD;
+&#xD;
+2019-08-27 14:44:19 - [TEST_STEP][PASSED] - println(compareHighestValueFsaDeathVsAddcc): null&#xD;
+&#xD;
+2019-08-27 14:44:19 - [TEST_STEP][PASSED] - comment("Send request"): Send request&#xD;
+&#xD;
+2019-08-27 14:44:19 - [MESSAGE][INFO] - Send request&#xD;
+&#xD;
+2019-08-27 14:44:19 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Object Request", ["transactionType":transactionType, "role":role, "increasingFsaFlag":increasingFsaFlag, "pecFlag":pecFlag, "occupationCode":occupationCode, ... ])): Send request successfully&#xD;
+&#xD;
+2019-08-27 14:44:19 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS-BRMS\Reports\FinancialNonEmployee_NonUltimate\20190827_144410\requests\main\14.har&#xD;
+&#xD;
+2019-08-27 14:44:19 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-08-27 14:44:19 - [TEST_STEP][PASSED] - comment("Verify response status code"): Verify response status code&#xD;
+&#xD;
+2019-08-27 14:44:19 - [MESSAGE][INFO] - Verify response status code&#xD;
+&#xD;
+2019-08-27 14:44:19 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-08-27 14:44:19 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-08-27 14:44:19 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard" classname="Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard" status="PASSED">
+            <system-out>2019-08-27 14:44:19 - [TEST_CASE][PASSED] - Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard: Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard&#xD;
+&#xD;
+2019-08-27 14:44:19 - [TEST_STEP][PASSED] - random = new java.util.Random(): null&#xD;
+&#xD;
+2019-08-27 14:44:19 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddccMax = 5000000000: null&#xD;
+&#xD;
+2019-08-27 14:44:19 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddccMin = 0: null&#xD;
+&#xD;
+2019-08-27 14:44:19 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddcc = random.nextInt(compareHighestValueFsaDeathVsAddccMax - compareHighestValueFsaDeathVsAddccMin) + compareHighestValueFsaDeathVsAddccMin: null&#xD;
+&#xD;
+2019-08-27 14:44:19 - [TEST_STEP][PASSED] - println(compareHighestValueFsaDeathVsAddcc): null&#xD;
+&#xD;
+2019-08-27 14:44:19 - [TEST_STEP][PASSED] - comment("Send request"): Send request&#xD;
+&#xD;
+2019-08-27 14:44:19 - [MESSAGE][INFO] - Send request&#xD;
+&#xD;
+2019-08-27 14:44:20 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Object Request", ["transactionType":transactionType, "role":role, "increasingFsaFlag":increasingFsaFlag, "pecFlag":pecFlag, "occupationCode":occupationCode, ... ])): Send request successfully&#xD;
+&#xD;
+2019-08-27 14:44:20 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS-BRMS\Reports\FinancialNonEmployee_NonUltimate\20190827_144410\requests\main\15.har&#xD;
+&#xD;
+2019-08-27 14:44:20 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-08-27 14:44:20 - [TEST_STEP][PASSED] - comment("Verify response status code"): Verify response status code&#xD;
+&#xD;
+2019-08-27 14:44:20 - [MESSAGE][INFO] - Verify response status code&#xD;
+&#xD;
+2019-08-27 14:44:20 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-08-27 14:44:20 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-08-27 14:44:20 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard" classname="Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard" status="PASSED">
+            <system-out>2019-08-27 14:44:20 - [TEST_CASE][PASSED] - Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard: Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard&#xD;
+&#xD;
+2019-08-27 14:44:20 - [TEST_STEP][PASSED] - random = new java.util.Random(): null&#xD;
+&#xD;
+2019-08-27 14:44:20 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddccMax = 5000000000: null&#xD;
+&#xD;
+2019-08-27 14:44:20 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddccMin = 0: null&#xD;
+&#xD;
+2019-08-27 14:44:20 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddcc = random.nextInt(compareHighestValueFsaDeathVsAddccMax - compareHighestValueFsaDeathVsAddccMin) + compareHighestValueFsaDeathVsAddccMin: null&#xD;
+&#xD;
+2019-08-27 14:44:20 - [TEST_STEP][PASSED] - println(compareHighestValueFsaDeathVsAddcc): null&#xD;
+&#xD;
+2019-08-27 14:44:20 - [TEST_STEP][PASSED] - comment("Send request"): Send request&#xD;
+&#xD;
+2019-08-27 14:44:20 - [MESSAGE][INFO] - Send request&#xD;
+&#xD;
+2019-08-27 14:44:20 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Object Request", ["transactionType":transactionType, "role":role, "increasingFsaFlag":increasingFsaFlag, "pecFlag":pecFlag, "occupationCode":occupationCode, ... ])): Send request successfully&#xD;
+&#xD;
+2019-08-27 14:44:20 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS-BRMS\Reports\FinancialNonEmployee_NonUltimate\20190827_144410\requests\main\16.har&#xD;
+&#xD;
+2019-08-27 14:44:20 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-08-27 14:44:20 - [TEST_STEP][PASSED] - comment("Verify response status code"): Verify response status code&#xD;
+&#xD;
+2019-08-27 14:44:21 - [MESSAGE][INFO] - Verify response status code&#xD;
+&#xD;
+2019-08-27 14:44:21 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-08-27 14:44:21 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-08-27 14:44:21 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard" classname="Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard" status="PASSED">
+            <system-out>2019-08-27 14:44:21 - [TEST_CASE][PASSED] - Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard: Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard&#xD;
+&#xD;
+2019-08-27 14:44:21 - [TEST_STEP][PASSED] - random = new java.util.Random(): null&#xD;
+&#xD;
+2019-08-27 14:44:21 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddccMax = 5000000000: null&#xD;
+&#xD;
+2019-08-27 14:44:21 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddccMin = 0: null&#xD;
+&#xD;
+2019-08-27 14:44:21 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddcc = random.nextInt(compareHighestValueFsaDeathVsAddccMax - compareHighestValueFsaDeathVsAddccMin) + compareHighestValueFsaDeathVsAddccMin: null&#xD;
+&#xD;
+2019-08-27 14:44:21 - [TEST_STEP][PASSED] - println(compareHighestValueFsaDeathVsAddcc): null&#xD;
+&#xD;
+2019-08-27 14:44:21 - [TEST_STEP][PASSED] - comment("Send request"): Send request&#xD;
+&#xD;
+2019-08-27 14:44:21 - [MESSAGE][INFO] - Send request&#xD;
+&#xD;
+2019-08-27 14:44:21 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Object Request", ["transactionType":transactionType, "role":role, "increasingFsaFlag":increasingFsaFlag, "pecFlag":pecFlag, "occupationCode":occupationCode, ... ])): Send request successfully&#xD;
+&#xD;
+2019-08-27 14:44:21 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS-BRMS\Reports\FinancialNonEmployee_NonUltimate\20190827_144410\requests\main\17.har&#xD;
+&#xD;
+2019-08-27 14:44:21 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-08-27 14:44:21 - [TEST_STEP][PASSED] - comment("Verify response status code"): Verify response status code&#xD;
+&#xD;
+2019-08-27 14:44:21 - [MESSAGE][INFO] - Verify response status code&#xD;
+&#xD;
+2019-08-27 14:44:21 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-08-27 14:44:21 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-08-27 14:44:21 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard" classname="Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard" status="PASSED">
+            <system-out>2019-08-27 14:44:21 - [TEST_CASE][PASSED] - Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard: Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard&#xD;
+&#xD;
+2019-08-27 14:44:21 - [TEST_STEP][PASSED] - random = new java.util.Random(): null&#xD;
+&#xD;
+2019-08-27 14:44:21 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddccMax = 5000000000: null&#xD;
+&#xD;
+2019-08-27 14:44:21 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddccMin = 0: null&#xD;
+&#xD;
+2019-08-27 14:44:21 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddcc = random.nextInt(compareHighestValueFsaDeathVsAddccMax - compareHighestValueFsaDeathVsAddccMin) + compareHighestValueFsaDeathVsAddccMin: null&#xD;
+&#xD;
+2019-08-27 14:44:21 - [TEST_STEP][PASSED] - println(compareHighestValueFsaDeathVsAddcc): null&#xD;
+&#xD;
+2019-08-27 14:44:22 - [TEST_STEP][PASSED] - comment("Send request"): Send request&#xD;
+&#xD;
+2019-08-27 14:44:22 - [MESSAGE][INFO] - Send request&#xD;
+&#xD;
+2019-08-27 14:44:22 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Object Request", ["transactionType":transactionType, "role":role, "increasingFsaFlag":increasingFsaFlag, "pecFlag":pecFlag, "occupationCode":occupationCode, ... ])): Send request successfully&#xD;
+&#xD;
+2019-08-27 14:44:22 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS-BRMS\Reports\FinancialNonEmployee_NonUltimate\20190827_144410\requests\main\18.har&#xD;
+&#xD;
+2019-08-27 14:44:22 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-08-27 14:44:22 - [TEST_STEP][PASSED] - comment("Verify response status code"): Verify response status code&#xD;
+&#xD;
+2019-08-27 14:44:22 - [MESSAGE][INFO] - Verify response status code&#xD;
+&#xD;
+2019-08-27 14:44:22 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-08-27 14:44:22 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-08-27 14:44:22 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard" classname="Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard" status="PASSED">
+            <system-out>2019-08-27 14:44:22 - [TEST_CASE][PASSED] - Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard: Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard&#xD;
+&#xD;
+2019-08-27 14:44:22 - [TEST_STEP][PASSED] - random = new java.util.Random(): null&#xD;
+&#xD;
+2019-08-27 14:44:22 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddccMax = 5000000000: null&#xD;
+&#xD;
+2019-08-27 14:44:22 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddccMin = 0: null&#xD;
+&#xD;
+2019-08-27 14:44:22 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddcc = random.nextInt(compareHighestValueFsaDeathVsAddccMax - compareHighestValueFsaDeathVsAddccMin) + compareHighestValueFsaDeathVsAddccMin: null&#xD;
+&#xD;
+2019-08-27 14:44:22 - [TEST_STEP][PASSED] - println(compareHighestValueFsaDeathVsAddcc): null&#xD;
+&#xD;
+2019-08-27 14:44:22 - [TEST_STEP][PASSED] - comment("Send request"): Send request&#xD;
+&#xD;
+2019-08-27 14:44:22 - [MESSAGE][INFO] - Send request&#xD;
+&#xD;
+2019-08-27 14:44:22 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Object Request", ["transactionType":transactionType, "role":role, "increasingFsaFlag":increasingFsaFlag, "pecFlag":pecFlag, "occupationCode":occupationCode, ... ])): Send request successfully&#xD;
+&#xD;
+2019-08-27 14:44:22 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS-BRMS\Reports\FinancialNonEmployee_NonUltimate\20190827_144410\requests\main\19.har&#xD;
+&#xD;
+2019-08-27 14:44:22 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-08-27 14:44:22 - [TEST_STEP][PASSED] - comment("Verify response status code"): Verify response status code&#xD;
+&#xD;
+2019-08-27 14:44:22 - [MESSAGE][INFO] - Verify response status code&#xD;
+&#xD;
+2019-08-27 14:44:22 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-08-27 14:44:22 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-08-27 14:44:22 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard" classname="Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard" status="PASSED">
+            <system-out>2019-08-27 14:44:22 - [TEST_CASE][PASSED] - Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard: Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Standard/TC-2 IDR Standard&#xD;
+&#xD;
+2019-08-27 14:44:23 - [TEST_STEP][PASSED] - random = new java.util.Random(): null&#xD;
+&#xD;
+2019-08-27 14:44:23 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddccMax = 5000000000: null&#xD;
+&#xD;
+2019-08-27 14:44:23 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddccMin = 0: null&#xD;
+&#xD;
+2019-08-27 14:44:23 - [TEST_STEP][PASSED] - compareHighestValueFsaDeathVsAddcc = random.nextInt(compareHighestValueFsaDeathVsAddccMax - compareHighestValueFsaDeathVsAddccMin) + compareHighestValueFsaDeathVsAddccMin: null&#xD;
+&#xD;
+2019-08-27 14:44:23 - [TEST_STEP][PASSED] - println(compareHighestValueFsaDeathVsAddcc): null&#xD;
+&#xD;
+2019-08-27 14:44:23 - [TEST_STEP][PASSED] - comment("Send request"): Send request&#xD;
+&#xD;
+2019-08-27 14:44:23 - [MESSAGE][INFO] - Send request&#xD;
+&#xD;
+2019-08-27 14:44:23 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Object Request", ["transactionType":transactionType, "role":role, "increasingFsaFlag":increasingFsaFlag, "pecFlag":pecFlag, "occupationCode":occupationCode, ... ])): Send request successfully&#xD;
+&#xD;
+2019-08-27 14:44:23 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS-BRMS\Reports\FinancialNonEmployee_NonUltimate\20190827_144410\requests\main\20.har&#xD;
+&#xD;
+2019-08-27 14:44:23 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-08-27 14:44:23 - [TEST_STEP][PASSED] - comment("Verify response status code"): Verify response status code&#xD;
+&#xD;
+2019-08-27 14:44:23 - [MESSAGE][INFO] - Verify response status code&#xD;
+&#xD;
+2019-08-27 14:44:23 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-08-27 14:44:23 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-08-27 14:44:23 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-08-27 14:44:13 - [TEST_SUITE][INCOMPLETE] - FinancialNonEmployee_NonUltimate: null</system-out>
+        <system-err>2019-08-27 14:44:13 - [TEST_SUITE][INCOMPLETE] - FinancialNonEmployee_NonUltimate: null</system-err>
+    </testsuite>
+</testsuites>

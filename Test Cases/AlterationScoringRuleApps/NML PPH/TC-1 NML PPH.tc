@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-1 NML PPH</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>70ae82c5-725f-4c08-afb9-83ee9eb20db1</testCaseGuid>
+   <variable>
+      <defaultValue>'Major'</defaultValue>
+      <description></description>
+      <id>e85b5f18-1075-471d-9891-fc18d0de6e1f</id>
+      <masked>false</masked>
+      <name>transactionType</name>
+   </variable>
+   <variable>
+      <defaultValue>'4'</defaultValue>
+      <description></description>
+      <id>8879efda-6abd-484f-bc1f-5dc33e46ed95</id>
+      <masked>false</masked>
+      <name>nmlFlag</name>
+   </variable>
+   <variable>
+      <defaultValue>'IDR'</defaultValue>
+      <description></description>
+      <id>a35ac55f-413a-4ebc-b7b4-5a92ad974642</id>
+      <masked>false</masked>
+      <name>currency</name>
+   </variable>
+   <variable>
+      <defaultValue>'8000000'</defaultValue>
+      <description></description>
+      <id>42b55d34-4c37-4d10-856f-e7358aa7cce5</id>
+      <masked>false</masked>
+      <name>sumAssuredMedicalLimit</name>
+   </variable>
+   <variable>
+      <defaultValue>'15'</defaultValue>
+      <description></description>
+      <id>4916a6e6-043a-408a-a83e-2b5d0bcb0a65</id>
+      <masked>false</masked>
+      <name>age</name>
+   </variable>
+</TestCaseEntity>

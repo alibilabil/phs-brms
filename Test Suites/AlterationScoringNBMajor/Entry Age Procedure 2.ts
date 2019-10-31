@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Entry Age Procedure 2</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>e72a994b-4c26-4683-b123-986cb3700147</testSuiteGuid>
+   <testCaseLink>
+      <guid>33363dbd-5cfe-471e-953a-fa0b42edb66e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/AlterationScoringNBMajor/Entry Age Procedure 2/Entry Age Procedure 2</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>33df6383-a19c-4f84-a5c8-f638074cad89</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Alteration Scoring NB Major/Entry Age Procedure 2/Entry Age Procedure 2</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>33df6383-a19c-4f84-a5c8-f638074cad89</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Transaction Type</value>
+         <variableId>dfe11f2b-c0f3-4974-b8fa-70d04d2dad60</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>33df6383-a19c-4f84-a5c8-f638074cad89</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Product Code</value>
+         <variableId>c9449514-408c-43f2-bb8d-2675d57811b8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>33df6383-a19c-4f84-a5c8-f638074cad89</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Role</value>
+         <variableId>e23fc2e2-8c92-471a-abb1-fe2182fb9fc6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>33df6383-a19c-4f84-a5c8-f638074cad89</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Age</value>
+         <variableId>181edb1a-4564-4e6f-a022-a7888806a5b7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>33df6383-a19c-4f84-a5c8-f638074cad89</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Weight</value>
+         <variableId>02513230-e297-4e0f-b8e7-1b4b583a7e0b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>33df6383-a19c-4f84-a5c8-f638074cad89</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Expected Evi Code</value>
+         <variableId>6bf84b25-8da8-4ef9-bc2a-b6a2d19c1f98</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>33df6383-a19c-4f84-a5c8-f638074cad89</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Expected Description</value>
+         <variableId>f77ee20d-cf18-4340-9317-eb97b9a82df2</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5efbae0a-dafd-4ce4-aa9e-71399b76dc47</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AlterationScoringNBMajor/Entry Age Procedure 2/Negative-Entry Age Procedure 2</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>970def7a-9ee5-42fc-8c5a-a07ea42f46be</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1759ed64-fadd-40bd-9783-2023d3b8c2b4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a01ab279-560d-4652-b1cf-907bc3553d21</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ebbbf173-a514-4194-98ae-609797ecf19d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>afbf66f6-2c2a-4672-9385-471b4290b6f3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8a824fc7-bdcd-447d-845f-721e3321773e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>49025a19-3443-4aee-9363-6cb837f97a6e</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

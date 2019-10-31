@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-4 Increase SA</name>
+   <tag></tag>
+   <comment>Verify NML Flags value is equal 3
+Verify Response Status Code is 200</comment>
+   <testCaseGuid>7e16a690-c19b-4e8a-9477-7289e31e5c8e</testCaseGuid>
+   <variable>
+      <defaultValue>'Major'</defaultValue>
+      <description></description>
+      <id>23162047-e02d-4c98-acf3-dd422daadc5d</id>
+      <masked>false</masked>
+      <name>transactionType</name>
+   </variable>
+   <variable>
+      <defaultValue>'IncreaseSumAssured'</defaultValue>
+      <description></description>
+      <id>86dbd6d4-1c36-40b6-a74d-91a839c82a3d</id>
+      <masked>false</masked>
+      <name>subAlter</name>
+   </variable>
+   <variable>
+      <defaultValue>'ISU'</defaultValue>
+      <description></description>
+      <id>deae523a-4759-451a-aa46-66cbdf247daf</id>
+      <masked>false</masked>
+      <name>eviCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'H1X1'</defaultValue>
+      <description></description>
+      <id>3d6d4567-1710-4824-8b2c-615f5a05128c</id>
+      <masked>false</masked>
+      <name>riderCode</name>
+   </variable>
+</TestCaseEntity>

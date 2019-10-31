@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="test" time="9" tests="10" failures="0" errors="0">
+    <testsuite name="test" tests="10" failures="0" errors="0" time="9" timestamp="2019-08-05 14:26:24" hostname="c19679 - LIDLIFE38B0WS.PRU.intranet.asia" id="Test Suites/test">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\SURYAPURBA\\PHS\\PHS-BRMS\\Reports\\test\\20190805_142621"/>
+            <property name="logFiles" value="C:\\SURYAPURBA\\PHS\\PHS-BRMS\\Reports\\test\\20190805_142621\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="c19679 - LIDLIFE38B0WS.PRU.intranet.asia"/>
+            <property name="hostAddress" value="10.170.236.60"/>
+            <property name="os" value="Windows 7 64bit"/>
+            <property name="katalonVersion" value="6.2.2.4"/>
+        </properties>
+        <testcase name="Test Cases/Eligibility TSA Rules/TC-1" classname="Test Cases/Eligibility TSA Rules/TC-1" status="PASSED">
+            <system-out>2019-08-05 14:26:24 - [TEST_CASE][PASSED] - Test Cases/Eligibility TSA Rules/TC-1: Test Cases/Eligibility TSA Rules/TC-1&#xD;
+&#xD;
+2019-08-05 14:26:25 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AlterationScoringRuleApps/AlterationScoringRuleApps")): Send request successfully&#xD;
+&#xD;
+2019-08-05 14:26:28 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS-BRMS\Reports\test\20190805_142621\requests\main\0.har&#xD;
+&#xD;
+2019-08-05 14:26:28 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-08-05 14:26:28 - [TEST_STEP][PASSED] - jsonSlurper = new groovy.json.JsonSlurper(): null&#xD;
+&#xD;
+2019-08-05 14:26:28 - [TEST_STEP][PASSED] - content_length = response.getResponseBodyContent(): null&#xD;
+&#xD;
+2019-08-05 14:26:28 - [TEST_STEP][PASSED] - println(content_length): null&#xD;
+&#xD;
+2019-08-05 14:26:28 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-08-05 14:26:28 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-08-05 14:26:28 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "request.alterationScoring[0].response.eligibityTsa", true): Verify element property value successfully&#xD;
+&#xD;
+2019-08-05 14:26:28 - [MESSAGE][PASSED] - Verify element property value successfully&#xD;
+&#xD;
+2019-08-05 14:26:28 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Eligibility TSA Rules/TC-1" classname="Test Cases/Eligibility TSA Rules/TC-1" status="PASSED">
+            <system-out>2019-08-05 14:26:28 - [TEST_CASE][PASSED] - Test Cases/Eligibility TSA Rules/TC-1: Test Cases/Eligibility TSA Rules/TC-1&#xD;
+&#xD;
+2019-08-05 14:26:28 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AlterationScoringRuleApps/AlterationScoringRuleApps")): Send request successfully&#xD;
+&#xD;
+2019-08-05 14:26:29 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS-BRMS\Reports\test\20190805_142621\requests\main\1.har&#xD;
+&#xD;
+2019-08-05 14:26:29 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-08-05 14:26:29 - [TEST_STEP][PASSED] - jsonSlurper = new groovy.json.JsonSlurper(): null&#xD;
+&#xD;
+2019-08-05 14:26:29 - [TEST_STEP][PASSED] - content_length = response.getResponseBodyContent(): null&#xD;
+&#xD;
+2019-08-05 14:26:29 - [TEST_STEP][PASSED] - println(content_length): null&#xD;
+&#xD;
+2019-08-05 14:26:29 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-08-05 14:26:29 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-08-05 14:26:29 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "request.alterationScoring[0].response.eligibityTsa", true): Verify element property value successfully&#xD;
+&#xD;
+2019-08-05 14:26:29 - [MESSAGE][PASSED] - Verify element property value successfully&#xD;
+&#xD;
+2019-08-05 14:26:29 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Eligibility TSA Rules/TC-1" classname="Test Cases/Eligibility TSA Rules/TC-1" status="PASSED">
+            <system-out>2019-08-05 14:26:29 - [TEST_CASE][PASSED] - Test Cases/Eligibility TSA Rules/TC-1: Test Cases/Eligibility TSA Rules/TC-1&#xD;
+&#xD;
+2019-08-05 14:26:29 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AlterationScoringRuleApps/AlterationScoringRuleApps")): Send request successfully&#xD;
+&#xD;
+2019-08-05 14:26:29 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS-BRMS\Reports\test\20190805_142621\requests\main\2.har&#xD;
+&#xD;
+2019-08-05 14:26:29 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-08-05 14:26:29 - [TEST_STEP][PASSED] - jsonSlurper = new groovy.json.JsonSlurper(): null&#xD;
+&#xD;
+2019-08-05 14:26:29 - [TEST_STEP][PASSED] - content_length = response.getResponseBodyContent(): null&#xD;
+&#xD;
+2019-08-05 14:26:29 - [TEST_STEP][PASSED] - println(content_length): null&#xD;
+&#xD;
+2019-08-05 14:26:29 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-08-05 14:26:29 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-08-05 14:26:29 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "request.alterationScoring[0].response.eligibityTsa", true): Verify element property value successfully&#xD;
+&#xD;
+2019-08-05 14:26:29 - [MESSAGE][PASSED] - Verify element property value successfully&#xD;
+&#xD;
+2019-08-05 14:26:29 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Eligibility TSA Rules/TC-1" classname="Test Cases/Eligibility TSA Rules/TC-1" status="PASSED">
+            <system-out>2019-08-05 14:26:29 - [TEST_CASE][PASSED] - Test Cases/Eligibility TSA Rules/TC-1: Test Cases/Eligibility TSA Rules/TC-1&#xD;
+&#xD;
+2019-08-05 14:26:30 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AlterationScoringRuleApps/AlterationScoringRuleApps")): Send request successfully&#xD;
+&#xD;
+2019-08-05 14:26:30 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS-BRMS\Reports\test\20190805_142621\requests\main\3.har&#xD;
+&#xD;
+2019-08-05 14:26:30 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-08-05 14:26:30 - [TEST_STEP][PASSED] - jsonSlurper = new groovy.json.JsonSlurper(): null&#xD;
+&#xD;
+2019-08-05 14:26:30 - [TEST_STEP][PASSED] - content_length = response.getResponseBodyContent(): null&#xD;
+&#xD;
+2019-08-05 14:26:30 - [TEST_STEP][PASSED] - println(content_length): null&#xD;
+&#xD;
+2019-08-05 14:26:30 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-08-05 14:26:30 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-08-05 14:26:30 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "request.alterationScoring[0].response.eligibityTsa", true): Verify element property value successfully&#xD;
+&#xD;
+2019-08-05 14:26:30 - [MESSAGE][PASSED] - Verify element property value successfully&#xD;
+&#xD;
+2019-08-05 14:26:30 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Eligibility TSA Rules/TC-1" classname="Test Cases/Eligibility TSA Rules/TC-1" status="PASSED">
+            <system-out>2019-08-05 14:26:30 - [TEST_CASE][PASSED] - Test Cases/Eligibility TSA Rules/TC-1: Test Cases/Eligibility TSA Rules/TC-1&#xD;
+&#xD;
+2019-08-05 14:26:30 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AlterationScoringRuleApps/AlterationScoringRuleApps")): Send request successfully&#xD;
+&#xD;
+2019-08-05 14:26:31 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS-BRMS\Reports\test\20190805_142621\requests\main\4.har&#xD;
+&#xD;
+2019-08-05 14:26:31 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-08-05 14:26:31 - [TEST_STEP][PASSED] - jsonSlurper = new groovy.json.JsonSlurper(): null&#xD;
+&#xD;
+2019-08-05 14:26:31 - [TEST_STEP][PASSED] - content_length = response.getResponseBodyContent(): null&#xD;
+&#xD;
+2019-08-05 14:26:31 - [TEST_STEP][PASSED] - println(content_length): null&#xD;
+&#xD;
+2019-08-05 14:26:31 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-08-05 14:26:31 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-08-05 14:26:31 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "request.alterationScoring[0].response.eligibityTsa", true): Verify element property value successfully&#xD;
+&#xD;
+2019-08-05 14:26:31 - [MESSAGE][PASSED] - Verify element property value successfully&#xD;
+&#xD;
+2019-08-05 14:26:31 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Eligibility TSA Rules/TC-1" classname="Test Cases/Eligibility TSA Rules/TC-1" status="PASSED">
+            <system-out>2019-08-05 14:26:31 - [TEST_CASE][PASSED] - Test Cases/Eligibility TSA Rules/TC-1: Test Cases/Eligibility TSA Rules/TC-1&#xD;
+&#xD;
+2019-08-05 14:26:31 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AlterationScoringRuleApps/AlterationScoringRuleApps")): Send request successfully&#xD;
+&#xD;
+2019-08-05 14:26:31 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS-BRMS\Reports\test\20190805_142621\requests\main\5.har&#xD;
+&#xD;
+2019-08-05 14:26:31 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-08-05 14:26:31 - [TEST_STEP][PASSED] - jsonSlurper = new groovy.json.JsonSlurper(): null&#xD;
+&#xD;
+2019-08-05 14:26:31 - [TEST_STEP][PASSED] - content_length = response.getResponseBodyContent(): null&#xD;
+&#xD;
+2019-08-05 14:26:31 - [TEST_STEP][PASSED] - println(content_length): null&#xD;
+&#xD;
+2019-08-05 14:26:31 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-08-05 14:26:31 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-08-05 14:26:31 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "request.alterationScoring[0].response.eligibityTsa", true): Verify element property value successfully&#xD;
+&#xD;
+2019-08-05 14:26:31 - [MESSAGE][PASSED] - Verify element property value successfully&#xD;
+&#xD;
+2019-08-05 14:26:31 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Eligibility TSA Rules/TC-1" classname="Test Cases/Eligibility TSA Rules/TC-1" status="PASSED">
+            <system-out>2019-08-05 14:26:31 - [TEST_CASE][PASSED] - Test Cases/Eligibility TSA Rules/TC-1: Test Cases/Eligibility TSA Rules/TC-1&#xD;
+&#xD;
+2019-08-05 14:26:31 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AlterationScoringRuleApps/AlterationScoringRuleApps")): Send request successfully&#xD;
+&#xD;
+2019-08-05 14:26:32 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS-BRMS\Reports\test\20190805_142621\requests\main\6.har&#xD;
+&#xD;
+2019-08-05 14:26:32 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-08-05 14:26:32 - [TEST_STEP][PASSED] - jsonSlurper = new groovy.json.JsonSlurper(): null&#xD;
+&#xD;
+2019-08-05 14:26:32 - [TEST_STEP][PASSED] - content_length = response.getResponseBodyContent(): null&#xD;
+&#xD;
+2019-08-05 14:26:32 - [TEST_STEP][PASSED] - println(content_length): null&#xD;
+&#xD;
+2019-08-05 14:26:32 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-08-05 14:26:32 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-08-05 14:26:32 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "request.alterationScoring[0].response.eligibityTsa", true): Verify element property value successfully&#xD;
+&#xD;
+2019-08-05 14:26:32 - [MESSAGE][PASSED] - Verify element property value successfully&#xD;
+&#xD;
+2019-08-05 14:26:32 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Eligibility TSA Rules/TC-1" classname="Test Cases/Eligibility TSA Rules/TC-1" status="PASSED">
+            <system-out>2019-08-05 14:26:32 - [TEST_CASE][PASSED] - Test Cases/Eligibility TSA Rules/TC-1: Test Cases/Eligibility TSA Rules/TC-1&#xD;
+&#xD;
+2019-08-05 14:26:32 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AlterationScoringRuleApps/AlterationScoringRuleApps")): Send request successfully&#xD;
+&#xD;
+2019-08-05 14:26:33 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS-BRMS\Reports\test\20190805_142621\requests\main\7.har&#xD;
+&#xD;
+2019-08-05 14:26:33 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-08-05 14:26:33 - [TEST_STEP][PASSED] - jsonSlurper = new groovy.json.JsonSlurper(): null&#xD;
+&#xD;
+2019-08-05 14:26:33 - [TEST_STEP][PASSED] - content_length = response.getResponseBodyContent(): null&#xD;
+&#xD;
+2019-08-05 14:26:33 - [TEST_STEP][PASSED] - println(content_length): null&#xD;
+&#xD;
+2019-08-05 14:26:33 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-08-05 14:26:33 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-08-05 14:26:33 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "request.alterationScoring[0].response.eligibityTsa", true): Verify element property value successfully&#xD;
+&#xD;
+2019-08-05 14:26:33 - [MESSAGE][PASSED] - Verify element property value successfully&#xD;
+&#xD;
+2019-08-05 14:26:33 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Eligibility TSA Rules/TC-1" classname="Test Cases/Eligibility TSA Rules/TC-1" status="PASSED">
+            <system-out>2019-08-05 14:26:33 - [TEST_CASE][PASSED] - Test Cases/Eligibility TSA Rules/TC-1: Test Cases/Eligibility TSA Rules/TC-1&#xD;
+&#xD;
+2019-08-05 14:26:33 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AlterationScoringRuleApps/AlterationScoringRuleApps")): Send request successfully&#xD;
+&#xD;
+2019-08-05 14:26:33 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS-BRMS\Reports\test\20190805_142621\requests\main\8.har&#xD;
+&#xD;
+2019-08-05 14:26:33 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-08-05 14:26:33 - [TEST_STEP][PASSED] - jsonSlurper = new groovy.json.JsonSlurper(): null&#xD;
+&#xD;
+2019-08-05 14:26:33 - [TEST_STEP][PASSED] - content_length = response.getResponseBodyContent(): null&#xD;
+&#xD;
+2019-08-05 14:26:33 - [TEST_STEP][PASSED] - println(content_length): null&#xD;
+&#xD;
+2019-08-05 14:26:33 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-08-05 14:26:33 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-08-05 14:26:33 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "request.alterationScoring[0].response.eligibityTsa", true): Verify element property value successfully&#xD;
+&#xD;
+2019-08-05 14:26:33 - [MESSAGE][PASSED] - Verify element property value successfully&#xD;
+&#xD;
+2019-08-05 14:26:33 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Eligibility TSA Rules/TC-1" classname="Test Cases/Eligibility TSA Rules/TC-1" status="PASSED">
+            <system-out>2019-08-05 14:26:33 - [TEST_CASE][PASSED] - Test Cases/Eligibility TSA Rules/TC-1: Test Cases/Eligibility TSA Rules/TC-1&#xD;
+&#xD;
+2019-08-05 14:26:33 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AlterationScoringRuleApps/AlterationScoringRuleApps")): Send request successfully&#xD;
+&#xD;
+2019-08-05 14:26:34 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS-BRMS\Reports\test\20190805_142621\requests\main\9.har&#xD;
+&#xD;
+2019-08-05 14:26:34 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-08-05 14:26:34 - [TEST_STEP][PASSED] - jsonSlurper = new groovy.json.JsonSlurper(): null&#xD;
+&#xD;
+2019-08-05 14:26:34 - [TEST_STEP][PASSED] - content_length = response.getResponseBodyContent(): null&#xD;
+&#xD;
+2019-08-05 14:26:34 - [TEST_STEP][PASSED] - println(content_length): null&#xD;
+&#xD;
+2019-08-05 14:26:34 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-08-05 14:26:34 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-08-05 14:26:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "request.alterationScoring[0].response.eligibityTsa", true): Verify element property value successfully&#xD;
+&#xD;
+2019-08-05 14:26:34 - [MESSAGE][PASSED] - Verify element property value successfully&#xD;
+&#xD;
+2019-08-05 14:26:34 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-08-05 14:26:24 - [TEST_SUITE][INCOMPLETE] - test: null</system-out>
+        <system-err>2019-08-05 14:26:24 - [TEST_SUITE][INCOMPLETE] - test: null</system-err>
+    </testsuite>
+</testsuites>

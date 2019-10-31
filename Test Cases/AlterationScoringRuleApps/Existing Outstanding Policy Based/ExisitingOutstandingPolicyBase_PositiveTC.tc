@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ExisitingOutstandingPolicyBase_PositiveTC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b2069a67-dafa-4956-9ace-ddfa40e41701</testCaseGuid>
+   <variable>
+      <defaultValue>'Major'</defaultValue>
+      <description></description>
+      <id>929af8ea-7c2e-488b-99b9-3bb323ee32b3</id>
+      <masked>false</masked>
+      <name>transactionType</name>
+   </variable>
+   <variable>
+      <defaultValue>'LA1'</defaultValue>
+      <description></description>
+      <id>b1c3b6c6-5e06-4160-879d-1849e3a46dad</id>
+      <masked>false</masked>
+      <name>role</name>
+   </variable>
+   <variable>
+      <defaultValue>'14310101'</defaultValue>
+      <description></description>
+      <id>2ca6776d-0c9b-4d2a-af3e-744f28da78ff</id>
+      <masked>false</masked>
+      <name>docId</name>
+   </variable>
+   <variable>
+      <defaultValue>'AddRider'</defaultValue>
+      <description></description>
+      <id>8ccd6075-be14-49c1-acf6-ab5365312030</id>
+      <masked>false</masked>
+      <name>subAlter</name>
+   </variable>
+   <variable>
+      <defaultValue>'H1G1'</defaultValue>
+      <description></description>
+      <id>bb27ce14-4b51-43f4-b97b-cd89001c6c29</id>
+      <masked>false</masked>
+      <name>riderCode</name>
+   </variable>
+</TestCaseEntity>

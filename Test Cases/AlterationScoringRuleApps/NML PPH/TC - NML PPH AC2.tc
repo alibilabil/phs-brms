@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC - NML PPH AC2</name>
+   <tag></tag>
+   <comment>Verify Response Status code is 200</comment>
+   <testCaseGuid>7f7209cb-19d1-41fa-a969-1151295cdc2a</testCaseGuid>
+   <variable>
+      <defaultValue>'Major'</defaultValue>
+      <description></description>
+      <id>e0a1f4f6-f10b-406a-ac66-fb5c46e907bc</id>
+      <masked>false</masked>
+      <name>transactionType</name>
+   </variable>
+   <variable>
+      <defaultValue>'4'</defaultValue>
+      <description></description>
+      <id>72203de5-be0c-4969-8e31-e42a9e72d51c</id>
+      <masked>false</masked>
+      <name>nmlFlag</name>
+   </variable>
+   <variable>
+      <defaultValue>'IDR'</defaultValue>
+      <description></description>
+      <id>dc77ef8d-3ea2-496b-acc4-2d4deec1c2db</id>
+      <masked>false</masked>
+      <name>currency</name>
+   </variable>
+   <variable>
+      <defaultValue>'8000000'</defaultValue>
+      <description></description>
+      <id>ec54b5dd-5302-4005-b1ce-4aa87dac3405</id>
+      <masked>false</masked>
+      <name>sumAssuredMedicalLimit</name>
+   </variable>
+</TestCaseEntity>

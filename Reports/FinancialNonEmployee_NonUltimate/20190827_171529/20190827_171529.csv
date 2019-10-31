@@ -1,0 +1,401 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FinancialNonEmployee_NonUltimate,,,,2019-08-27 17:15:32,2019-08-27 17:15:59,26.378s,INCOMPLETE
+,,,,,,,
+Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/FE6/TC-1 USD FE6,,,,2019-08-27 17:15:33,2019-08-27 17:15:35,1.861s,PASSED
+random = new java.util.Random(),,,,2019-08-27 17:15:33,2019-08-27 17:15:33,0.008s,PASSED
+compareHighestValueFsaDeathVsAddccMin = 6250000,,,,2019-08-27 17:15:33,2019-08-27 17:15:33,0.001s,PASSED
+compareHighestValueFsaDeathVsAddcc = random.nextInt(MAX_VALUE - compareHighestValueFsaDeathVsAddccMin) + compareHighestValueFsaDeathVsAddccMin,,,,2019-08-27 17:15:33,2019-08-27 17:15:33,0.130s,PASSED
+println(compareHighestValueFsaDeathVsAddcc),,,,2019-08-27 17:15:33,2019-08-27 17:15:33,0.007s,PASSED
+"comment(""Send request"")",,,,2019-08-27 17:15:33,2019-08-27 17:15:33,0.104s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Object Request"", [""transactionType"":transactionType, ""role"":role, ""increasingFsaFlag"":increasingFsaFlag, ""pecFlag"":pecFlag, ""occupationCode"":occupationCode, ... ]))",,,,2019-08-27 17:15:33,2019-08-27 17:15:34,1.077s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2019-08-27 17:15:34,2019-08-27 17:15:34,0.016s,PASSED
+parseResponse = slurper.parseText(response.getResponseText()),,,,2019-08-27 17:15:34,2019-08-27 17:15:34,0.037s,PASSED
+println(parseResponse),,,,2019-08-27 17:15:34,2019-08-27 17:15:35,0.024s,PASSED
+attributes = evidenceCode,,,,2019-08-27 17:15:35,2019-08-27 17:15:35,0.019s,PASSED
+println(attributes),,,,2019-08-27 17:15:35,2019-08-27 17:15:35,0.004s,PASSED
+"expected = description == ""Butuh LSAR, ABR, BSM, RoC, RNA, Bukti Aset, F2F meeting""",,,,2019-08-27 17:15:35,2019-08-27 17:15:35,0.008s,PASSED
+"comment(""Verify evidence code is FE6 and have description ""Butuh LSAR, ABR, BSM, RoC, RNA, Bukti Aset, F2F meeting"""")",,,,2019-08-27 17:15:35,2019-08-27 17:15:35,0.014s,PASSED
+"verifyEqual(expected, true)",,,,2019-08-27 17:15:35,2019-08-27 17:15:35,0.025s,PASSED
+"comment(""Verify response status code"")",,,,2019-08-27 17:15:35,2019-08-27 17:15:35,0.008s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-27 17:15:35,2019-08-27 17:15:35,0.019s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-27 17:15:35,2019-08-27 17:15:35,0.011s,PASSED
+,,,,,,,
+Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/FE6/TC-1 USD FE6,,,,2019-08-27 17:15:35,2019-08-27 17:15:35,0.261s,PASSED
+random = new java.util.Random(),,,,2019-08-27 17:15:35,2019-08-27 17:15:35,0.004s,PASSED
+compareHighestValueFsaDeathVsAddccMin = 6250000,,,,2019-08-27 17:15:35,2019-08-27 17:15:35,0.010s,PASSED
+compareHighestValueFsaDeathVsAddcc = random.nextInt(MAX_VALUE - compareHighestValueFsaDeathVsAddccMin) + compareHighestValueFsaDeathVsAddccMin,,,,2019-08-27 17:15:35,2019-08-27 17:15:35,0.002s,PASSED
+println(compareHighestValueFsaDeathVsAddcc),,,,2019-08-27 17:15:35,2019-08-27 17:15:35,0.002s,PASSED
+"comment(""Send request"")",,,,2019-08-27 17:15:35,2019-08-27 17:15:35,0.018s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Object Request"", [""transactionType"":transactionType, ""role"":role, ""increasingFsaFlag"":increasingFsaFlag, ""pecFlag"":pecFlag, ""occupationCode"":occupationCode, ... ]))",,,,2019-08-27 17:15:35,2019-08-27 17:15:35,0.124s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2019-08-27 17:15:35,2019-08-27 17:15:35,0.001s,PASSED
+parseResponse = slurper.parseText(response.getResponseText()),,,,2019-08-27 17:15:35,2019-08-27 17:15:35,0.001s,PASSED
+println(parseResponse),,,,2019-08-27 17:15:35,2019-08-27 17:15:35,0.004s,PASSED
+attributes = evidenceCode,,,,2019-08-27 17:15:35,2019-08-27 17:15:35,0.001s,PASSED
+println(attributes),,,,2019-08-27 17:15:35,2019-08-27 17:15:35,0.001s,PASSED
+"expected = description == ""Butuh LSAR, ABR, BSM, RoC, RNA, Bukti Aset, F2F meeting""",,,,2019-08-27 17:15:35,2019-08-27 17:15:35,0.001s,PASSED
+"comment(""Verify evidence code is FE6 and have description ""Butuh LSAR, ABR, BSM, RoC, RNA, Bukti Aset, F2F meeting"""")",,,,2019-08-27 17:15:35,2019-08-27 17:15:35,0.008s,PASSED
+"verifyEqual(expected, true)",,,,2019-08-27 17:15:35,2019-08-27 17:15:35,0.006s,PASSED
+"comment(""Verify response status code"")",,,,2019-08-27 17:15:35,2019-08-27 17:15:35,0.007s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-27 17:15:35,2019-08-27 17:15:35,0.003s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-27 17:15:35,2019-08-27 17:15:35,0.000s,PASSED
+,,,,,,,
+Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/FE6/TC-1 USD FE6,,,,2019-08-27 17:15:35,2019-08-27 17:15:36,1.380s,PASSED
+random = new java.util.Random(),,,,2019-08-27 17:15:35,2019-08-27 17:15:35,0.011s,PASSED
+compareHighestValueFsaDeathVsAddccMin = 6250000,,,,2019-08-27 17:15:35,2019-08-27 17:15:35,0.000s,PASSED
+compareHighestValueFsaDeathVsAddcc = random.nextInt(MAX_VALUE - compareHighestValueFsaDeathVsAddccMin) + compareHighestValueFsaDeathVsAddccMin,,,,2019-08-27 17:15:35,2019-08-27 17:15:36,0.002s,PASSED
+println(compareHighestValueFsaDeathVsAddcc),,,,2019-08-27 17:15:36,2019-08-27 17:15:36,0.001s,PASSED
+"comment(""Send request"")",,,,2019-08-27 17:15:36,2019-08-27 17:15:36,0.017s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Object Request"", [""transactionType"":transactionType, ""role"":role, ""increasingFsaFlag"":increasingFsaFlag, ""pecFlag"":pecFlag, ""occupationCode"":occupationCode, ... ]))",,,,2019-08-27 17:15:36,2019-08-27 17:15:36,0.056s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2019-08-27 17:15:36,2019-08-27 17:15:36,0.001s,PASSED
+parseResponse = slurper.parseText(response.getResponseText()),,,,2019-08-27 17:15:36,2019-08-27 17:15:36,0.006s,PASSED
+println(parseResponse),,,,2019-08-27 17:15:36,2019-08-27 17:15:36,0.004s,PASSED
+attributes = evidenceCode,,,,2019-08-27 17:15:36,2019-08-27 17:15:36,0.000s,PASSED
+println(attributes),,,,2019-08-27 17:15:36,2019-08-27 17:15:36,0.001s,PASSED
+"expected = description == ""Butuh LSAR, ABR, BSM, RoC, RNA, Bukti Aset, F2F meeting""",,,,2019-08-27 17:15:36,2019-08-27 17:15:36,0.407s,PASSED
+"comment(""Verify evidence code is FE6 and have description ""Butuh LSAR, ABR, BSM, RoC, RNA, Bukti Aset, F2F meeting"""")",,,,2019-08-27 17:15:36,2019-08-27 17:15:36,0.004s,PASSED
+"verifyEqual(expected, true)",,,,2019-08-27 17:15:36,2019-08-27 17:15:36,0.008s,PASSED
+"comment(""Verify response status code"")",,,,2019-08-27 17:15:36,2019-08-27 17:15:36,0.003s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-27 17:15:36,2019-08-27 17:15:36,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-27 17:15:36,2019-08-27 17:15:36,0.000s,PASSED
+,,,,,,,
+Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/FE6/TC-1 USD FE6,,,,2019-08-27 17:15:36,2019-08-27 17:15:38,1.426s,PASSED
+random = new java.util.Random(),,,,2019-08-27 17:15:36,2019-08-27 17:15:36,0.000s,PASSED
+compareHighestValueFsaDeathVsAddccMin = 6250000,,,,2019-08-27 17:15:36,2019-08-27 17:15:36,0.000s,PASSED
+compareHighestValueFsaDeathVsAddcc = random.nextInt(MAX_VALUE - compareHighestValueFsaDeathVsAddccMin) + compareHighestValueFsaDeathVsAddccMin,,,,2019-08-27 17:15:36,2019-08-27 17:15:36,0.001s,PASSED
+println(compareHighestValueFsaDeathVsAddcc),,,,2019-08-27 17:15:36,2019-08-27 17:15:36,0.000s,PASSED
+"comment(""Send request"")",,,,2019-08-27 17:15:36,2019-08-27 17:15:36,0.012s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Object Request"", [""transactionType"":transactionType, ""role"":role, ""increasingFsaFlag"":increasingFsaFlag, ""pecFlag"":pecFlag, ""occupationCode"":occupationCode, ... ]))",,,,2019-08-27 17:15:36,2019-08-27 17:15:37,0.463s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2019-08-27 17:15:37,2019-08-27 17:15:37,0.001s,PASSED
+parseResponse = slurper.parseText(response.getResponseText()),,,,2019-08-27 17:15:37,2019-08-27 17:15:37,0.001s,PASSED
+println(parseResponse),,,,2019-08-27 17:15:37,2019-08-27 17:15:37,0.002s,PASSED
+attributes = evidenceCode,,,,2019-08-27 17:15:37,2019-08-27 17:15:37,0.000s,PASSED
+println(attributes),,,,2019-08-27 17:15:37,2019-08-27 17:15:37,0.001s,PASSED
+"expected = description == ""Butuh LSAR, ABR, BSM, RoC, RNA, Bukti Aset, F2F meeting""",,,,2019-08-27 17:15:37,2019-08-27 17:15:37,0.003s,PASSED
+"comment(""Verify evidence code is FE6 and have description ""Butuh LSAR, ABR, BSM, RoC, RNA, Bukti Aset, F2F meeting"""")",,,,2019-08-27 17:15:37,2019-08-27 17:15:37,0.003s,PASSED
+"verifyEqual(expected, true)",,,,2019-08-27 17:15:37,2019-08-27 17:15:37,0.002s,PASSED
+"comment(""Verify response status code"")",,,,2019-08-27 17:15:38,2019-08-27 17:15:38,0.030s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-27 17:15:38,2019-08-27 17:15:38,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-27 17:15:38,2019-08-27 17:15:38,0.001s,PASSED
+,,,,,,,
+Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/FE6/TC-1 USD FE6,,,,2019-08-27 17:15:38,2019-08-27 17:15:38,0.388s,PASSED
+random = new java.util.Random(),,,,2019-08-27 17:15:38,2019-08-27 17:15:38,0.000s,PASSED
+compareHighestValueFsaDeathVsAddccMin = 6250000,,,,2019-08-27 17:15:38,2019-08-27 17:15:38,0.000s,PASSED
+compareHighestValueFsaDeathVsAddcc = random.nextInt(MAX_VALUE - compareHighestValueFsaDeathVsAddccMin) + compareHighestValueFsaDeathVsAddccMin,,,,2019-08-27 17:15:38,2019-08-27 17:15:38,0.000s,PASSED
+println(compareHighestValueFsaDeathVsAddcc),,,,2019-08-27 17:15:38,2019-08-27 17:15:38,0.000s,PASSED
+"comment(""Send request"")",,,,2019-08-27 17:15:38,2019-08-27 17:15:38,0.003s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Object Request"", [""transactionType"":transactionType, ""role"":role, ""increasingFsaFlag"":increasingFsaFlag, ""pecFlag"":pecFlag, ""occupationCode"":occupationCode, ... ]))",,,,2019-08-27 17:15:38,2019-08-27 17:15:38,0.045s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2019-08-27 17:15:38,2019-08-27 17:15:38,0.000s,PASSED
+parseResponse = slurper.parseText(response.getResponseText()),,,,2019-08-27 17:15:38,2019-08-27 17:15:38,0.001s,PASSED
+println(parseResponse),,,,2019-08-27 17:15:38,2019-08-27 17:15:38,0.003s,PASSED
+attributes = evidenceCode,,,,2019-08-27 17:15:38,2019-08-27 17:15:38,0.001s,PASSED
+println(attributes),,,,2019-08-27 17:15:38,2019-08-27 17:15:38,0.001s,PASSED
+"expected = description == ""Butuh LSAR, ABR, BSM, RoC, RNA, Bukti Aset, F2F meeting""",,,,2019-08-27 17:15:38,2019-08-27 17:15:38,0.000s,PASSED
+"comment(""Verify evidence code is FE6 and have description ""Butuh LSAR, ABR, BSM, RoC, RNA, Bukti Aset, F2F meeting"""")",,,,2019-08-27 17:15:38,2019-08-27 17:15:38,0.004s,PASSED
+"verifyEqual(expected, true)",,,,2019-08-27 17:15:38,2019-08-27 17:15:38,0.003s,PASSED
+"comment(""Verify response status code"")",,,,2019-08-27 17:15:38,2019-08-27 17:15:38,0.003s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-27 17:15:38,2019-08-27 17:15:38,0.003s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-27 17:15:38,2019-08-27 17:15:38,0.000s,PASSED
+,,,,,,,
+Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/FE6/TC-1 USD FE6,,,,2019-08-27 17:15:39,2019-08-27 17:15:40,0.963s,PASSED
+random = new java.util.Random(),,,,2019-08-27 17:15:39,2019-08-27 17:15:39,0.000s,PASSED
+compareHighestValueFsaDeathVsAddccMin = 6250000,,,,2019-08-27 17:15:39,2019-08-27 17:15:39,0.000s,PASSED
+compareHighestValueFsaDeathVsAddcc = random.nextInt(MAX_VALUE - compareHighestValueFsaDeathVsAddccMin) + compareHighestValueFsaDeathVsAddccMin,,,,2019-08-27 17:15:39,2019-08-27 17:15:39,0.000s,PASSED
+println(compareHighestValueFsaDeathVsAddcc),,,,2019-08-27 17:15:39,2019-08-27 17:15:39,0.000s,PASSED
+"comment(""Send request"")",,,,2019-08-27 17:15:39,2019-08-27 17:15:39,0.005s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Object Request"", [""transactionType"":transactionType, ""role"":role, ""increasingFsaFlag"":increasingFsaFlag, ""pecFlag"":pecFlag, ""occupationCode"":occupationCode, ... ]))",,,,2019-08-27 17:15:39,2019-08-27 17:15:39,0.429s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2019-08-27 17:15:39,2019-08-27 17:15:39,0.000s,PASSED
+parseResponse = slurper.parseText(response.getResponseText()),,,,2019-08-27 17:15:39,2019-08-27 17:15:39,0.001s,PASSED
+println(parseResponse),,,,2019-08-27 17:15:39,2019-08-27 17:15:39,0.001s,PASSED
+attributes = evidenceCode,,,,2019-08-27 17:15:39,2019-08-27 17:15:39,0.000s,PASSED
+println(attributes),,,,2019-08-27 17:15:39,2019-08-27 17:15:39,0.001s,PASSED
+"expected = description == ""Butuh LSAR, ABR, BSM, RoC, RNA, Bukti Aset, F2F meeting""",,,,2019-08-27 17:15:39,2019-08-27 17:15:39,0.000s,PASSED
+"comment(""Verify evidence code is FE6 and have description ""Butuh LSAR, ABR, BSM, RoC, RNA, Bukti Aset, F2F meeting"""")",,,,2019-08-27 17:15:39,2019-08-27 17:15:39,0.002s,PASSED
+"verifyEqual(expected, true)",,,,2019-08-27 17:15:39,2019-08-27 17:15:40,0.496s,PASSED
+"comment(""Verify response status code"")",,,,2019-08-27 17:15:40,2019-08-27 17:15:40,0.004s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-27 17:15:40,2019-08-27 17:15:40,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-27 17:15:40,2019-08-27 17:15:40,0.000s,PASSED
+,,,,,,,
+Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/FE6/TC-1 USD FE6,,,,2019-08-27 17:15:40,2019-08-27 17:15:41,1.325s,PASSED
+random = new java.util.Random(),,,,2019-08-27 17:15:40,2019-08-27 17:15:40,0.000s,PASSED
+compareHighestValueFsaDeathVsAddccMin = 6250000,,,,2019-08-27 17:15:40,2019-08-27 17:15:40,0.422s,PASSED
+compareHighestValueFsaDeathVsAddcc = random.nextInt(MAX_VALUE - compareHighestValueFsaDeathVsAddccMin) + compareHighestValueFsaDeathVsAddccMin,,,,2019-08-27 17:15:40,2019-08-27 17:15:40,0.001s,PASSED
+println(compareHighestValueFsaDeathVsAddcc),,,,2019-08-27 17:15:40,2019-08-27 17:15:40,0.000s,PASSED
+"comment(""Send request"")",,,,2019-08-27 17:15:40,2019-08-27 17:15:40,0.002s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Object Request"", [""transactionType"":transactionType, ""role"":role, ""increasingFsaFlag"":increasingFsaFlag, ""pecFlag"":pecFlag, ""occupationCode"":occupationCode, ... ]))",,,,2019-08-27 17:15:40,2019-08-27 17:15:40,0.045s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2019-08-27 17:15:40,2019-08-27 17:15:40,0.000s,PASSED
+parseResponse = slurper.parseText(response.getResponseText()),,,,2019-08-27 17:15:40,2019-08-27 17:15:40,0.001s,PASSED
+println(parseResponse),,,,2019-08-27 17:15:40,2019-08-27 17:15:40,0.006s,PASSED
+attributes = evidenceCode,,,,2019-08-27 17:15:40,2019-08-27 17:15:40,0.406s,PASSED
+println(attributes),,,,2019-08-27 17:15:40,2019-08-27 17:15:40,0.000s,PASSED
+"expected = description == ""Butuh LSAR, ABR, BSM, RoC, RNA, Bukti Aset, F2F meeting""",,,,2019-08-27 17:15:40,2019-08-27 17:15:40,0.000s,PASSED
+"comment(""Verify evidence code is FE6 and have description ""Butuh LSAR, ABR, BSM, RoC, RNA, Bukti Aset, F2F meeting"""")",,,,2019-08-27 17:15:40,2019-08-27 17:15:40,0.002s,PASSED
+"verifyEqual(expected, true)",,,,2019-08-27 17:15:40,2019-08-27 17:15:40,0.002s,PASSED
+"comment(""Verify response status code"")",,,,2019-08-27 17:15:40,2019-08-27 17:15:40,0.008s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-27 17:15:40,2019-08-27 17:15:40,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-27 17:15:40,2019-08-27 17:15:40,0.000s,PASSED
+,,,,,,,
+Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/FE6/TC-1 USD FE6,,,,2019-08-27 17:15:41,2019-08-27 17:15:42,0.937s,PASSED
+random = new java.util.Random(),,,,2019-08-27 17:15:41,2019-08-27 17:15:41,0.000s,PASSED
+compareHighestValueFsaDeathVsAddccMin = 6250000,,,,2019-08-27 17:15:41,2019-08-27 17:15:41,0.001s,PASSED
+compareHighestValueFsaDeathVsAddcc = random.nextInt(MAX_VALUE - compareHighestValueFsaDeathVsAddccMin) + compareHighestValueFsaDeathVsAddccMin,,,,2019-08-27 17:15:41,2019-08-27 17:15:41,0.000s,PASSED
+println(compareHighestValueFsaDeathVsAddcc),,,,2019-08-27 17:15:41,2019-08-27 17:15:41,0.000s,PASSED
+"comment(""Send request"")",,,,2019-08-27 17:15:41,2019-08-27 17:15:41,0.001s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Object Request"", [""transactionType"":transactionType, ""role"":role, ""increasingFsaFlag"":increasingFsaFlag, ""pecFlag"":pecFlag, ""occupationCode"":occupationCode, ... ]))",,,,2019-08-27 17:15:41,2019-08-27 17:15:41,0.468s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2019-08-27 17:15:41,2019-08-27 17:15:41,0.000s,PASSED
+parseResponse = slurper.parseText(response.getResponseText()),,,,2019-08-27 17:15:41,2019-08-27 17:15:41,0.001s,PASSED
+println(parseResponse),,,,2019-08-27 17:15:41,2019-08-27 17:15:41,0.001s,PASSED
+attributes = evidenceCode,,,,2019-08-27 17:15:41,2019-08-27 17:15:41,0.000s,PASSED
+println(attributes),,,,2019-08-27 17:15:41,2019-08-27 17:15:41,0.001s,PASSED
+"expected = description == ""Butuh LSAR, ABR, BSM, RoC, RNA, Bukti Aset, F2F meeting""",,,,2019-08-27 17:15:41,2019-08-27 17:15:41,0.000s,PASSED
+"comment(""Verify evidence code is FE6 and have description ""Butuh LSAR, ABR, BSM, RoC, RNA, Bukti Aset, F2F meeting"""")",,,,2019-08-27 17:15:41,2019-08-27 17:15:41,0.002s,PASSED
+"verifyEqual(expected, true)",,,,2019-08-27 17:15:41,2019-08-27 17:15:42,0.439s,PASSED
+"comment(""Verify response status code"")",,,,2019-08-27 17:15:42,2019-08-27 17:15:42,0.004s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-27 17:15:42,2019-08-27 17:15:42,0.003s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-27 17:15:42,2019-08-27 17:15:42,0.001s,PASSED
+,,,,,,,
+Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/FE6/TC-1 USD FE6,,,,2019-08-27 17:15:42,2019-08-27 17:15:43,1.389s,PASSED
+random = new java.util.Random(),,,,2019-08-27 17:15:42,2019-08-27 17:15:42,0.001s,PASSED
+compareHighestValueFsaDeathVsAddccMin = 6250000,,,,2019-08-27 17:15:42,2019-08-27 17:15:42,0.000s,PASSED
+compareHighestValueFsaDeathVsAddcc = random.nextInt(MAX_VALUE - compareHighestValueFsaDeathVsAddccMin) + compareHighestValueFsaDeathVsAddccMin,,,,2019-08-27 17:15:42,2019-08-27 17:15:42,0.001s,PASSED
+println(compareHighestValueFsaDeathVsAddcc),,,,2019-08-27 17:15:42,2019-08-27 17:15:42,0.000s,PASSED
+"comment(""Send request"")",,,,2019-08-27 17:15:42,2019-08-27 17:15:42,0.002s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Object Request"", [""transactionType"":transactionType, ""role"":role, ""increasingFsaFlag"":increasingFsaFlag, ""pecFlag"":pecFlag, ""occupationCode"":occupationCode, ... ]))",,,,2019-08-27 17:15:42,2019-08-27 17:15:42,0.077s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2019-08-27 17:15:42,2019-08-27 17:15:42,0.000s,PASSED
+parseResponse = slurper.parseText(response.getResponseText()),,,,2019-08-27 17:15:42,2019-08-27 17:15:42,0.001s,PASSED
+println(parseResponse),,,,2019-08-27 17:15:42,2019-08-27 17:15:43,0.370s,PASSED
+attributes = evidenceCode,,,,2019-08-27 17:15:43,2019-08-27 17:15:43,0.000s,PASSED
+println(attributes),,,,2019-08-27 17:15:43,2019-08-27 17:15:43,0.000s,PASSED
+"expected = description == ""Butuh LSAR, ABR, BSM, RoC, RNA, Bukti Aset, F2F meeting""",,,,2019-08-27 17:15:43,2019-08-27 17:15:43,0.000s,PASSED
+"comment(""Verify evidence code is FE6 and have description ""Butuh LSAR, ABR, BSM, RoC, RNA, Bukti Aset, F2F meeting"""")",,,,2019-08-27 17:15:43,2019-08-27 17:15:43,0.006s,PASSED
+"verifyEqual(expected, true)",,,,2019-08-27 17:15:43,2019-08-27 17:15:43,0.002s,PASSED
+"comment(""Verify response status code"")",,,,2019-08-27 17:15:43,2019-08-27 17:15:43,0.002s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-27 17:15:43,2019-08-27 17:15:43,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-27 17:15:43,2019-08-27 17:15:43,0.436s,PASSED
+,,,,,,,
+Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/FE6/TC-1 USD FE6,,,,2019-08-27 17:15:43,2019-08-27 17:15:44,1.161s,PASSED
+random = new java.util.Random(),,,,2019-08-27 17:15:43,2019-08-27 17:15:43,0.007s,PASSED
+compareHighestValueFsaDeathVsAddccMin = 6250000,,,,2019-08-27 17:15:43,2019-08-27 17:15:43,0.000s,PASSED
+compareHighestValueFsaDeathVsAddcc = random.nextInt(MAX_VALUE - compareHighestValueFsaDeathVsAddccMin) + compareHighestValueFsaDeathVsAddccMin,,,,2019-08-27 17:15:43,2019-08-27 17:15:43,0.001s,PASSED
+println(compareHighestValueFsaDeathVsAddcc),,,,2019-08-27 17:15:43,2019-08-27 17:15:43,0.000s,PASSED
+"comment(""Send request"")",,,,2019-08-27 17:15:43,2019-08-27 17:15:43,0.002s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Object Request"", [""transactionType"":transactionType, ""role"":role, ""increasingFsaFlag"":increasingFsaFlag, ""pecFlag"":pecFlag, ""occupationCode"":occupationCode, ... ]))",,,,2019-08-27 17:15:44,2019-08-27 17:15:44,0.063s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2019-08-27 17:15:44,2019-08-27 17:15:44,0.000s,PASSED
+parseResponse = slurper.parseText(response.getResponseText()),,,,2019-08-27 17:15:44,2019-08-27 17:15:44,0.000s,PASSED
+println(parseResponse),,,,2019-08-27 17:15:44,2019-08-27 17:15:44,0.015s,PASSED
+attributes = evidenceCode,,,,2019-08-27 17:15:44,2019-08-27 17:15:44,0.010s,PASSED
+println(attributes),,,,2019-08-27 17:15:44,2019-08-27 17:15:44,0.000s,PASSED
+"expected = description == ""Butuh LSAR, ABR, BSM, RoC, RNA, Bukti Aset, F2F meeting""",,,,2019-08-27 17:15:44,2019-08-27 17:15:44,0.001s,PASSED
+"comment(""Verify evidence code is FE6 and have description ""Butuh LSAR, ABR, BSM, RoC, RNA, Bukti Aset, F2F meeting"""")",,,,2019-08-27 17:15:44,2019-08-27 17:15:44,0.019s,PASSED
+"verifyEqual(expected, true)",,,,2019-08-27 17:15:44,2019-08-27 17:15:44,0.004s,PASSED
+"comment(""Verify response status code"")",,,,2019-08-27 17:15:44,2019-08-27 17:15:44,0.007s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-27 17:15:44,2019-08-27 17:15:44,0.001s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-27 17:15:44,2019-08-27 17:15:44,0.000s,PASSED
+,,,,,,,
+Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/FE6/TC-1 USD FE6,,,,2019-08-27 17:15:44,2019-08-27 17:15:46,1.371s,PASSED
+random = new java.util.Random(),,,,2019-08-27 17:15:44,2019-08-27 17:15:45,0.467s,PASSED
+compareHighestValueFsaDeathVsAddccMin = 6250000,,,,2019-08-27 17:15:45,2019-08-27 17:15:45,0.000s,PASSED
+compareHighestValueFsaDeathVsAddcc = random.nextInt(MAX_VALUE - compareHighestValueFsaDeathVsAddccMin) + compareHighestValueFsaDeathVsAddccMin,,,,2019-08-27 17:15:45,2019-08-27 17:15:45,0.001s,PASSED
+println(compareHighestValueFsaDeathVsAddcc),,,,2019-08-27 17:15:45,2019-08-27 17:15:45,0.000s,PASSED
+"comment(""Send request"")",,,,2019-08-27 17:15:45,2019-08-27 17:15:45,0.002s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Object Request"", [""transactionType"":transactionType, ""role"":role, ""increasingFsaFlag"":increasingFsaFlag, ""pecFlag"":pecFlag, ""occupationCode"":occupationCode, ... ]))",,,,2019-08-27 17:15:45,2019-08-27 17:15:45,0.144s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2019-08-27 17:15:45,2019-08-27 17:15:45,0.000s,PASSED
+parseResponse = slurper.parseText(response.getResponseText()),,,,2019-08-27 17:15:45,2019-08-27 17:15:45,0.000s,PASSED
+println(parseResponse),,,,2019-08-27 17:15:45,2019-08-27 17:15:45,0.001s,PASSED
+attributes = evidenceCode,,,,2019-08-27 17:15:45,2019-08-27 17:15:45,0.000s,PASSED
+println(attributes),,,,2019-08-27 17:15:45,2019-08-27 17:15:45,0.001s,PASSED
+"expected = description == ""Butuh LSAR, ABR, BSM, RoC, RNA, Bukti Aset, F2F meeting""",,,,2019-08-27 17:15:45,2019-08-27 17:15:45,0.000s,PASSED
+"comment(""Verify evidence code is FE6 and have description ""Butuh LSAR, ABR, BSM, RoC, RNA, Bukti Aset, F2F meeting"""")",,,,2019-08-27 17:15:45,2019-08-27 17:15:45,0.002s,PASSED
+"verifyEqual(expected, true)",,,,2019-08-27 17:15:45,2019-08-27 17:15:45,0.002s,PASSED
+"comment(""Verify response status code"")",,,,2019-08-27 17:15:45,2019-08-27 17:15:45,0.002s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-27 17:15:45,2019-08-27 17:15:46,0.456s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-27 17:15:46,2019-08-27 17:15:46,0.001s,PASSED
+,,,,,,,
+Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/FE6/TC-1 USD FE6,,,,2019-08-27 17:15:46,2019-08-27 17:15:47,1.019s,PASSED
+random = new java.util.Random(),,,,2019-08-27 17:15:46,2019-08-27 17:15:46,0.000s,PASSED
+compareHighestValueFsaDeathVsAddccMin = 6250000,,,,2019-08-27 17:15:46,2019-08-27 17:15:46,0.000s,PASSED
+compareHighestValueFsaDeathVsAddcc = random.nextInt(MAX_VALUE - compareHighestValueFsaDeathVsAddccMin) + compareHighestValueFsaDeathVsAddccMin,,,,2019-08-27 17:15:46,2019-08-27 17:15:46,0.000s,PASSED
+println(compareHighestValueFsaDeathVsAddcc),,,,2019-08-27 17:15:46,2019-08-27 17:15:46,0.001s,PASSED
+"comment(""Send request"")",,,,2019-08-27 17:15:46,2019-08-27 17:15:46,0.513s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Object Request"", [""transactionType"":transactionType, ""role"":role, ""increasingFsaFlag"":increasingFsaFlag, ""pecFlag"":pecFlag, ""occupationCode"":occupationCode, ... ]))",,,,2019-08-27 17:15:46,2019-08-27 17:15:46,0.039s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2019-08-27 17:15:46,2019-08-27 17:15:46,0.000s,PASSED
+parseResponse = slurper.parseText(response.getResponseText()),,,,2019-08-27 17:15:46,2019-08-27 17:15:46,0.001s,PASSED
+println(parseResponse),,,,2019-08-27 17:15:46,2019-08-27 17:15:46,0.014s,PASSED
+attributes = evidenceCode,,,,2019-08-27 17:15:46,2019-08-27 17:15:46,0.000s,PASSED
+println(attributes),,,,2019-08-27 17:15:46,2019-08-27 17:15:46,0.001s,PASSED
+"expected = description == ""Butuh LSAR, ABR, BSM, RoC, RNA, Bukti Aset, F2F meeting""",,,,2019-08-27 17:15:46,2019-08-27 17:15:46,0.000s,PASSED
+"comment(""Verify evidence code is FE6 and have description ""Butuh LSAR, ABR, BSM, RoC, RNA, Bukti Aset, F2F meeting"""")",,,,2019-08-27 17:15:46,2019-08-27 17:15:47,0.433s,PASSED
+"verifyEqual(expected, true)",,,,2019-08-27 17:15:47,2019-08-27 17:15:47,0.002s,PASSED
+"comment(""Verify response status code"")",,,,2019-08-27 17:15:47,2019-08-27 17:15:47,0.002s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-27 17:15:47,2019-08-27 17:15:47,0.001s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-27 17:15:47,2019-08-27 17:15:47,0.001s,PASSED
+,,,,,,,
+Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/FE6/TC-1 USD FE6,,,,2019-08-27 17:15:47,2019-08-27 17:15:48,1.401s,PASSED
+random = new java.util.Random(),,,,2019-08-27 17:15:47,2019-08-27 17:15:47,0.001s,PASSED
+compareHighestValueFsaDeathVsAddccMin = 6250000,,,,2019-08-27 17:15:47,2019-08-27 17:15:47,0.000s,PASSED
+compareHighestValueFsaDeathVsAddcc = random.nextInt(MAX_VALUE - compareHighestValueFsaDeathVsAddccMin) + compareHighestValueFsaDeathVsAddccMin,,,,2019-08-27 17:15:47,2019-08-27 17:15:47,0.000s,PASSED
+println(compareHighestValueFsaDeathVsAddcc),,,,2019-08-27 17:15:47,2019-08-27 17:15:47,0.000s,PASSED
+"comment(""Send request"")",,,,2019-08-27 17:15:47,2019-08-27 17:15:47,0.002s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Object Request"", [""transactionType"":transactionType, ""role"":role, ""increasingFsaFlag"":increasingFsaFlag, ""pecFlag"":pecFlag, ""occupationCode"":occupationCode, ... ]))",,,,2019-08-27 17:15:47,2019-08-27 17:15:47,0.035s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2019-08-27 17:15:47,2019-08-27 17:15:47,0.000s,PASSED
+parseResponse = slurper.parseText(response.getResponseText()),,,,2019-08-27 17:15:47,2019-08-27 17:15:48,0.371s,PASSED
+println(parseResponse),,,,2019-08-27 17:15:48,2019-08-27 17:15:48,0.001s,PASSED
+attributes = evidenceCode,,,,2019-08-27 17:15:48,2019-08-27 17:15:48,0.000s,PASSED
+println(attributes),,,,2019-08-27 17:15:48,2019-08-27 17:15:48,0.001s,PASSED
+"expected = description == ""Butuh LSAR, ABR, BSM, RoC, RNA, Bukti Aset, F2F meeting""",,,,2019-08-27 17:15:48,2019-08-27 17:15:48,0.000s,PASSED
+"comment(""Verify evidence code is FE6 and have description ""Butuh LSAR, ABR, BSM, RoC, RNA, Bukti Aset, F2F meeting"""")",,,,2019-08-27 17:15:48,2019-08-27 17:15:48,0.002s,PASSED
+"verifyEqual(expected, true)",,,,2019-08-27 17:15:48,2019-08-27 17:15:48,0.001s,PASSED
+"comment(""Verify response status code"")",,,,2019-08-27 17:15:48,2019-08-27 17:15:48,0.001s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-27 17:15:48,2019-08-27 17:15:48,0.482s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-27 17:15:48,2019-08-27 17:15:48,0.000s,PASSED
+,,,,,,,
+Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/FE6/TC-1 USD FE6,,,,2019-08-27 17:15:48,2019-08-27 17:15:49,1.053s,PASSED
+random = new java.util.Random(),,,,2019-08-27 17:15:48,2019-08-27 17:15:48,0.000s,PASSED
+compareHighestValueFsaDeathVsAddccMin = 6250000,,,,2019-08-27 17:15:48,2019-08-27 17:15:48,0.000s,PASSED
+compareHighestValueFsaDeathVsAddcc = random.nextInt(MAX_VALUE - compareHighestValueFsaDeathVsAddccMin) + compareHighestValueFsaDeathVsAddccMin,,,,2019-08-27 17:15:48,2019-08-27 17:15:48,0.000s,PASSED
+println(compareHighestValueFsaDeathVsAddcc),,,,2019-08-27 17:15:48,2019-08-27 17:15:48,0.000s,PASSED
+"comment(""Send request"")",,,,2019-08-27 17:15:49,2019-08-27 17:15:49,0.009s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Object Request"", [""transactionType"":transactionType, ""role"":role, ""increasingFsaFlag"":increasingFsaFlag, ""pecFlag"":pecFlag, ""occupationCode"":occupationCode, ... ]))",,,,2019-08-27 17:15:49,2019-08-27 17:15:49,0.041s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2019-08-27 17:15:49,2019-08-27 17:15:49,0.000s,PASSED
+parseResponse = slurper.parseText(response.getResponseText()),,,,2019-08-27 17:15:49,2019-08-27 17:15:49,0.001s,PASSED
+println(parseResponse),,,,2019-08-27 17:15:49,2019-08-27 17:15:49,0.001s,PASSED
+attributes = evidenceCode,,,,2019-08-27 17:15:49,2019-08-27 17:15:49,0.001s,PASSED
+println(attributes),,,,2019-08-27 17:15:49,2019-08-27 17:15:49,0.000s,PASSED
+"expected = description == ""Butuh LSAR, ABR, BSM, RoC, RNA, Bukti Aset, F2F meeting""",,,,2019-08-27 17:15:49,2019-08-27 17:15:49,0.000s,PASSED
+"comment(""Verify evidence code is FE6 and have description ""Butuh LSAR, ABR, BSM, RoC, RNA, Bukti Aset, F2F meeting"""")",,,,2019-08-27 17:15:49,2019-08-27 17:15:49,0.003s,PASSED
+"verifyEqual(expected, true)",,,,2019-08-27 17:15:49,2019-08-27 17:15:49,0.002s,PASSED
+"comment(""Verify response status code"")",,,,2019-08-27 17:15:49,2019-08-27 17:15:49,0.002s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-27 17:15:49,2019-08-27 17:15:49,0.001s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-27 17:15:49,2019-08-27 17:15:49,0.001s,PASSED
+,,,,,,,
+Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/FE6/TC-1 USD FE6,,,,2019-08-27 17:15:49,2019-08-27 17:15:51,1.599s,PASSED
+random = new java.util.Random(),,,,2019-08-27 17:15:50,2019-08-27 17:15:50,0.001s,PASSED
+compareHighestValueFsaDeathVsAddccMin = 6250000,,,,2019-08-27 17:15:50,2019-08-27 17:15:50,0.000s,PASSED
+compareHighestValueFsaDeathVsAddcc = random.nextInt(MAX_VALUE - compareHighestValueFsaDeathVsAddccMin) + compareHighestValueFsaDeathVsAddccMin,,,,2019-08-27 17:15:50,2019-08-27 17:15:50,0.000s,PASSED
+println(compareHighestValueFsaDeathVsAddcc),,,,2019-08-27 17:15:50,2019-08-27 17:15:50,0.000s,PASSED
+"comment(""Send request"")",,,,2019-08-27 17:15:50,2019-08-27 17:15:50,0.002s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Object Request"", [""transactionType"":transactionType, ""role"":role, ""increasingFsaFlag"":increasingFsaFlag, ""pecFlag"":pecFlag, ""occupationCode"":occupationCode, ... ]))",,,,2019-08-27 17:15:50,2019-08-27 17:15:50,0.039s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2019-08-27 17:15:50,2019-08-27 17:15:50,0.000s,PASSED
+parseResponse = slurper.parseText(response.getResponseText()),,,,2019-08-27 17:15:50,2019-08-27 17:15:50,0.000s,PASSED
+println(parseResponse),,,,2019-08-27 17:15:50,2019-08-27 17:15:50,0.000s,PASSED
+attributes = evidenceCode,,,,2019-08-27 17:15:50,2019-08-27 17:15:50,0.001s,PASSED
+println(attributes),,,,2019-08-27 17:15:50,2019-08-27 17:15:50,0.000s,PASSED
+"expected = description == ""Butuh LSAR, ABR, BSM, RoC, RNA, Bukti Aset, F2F meeting""",,,,2019-08-27 17:15:50,2019-08-27 17:15:50,0.000s,PASSED
+"comment(""Verify evidence code is FE6 and have description ""Butuh LSAR, ABR, BSM, RoC, RNA, Bukti Aset, F2F meeting"""")",,,,2019-08-27 17:15:50,2019-08-27 17:15:50,0.002s,PASSED
+"verifyEqual(expected, true)",,,,2019-08-27 17:15:50,2019-08-27 17:15:50,0.002s,PASSED
+"comment(""Verify response status code"")",,,,2019-08-27 17:15:50,2019-08-27 17:15:50,0.002s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-27 17:15:51,2019-08-27 17:15:51,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-27 17:15:51,2019-08-27 17:15:51,0.000s,PASSED
+,,,,,,,
+Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/FE6/TC-1 USD FE6,,,,2019-08-27 17:15:51,2019-08-27 17:15:52,1.053s,PASSED
+random = new java.util.Random(),,,,2019-08-27 17:15:51,2019-08-27 17:15:51,0.000s,PASSED
+compareHighestValueFsaDeathVsAddccMin = 6250000,,,,2019-08-27 17:15:51,2019-08-27 17:15:51,0.001s,PASSED
+compareHighestValueFsaDeathVsAddcc = random.nextInt(MAX_VALUE - compareHighestValueFsaDeathVsAddccMin) + compareHighestValueFsaDeathVsAddccMin,,,,2019-08-27 17:15:51,2019-08-27 17:15:51,0.000s,PASSED
+println(compareHighestValueFsaDeathVsAddcc),,,,2019-08-27 17:15:51,2019-08-27 17:15:51,0.001s,PASSED
+"comment(""Send request"")",,,,2019-08-27 17:15:51,2019-08-27 17:15:51,0.002s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Object Request"", [""transactionType"":transactionType, ""role"":role, ""increasingFsaFlag"":increasingFsaFlag, ""pecFlag"":pecFlag, ""occupationCode"":occupationCode, ... ]))",,,,2019-08-27 17:15:51,2019-08-27 17:15:52,0.071s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2019-08-27 17:15:52,2019-08-27 17:15:52,0.001s,PASSED
+parseResponse = slurper.parseText(response.getResponseText()),,,,2019-08-27 17:15:52,2019-08-27 17:15:52,0.000s,PASSED
+println(parseResponse),,,,2019-08-27 17:15:52,2019-08-27 17:15:52,0.001s,PASSED
+attributes = evidenceCode,,,,2019-08-27 17:15:52,2019-08-27 17:15:52,0.000s,PASSED
+println(attributes),,,,2019-08-27 17:15:52,2019-08-27 17:15:52,0.001s,PASSED
+"expected = description == ""Butuh LSAR, ABR, BSM, RoC, RNA, Bukti Aset, F2F meeting""",,,,2019-08-27 17:15:52,2019-08-27 17:15:52,0.000s,PASSED
+"comment(""Verify evidence code is FE6 and have description ""Butuh LSAR, ABR, BSM, RoC, RNA, Bukti Aset, F2F meeting"""")",,,,2019-08-27 17:15:52,2019-08-27 17:15:52,0.003s,PASSED
+"verifyEqual(expected, true)",,,,2019-08-27 17:15:52,2019-08-27 17:15:52,0.002s,PASSED
+"comment(""Verify response status code"")",,,,2019-08-27 17:15:52,2019-08-27 17:15:52,0.002s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-27 17:15:52,2019-08-27 17:15:52,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-27 17:15:52,2019-08-27 17:15:52,0.001s,PASSED
+,,,,,,,
+Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/FE6/TC-1 USD FE6,,,,2019-08-27 17:15:52,2019-08-27 17:15:54,1.753s,PASSED
+random = new java.util.Random(),,,,2019-08-27 17:15:53,2019-08-27 17:15:53,0.000s,PASSED
+compareHighestValueFsaDeathVsAddccMin = 6250000,,,,2019-08-27 17:15:53,2019-08-27 17:15:53,0.000s,PASSED
+compareHighestValueFsaDeathVsAddcc = random.nextInt(MAX_VALUE - compareHighestValueFsaDeathVsAddccMin) + compareHighestValueFsaDeathVsAddccMin,,,,2019-08-27 17:15:53,2019-08-27 17:15:53,0.000s,PASSED
+println(compareHighestValueFsaDeathVsAddcc),,,,2019-08-27 17:15:53,2019-08-27 17:15:53,0.000s,PASSED
+"comment(""Send request"")",,,,2019-08-27 17:15:53,2019-08-27 17:15:53,0.003s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Object Request"", [""transactionType"":transactionType, ""role"":role, ""increasingFsaFlag"":increasingFsaFlag, ""pecFlag"":pecFlag, ""occupationCode"":occupationCode, ... ]))",,,,2019-08-27 17:15:53,2019-08-27 17:15:53,0.043s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2019-08-27 17:15:53,2019-08-27 17:15:53,0.447s,PASSED
+parseResponse = slurper.parseText(response.getResponseText()),,,,2019-08-27 17:15:53,2019-08-27 17:15:53,0.001s,PASSED
+println(parseResponse),,,,2019-08-27 17:15:53,2019-08-27 17:15:53,0.001s,PASSED
+attributes = evidenceCode,,,,2019-08-27 17:15:53,2019-08-27 17:15:53,0.000s,PASSED
+println(attributes),,,,2019-08-27 17:15:53,2019-08-27 17:15:53,0.001s,PASSED
+"expected = description == ""Butuh LSAR, ABR, BSM, RoC, RNA, Bukti Aset, F2F meeting""",,,,2019-08-27 17:15:53,2019-08-27 17:15:53,0.000s,PASSED
+"comment(""Verify evidence code is FE6 and have description ""Butuh LSAR, ABR, BSM, RoC, RNA, Bukti Aset, F2F meeting"""")",,,,2019-08-27 17:15:53,2019-08-27 17:15:53,0.003s,PASSED
+"verifyEqual(expected, true)",,,,2019-08-27 17:15:53,2019-08-27 17:15:53,0.003s,PASSED
+"comment(""Verify response status code"")",,,,2019-08-27 17:15:53,2019-08-27 17:15:54,0.568s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-27 17:15:54,2019-08-27 17:15:54,0.001s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-27 17:15:54,2019-08-27 17:15:54,0.000s,PASSED
+,,,,,,,
+Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/FE6/TC-1 USD FE6,,,,2019-08-27 17:15:54,2019-08-27 17:15:55,1.007s,PASSED
+random = new java.util.Random(),,,,2019-08-27 17:15:54,2019-08-27 17:15:54,0.000s,PASSED
+compareHighestValueFsaDeathVsAddccMin = 6250000,,,,2019-08-27 17:15:54,2019-08-27 17:15:54,0.000s,PASSED
+compareHighestValueFsaDeathVsAddcc = random.nextInt(MAX_VALUE - compareHighestValueFsaDeathVsAddccMin) + compareHighestValueFsaDeathVsAddccMin,,,,2019-08-27 17:15:54,2019-08-27 17:15:54,0.000s,PASSED
+println(compareHighestValueFsaDeathVsAddcc),,,,2019-08-27 17:15:54,2019-08-27 17:15:54,0.442s,PASSED
+"comment(""Send request"")",,,,2019-08-27 17:15:54,2019-08-27 17:15:54,0.002s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Object Request"", [""transactionType"":transactionType, ""role"":role, ""increasingFsaFlag"":increasingFsaFlag, ""pecFlag"":pecFlag, ""occupationCode"":occupationCode, ... ]))",,,,2019-08-27 17:15:54,2019-08-27 17:15:54,0.034s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2019-08-27 17:15:54,2019-08-27 17:15:54,0.000s,PASSED
+parseResponse = slurper.parseText(response.getResponseText()),,,,2019-08-27 17:15:54,2019-08-27 17:15:54,0.001s,PASSED
+println(parseResponse),,,,2019-08-27 17:15:54,2019-08-27 17:15:54,0.000s,PASSED
+attributes = evidenceCode,,,,2019-08-27 17:15:54,2019-08-27 17:15:54,0.001s,PASSED
+println(attributes),,,,2019-08-27 17:15:54,2019-08-27 17:15:54,0.000s,PASSED
+"expected = description == ""Butuh LSAR, ABR, BSM, RoC, RNA, Bukti Aset, F2F meeting""",,,,2019-08-27 17:15:55,2019-08-27 17:15:55,0.001s,PASSED
+"comment(""Verify evidence code is FE6 and have description ""Butuh LSAR, ABR, BSM, RoC, RNA, Bukti Aset, F2F meeting"""")",,,,2019-08-27 17:15:55,2019-08-27 17:15:55,0.002s,PASSED
+"verifyEqual(expected, true)",,,,2019-08-27 17:15:55,2019-08-27 17:15:55,0.003s,PASSED
+"comment(""Verify response status code"")",,,,2019-08-27 17:15:55,2019-08-27 17:15:55,0.002s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-27 17:15:55,2019-08-27 17:15:55,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-27 17:15:55,2019-08-27 17:15:55,0.000s,PASSED
+,,,,,,,
+Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/FE6/TC-1 USD FE6,,,,2019-08-27 17:15:55,2019-08-27 17:15:56,1.493s,PASSED
+random = new java.util.Random(),,,,2019-08-27 17:15:55,2019-08-27 17:15:55,0.000s,PASSED
+compareHighestValueFsaDeathVsAddccMin = 6250000,,,,2019-08-27 17:15:55,2019-08-27 17:15:55,0.000s,PASSED
+compareHighestValueFsaDeathVsAddcc = random.nextInt(MAX_VALUE - compareHighestValueFsaDeathVsAddccMin) + compareHighestValueFsaDeathVsAddccMin,,,,2019-08-27 17:15:55,2019-08-27 17:15:55,0.001s,PASSED
+println(compareHighestValueFsaDeathVsAddcc),,,,2019-08-27 17:15:55,2019-08-27 17:15:55,0.000s,PASSED
+"comment(""Send request"")",,,,2019-08-27 17:15:55,2019-08-27 17:15:55,0.002s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Object Request"", [""transactionType"":transactionType, ""role"":role, ""increasingFsaFlag"":increasingFsaFlag, ""pecFlag"":pecFlag, ""occupationCode"":occupationCode, ... ]))",,,,2019-08-27 17:15:55,2019-08-27 17:15:56,0.544s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2019-08-27 17:15:56,2019-08-27 17:15:56,0.000s,PASSED
+parseResponse = slurper.parseText(response.getResponseText()),,,,2019-08-27 17:15:56,2019-08-27 17:15:56,0.001s,PASSED
+println(parseResponse),,,,2019-08-27 17:15:56,2019-08-27 17:15:56,0.001s,PASSED
+attributes = evidenceCode,,,,2019-08-27 17:15:56,2019-08-27 17:15:56,0.000s,PASSED
+println(attributes),,,,2019-08-27 17:15:56,2019-08-27 17:15:56,0.001s,PASSED
+"expected = description == ""Butuh LSAR, ABR, BSM, RoC, RNA, Bukti Aset, F2F meeting""",,,,2019-08-27 17:15:56,2019-08-27 17:15:56,0.000s,PASSED
+"comment(""Verify evidence code is FE6 and have description ""Butuh LSAR, ABR, BSM, RoC, RNA, Bukti Aset, F2F meeting"""")",,,,2019-08-27 17:15:56,2019-08-27 17:15:56,0.003s,PASSED
+"verifyEqual(expected, true)",,,,2019-08-27 17:15:56,2019-08-27 17:15:56,0.002s,PASSED
+"comment(""Verify response status code"")",,,,2019-08-27 17:15:56,2019-08-27 17:15:56,0.002s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-27 17:15:56,2019-08-27 17:15:56,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-27 17:15:56,2019-08-27 17:15:56,0.000s,PASSED
+,,,,,,,
+Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/FE6/TC-1 USD FE6,,,,2019-08-27 17:15:56,2019-08-27 17:15:57,1.134s,PASSED
+random = new java.util.Random(),,,,2019-08-27 17:15:56,2019-08-27 17:15:56,0.001s,PASSED
+compareHighestValueFsaDeathVsAddccMin = 6250000,,,,2019-08-27 17:15:56,2019-08-27 17:15:56,0.000s,PASSED
+compareHighestValueFsaDeathVsAddcc = random.nextInt(MAX_VALUE - compareHighestValueFsaDeathVsAddccMin) + compareHighestValueFsaDeathVsAddccMin,,,,2019-08-27 17:15:56,2019-08-27 17:15:57,0.512s,PASSED
+println(compareHighestValueFsaDeathVsAddcc),,,,2019-08-27 17:15:57,2019-08-27 17:15:57,0.000s,PASSED
+"comment(""Send request"")",,,,2019-08-27 17:15:57,2019-08-27 17:15:57,0.001s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Object Request"", [""transactionType"":transactionType, ""role"":role, ""increasingFsaFlag"":increasingFsaFlag, ""pecFlag"":pecFlag, ""occupationCode"":occupationCode, ... ]))",,,,2019-08-27 17:15:57,2019-08-27 17:15:57,0.029s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2019-08-27 17:15:57,2019-08-27 17:15:57,0.000s,PASSED
+parseResponse = slurper.parseText(response.getResponseText()),,,,2019-08-27 17:15:57,2019-08-27 17:15:57,0.001s,PASSED
+println(parseResponse),,,,2019-08-27 17:15:57,2019-08-27 17:15:57,0.001s,PASSED
+attributes = evidenceCode,,,,2019-08-27 17:15:57,2019-08-27 17:15:57,0.000s,PASSED
+println(attributes),,,,2019-08-27 17:15:57,2019-08-27 17:15:57,0.565s,PASSED
+"expected = description == ""Butuh LSAR, ABR, BSM, RoC, RNA, Bukti Aset, F2F meeting""",,,,2019-08-27 17:15:57,2019-08-27 17:15:57,0.000s,PASSED
+"comment(""Verify evidence code is FE6 and have description ""Butuh LSAR, ABR, BSM, RoC, RNA, Bukti Aset, F2F meeting"""")",,,,2019-08-27 17:15:57,2019-08-27 17:15:57,0.002s,PASSED
+"verifyEqual(expected, true)",,,,2019-08-27 17:15:57,2019-08-27 17:15:57,0.003s,PASSED
+"comment(""Verify response status code"")",,,,2019-08-27 17:15:57,2019-08-27 17:15:57,0.003s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-27 17:15:57,2019-08-27 17:15:57,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-27 17:15:57,2019-08-27 17:15:57,0.000s,PASSED
+,,,,,,,
+Test Cases/AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/FE6/TC-1 USD FE6,,,,2019-08-27 17:15:57,2019-08-27 17:15:59,1.488s,PASSED
+random = new java.util.Random(),,,,2019-08-27 17:15:58,2019-08-27 17:15:58,0.000s,PASSED
+compareHighestValueFsaDeathVsAddccMin = 6250000,,,,2019-08-27 17:15:58,2019-08-27 17:15:58,0.000s,PASSED
+compareHighestValueFsaDeathVsAddcc = random.nextInt(MAX_VALUE - compareHighestValueFsaDeathVsAddccMin) + compareHighestValueFsaDeathVsAddccMin,,,,2019-08-27 17:15:58,2019-08-27 17:15:58,0.000s,PASSED
+println(compareHighestValueFsaDeathVsAddcc),,,,2019-08-27 17:15:58,2019-08-27 17:15:58,0.000s,PASSED
+"comment(""Send request"")",,,,2019-08-27 17:15:58,2019-08-27 17:15:58,0.002s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/Financial Non Employee/Non Ultimate/Object Request"", [""transactionType"":transactionType, ""role"":role, ""increasingFsaFlag"":increasingFsaFlag, ""pecFlag"":pecFlag, ""occupationCode"":occupationCode, ... ]))",,,,2019-08-27 17:15:58,2019-08-27 17:15:58,0.528s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2019-08-27 17:15:58,2019-08-27 17:15:58,0.000s,PASSED
+parseResponse = slurper.parseText(response.getResponseText()),,,,2019-08-27 17:15:58,2019-08-27 17:15:58,0.000s,PASSED
+println(parseResponse),,,,2019-08-27 17:15:58,2019-08-27 17:15:58,0.001s,PASSED
+attributes = evidenceCode,,,,2019-08-27 17:15:58,2019-08-27 17:15:58,0.000s,PASSED
+println(attributes),,,,2019-08-27 17:15:58,2019-08-27 17:15:58,0.001s,PASSED
+"expected = description == ""Butuh LSAR, ABR, BSM, RoC, RNA, Bukti Aset, F2F meeting""",,,,2019-08-27 17:15:58,2019-08-27 17:15:58,0.000s,PASSED
+"comment(""Verify evidence code is FE6 and have description ""Butuh LSAR, ABR, BSM, RoC, RNA, Bukti Aset, F2F meeting"""")",,,,2019-08-27 17:15:58,2019-08-27 17:15:58,0.001s,PASSED
+"verifyEqual(expected, true)",,,,2019-08-27 17:15:58,2019-08-27 17:15:59,0.481s,PASSED
+"comment(""Verify response status code"")",,,,2019-08-27 17:15:59,2019-08-27 17:15:59,0.002s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-27 17:15:59,2019-08-27 17:15:59,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-27 17:15:59,2019-08-27 17:15:59,0.000s,PASSED

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Increase MSA Flag_PositiveTC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>87ab8dc6-bdff-4b46-ad6e-45e526c38064</testCaseGuid>
+   <variable>
+      <defaultValue>'Y'</defaultValue>
+      <description></description>
+      <id>345ede71-3293-42f1-afac-966a1488d6bf</id>
+      <masked>false</masked>
+      <name>increasingMsaDeath</name>
+   </variable>
+   <variable>
+      <defaultValue>'Y'</defaultValue>
+      <description></description>
+      <id>1779c1a7-cba6-40ee-95fc-00ac7d4fbd4f</id>
+      <masked>false</masked>
+      <name>increasingMsaAddcc</name>
+   </variable>
+</TestCaseEntity>

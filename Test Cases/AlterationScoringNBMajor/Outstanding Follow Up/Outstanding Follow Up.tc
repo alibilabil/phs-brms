@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Outstanding Follow Up</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>179c7883-a9cd-4e2e-9ada-43c53b1fb970</testCaseGuid>
+   <variable>
+      <defaultValue>'Major'</defaultValue>
+      <description></description>
+      <id>3c850ae6-7f44-4172-a818-a6e4fed5b8f1</id>
+      <masked>false</masked>
+      <name>transactionType</name>
+   </variable>
+   <variable>
+      <defaultValue>'VBA'</defaultValue>
+      <description></description>
+      <id>dec2c64c-e243-40f4-ae3d-9aedfef9ea89</id>
+      <masked>false</masked>
+      <name>followUpCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'N'</defaultValue>
+      <description></description>
+      <id>648bc4ff-298f-4751-aad7-fa8f492b18fb</id>
+      <masked>false</masked>
+      <name>status</name>
+   </variable>
+   <variable>
+      <defaultValue>'OFU'</defaultValue>
+      <description></description>
+      <id>0733dc2f-c2a5-4f7f-b1cd-cbca9cc79300</id>
+      <masked>false</masked>
+      <name>expectedEvidenceCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Outstanding Follow up karena ada informasi dari PSV'</defaultValue>
+      <description></description>
+      <id>af2e9275-6abd-4880-b94d-03bd20f2904d</id>
+      <masked>false</masked>
+      <name>expectedDescription</name>
+   </variable>
+</TestCaseEntity>

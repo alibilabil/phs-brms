@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC4- NML PPH Standard</name>
+   <tag></tag>
+   <comment>Verify response status code</comment>
+   <testCaseGuid>df98ad83-df9b-41d8-97eb-1ae2b7e99ad6</testCaseGuid>
+   <variable>
+      <defaultValue>'Major'</defaultValue>
+      <description></description>
+      <id>8cdac30a-5fc8-46d0-92d3-fae82ecf838e</id>
+      <masked>false</masked>
+      <name>transactionType</name>
+   </variable>
+   <variable>
+      <defaultValue>'4'</defaultValue>
+      <description></description>
+      <id>f31eee08-18bb-4a60-83b2-4030773b277c</id>
+      <masked>false</masked>
+      <name>nmlFlag</name>
+   </variable>
+   <variable>
+      <defaultValue>'IDR'</defaultValue>
+      <description></description>
+      <id>9e08775a-d0bf-4ce0-b20a-2dec2368f7db</id>
+      <masked>false</masked>
+      <name>currency</name>
+   </variable>
+   <variable>
+      <defaultValue>'8000000'</defaultValue>
+      <description></description>
+      <id>5c18ce82-abc4-4038-b07e-67233304a1fa</id>
+      <masked>false</masked>
+      <name>sumAssuredMedicalLimit</name>
+   </variable>
+</TestCaseEntity>

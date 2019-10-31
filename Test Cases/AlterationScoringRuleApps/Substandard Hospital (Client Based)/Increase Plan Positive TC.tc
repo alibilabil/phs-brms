@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Increase Plan Positive TC</name>
+   <tag></tag>
+   <comment>Verify evidence code is ENS
+Verify Response Status Code is 200</comment>
+   <testCaseGuid>707e28eb-18d3-47b1-b732-356cb85efa16</testCaseGuid>
+   <variable>
+      <defaultValue>'Major'</defaultValue>
+      <description></description>
+      <id>b18e9b9f-3e1d-4d6e-85a4-b5d5ff327428</id>
+      <masked>false</masked>
+      <name>transactionType</name>
+   </variable>
+   <variable>
+      <defaultValue>'LA1'</defaultValue>
+      <description></description>
+      <id>cb577ac9-80c4-4afe-9a5e-a314249af0a0</id>
+      <masked>false</masked>
+      <name>role</name>
+   </variable>
+   <variable>
+      <defaultValue>'H1G1'</defaultValue>
+      <description></description>
+      <id>4ecfa26c-d374-47d1-9139-4253cb451c72</id>
+      <masked>false</masked>
+      <name>riderCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Increase Plan'</defaultValue>
+      <description></description>
+      <id>e42a388d-58ea-4fa7-9d28-11376169011d</id>
+      <masked>false</masked>
+      <name>subAlterPlan</name>
+   </variable>
+   <variable>
+      <defaultValue>'Y'</defaultValue>
+      <description></description>
+      <id>df996fc5-e881-4b19-a895-0411450c8bb6</id>
+      <masked>false</masked>
+      <name>substandardHospitalFlag</name>
+   </variable>
+</TestCaseEntity>

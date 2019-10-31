@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-1 Delete Rider</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cc74edbb-9097-496d-9ae6-10561d5b604b</testCaseGuid>
+   <variable>
+      <defaultValue>'Major'</defaultValue>
+      <description></description>
+      <id>90fac6e6-23fd-4d66-a849-40b1fd99966e</id>
+      <masked>false</masked>
+      <name>transactionType</name>
+   </variable>
+   <variable>
+      <defaultValue>'DeleteRider'</defaultValue>
+      <description></description>
+      <id>3116f902-90e1-44c1-b2c9-b65964a11a95</id>
+      <masked>false</masked>
+      <name>subAlter</name>
+   </variable>
+   <variable>
+      <defaultValue>'ERD'</defaultValue>
+      <description></description>
+      <id>5e019177-456a-4f63-9a7f-35c1534ace3d</id>
+      <masked>false</masked>
+      <name>eviCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'C106'</defaultValue>
+      <description></description>
+      <id>b55eb5eb-cb64-48b1-ae25-2f9814cb1ada</id>
+      <masked>false</masked>
+      <name>riderCode</name>
+   </variable>
+</TestCaseEntity>

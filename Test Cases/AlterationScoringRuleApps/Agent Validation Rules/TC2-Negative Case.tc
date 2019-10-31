@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC2-Negative Case</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e5e3ca25-5182-4998-aa04-27b51784d152</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Alteration Scoring/Agent Validation Rules/Agent Validation Rules Negative').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>880f9863-50bf-4646-80d7-9b40a241e57e</id>
+      <masked>false</masked>
+      <name>transactionType</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Alteration Scoring/Agent Validation Rules/Agent Validation Rules Negative').getValue(4, 1)</defaultValue>
+      <description></description>
+      <id>4d1af7ac-b4cf-45e4-8ae9-7a14c4d65880</id>
+      <masked>false</masked>
+      <name>subAlter</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Alteration Scoring/Agent Validation Rules/Agent Validation Rules Negative').getValue(5, 1)</defaultValue>
+      <description></description>
+      <id>9bcbc57f-a24c-4c00-b3ff-c530ba653938</id>
+      <masked>false</masked>
+      <name>riderCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Alteration Scoring/Agent Validation Rules/Agent Validation Rules Negative').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>d4f0fef4-1f7d-4216-85b5-15185c6bec3b</id>
+      <masked>false</masked>
+      <name>flag</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Alteration Scoring/Agent Validation Rules/Agent Validation Rules Negative').getValue(3, 1)</defaultValue>
+      <description></description>
+      <id>edee02b1-d28d-49d6-bcb8-2e46476a20e2</id>
+      <masked>false</masked>
+      <name>riskClass</name>
+   </variable>
+</TestCaseEntity>

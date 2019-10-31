@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Accept With Evidence Code</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0c40a32d-47d2-49a4-997b-4530965a877f</testCaseGuid>
+   <variable>
+      <defaultValue>'Major'</defaultValue>
+      <description></description>
+      <id>5f3df445-65b6-441a-ba77-cab4a7de9dcf</id>
+      <masked>false</masked>
+      <name>transactionType</name>
+   </variable>
+   <variable>
+      <defaultValue>'U11'</defaultValue>
+      <description></description>
+      <id>51834a68-8516-42c4-868a-ccd1c8fd7509</id>
+      <masked>false</masked>
+      <name>productCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Increasing Risk'</defaultValue>
+      <description></description>
+      <id>a933296d-9c5d-42d3-8991-29952f58e9ce</id>
+      <masked>false</masked>
+      <name>alterType</name>
+   </variable>
+   <variable>
+      <defaultValue>'ACCEPT'</defaultValue>
+      <description></description>
+      <id>d14c495c-089f-49c4-91f7-b52ac1433b0b</id>
+      <masked>false</masked>
+      <name>magnumDecision</name>
+   </variable>
+   <variable>
+      <defaultValue>'Exists'</defaultValue>
+      <description></description>
+      <id>3a709f96-ef81-4790-b162-a59d2af39262</id>
+      <masked>false</masked>
+      <name>code</name>
+   </variable>
+</TestCaseEntity>

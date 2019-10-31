@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-6 AddAndDeleteRider</name>
+   <tag></tag>
+   <comment>Verify NML Flags value is equal 6
+Verify Response Status Code is 200</comment>
+   <testCaseGuid>211fb2b1-df16-4a8e-89df-00b9915def4c</testCaseGuid>
+   <variable>
+      <defaultValue>'Major'</defaultValue>
+      <description></description>
+      <id>f63ac733-5192-4154-9ec9-23ff5cdfa53e</id>
+      <masked>false</masked>
+      <name>transactionType</name>
+   </variable>
+   <variable>
+      <defaultValue>'AddRider'</defaultValue>
+      <description></description>
+      <id>62baa62a-cc7f-43e6-bc56-a73eeeb2c291</id>
+      <masked>false</masked>
+      <name>subAlter</name>
+   </variable>
+   <variable>
+      <defaultValue>'C1WD'</defaultValue>
+      <description></description>
+      <id>4e4fc20f-6190-4932-9f79-9a4a6ecda6a2</id>
+      <masked>false</masked>
+      <name>riderCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'IRD'</defaultValue>
+      <description></description>
+      <id>ffbb3e59-ac89-485e-bbbf-12da9ba12d67</id>
+      <masked>false</masked>
+      <name>eviCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'DeleteRider'</defaultValue>
+      <description></description>
+      <id>052bb217-ab62-4c04-834f-e122bc7eef8b</id>
+      <masked>false</masked>
+      <name>subAlter1</name>
+   </variable>
+   <variable>
+      <defaultValue>'C1LD'</defaultValue>
+      <description></description>
+      <id>637dc48d-1a29-4150-9f57-40599c4deeba</id>
+      <masked>false</masked>
+      <name>riderCode1</name>
+   </variable>
+   <variable>
+      <defaultValue>'ERD'</defaultValue>
+      <description></description>
+      <id>2ad3b023-8df7-4d49-8a1d-1275039642ed</id>
+      <masked>false</masked>
+      <name>eviCode1</name>
+   </variable>
+   <variable>
+      <defaultValue>'16'</defaultValue>
+      <description></description>
+      <id>86873123-25c9-4d80-87ff-e7065baee072</id>
+      <masked>false</masked>
+      <name>ageNextBirthday</name>
+   </variable>
+   <variable>
+      <defaultValue>'300000000'</defaultValue>
+      <description></description>
+      <id>4e9f6c5d-5fd8-46b7-92ed-edd991f46909</id>
+      <masked>false</masked>
+      <name>saIncrementccb</name>
+   </variable>
+</TestCaseEntity>

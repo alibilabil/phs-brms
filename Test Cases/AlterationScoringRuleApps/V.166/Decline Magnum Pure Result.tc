@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Decline Magnum Pure Result</name>
+   <tag></tag>
+   <comment>Verify evidence code is MDD
+Verify Response Status Code is 200</comment>
+   <testCaseGuid>8b670b64-1d93-4654-b2ad-ed68ed1bcab9</testCaseGuid>
+   <variable>
+      <defaultValue>'Major'</defaultValue>
+      <description></description>
+      <id>5e275df8-a025-4788-bb62-01960174586a</id>
+      <masked>false</masked>
+      <name>transactionType</name>
+   </variable>
+   <variable>
+      <defaultValue>'U11'</defaultValue>
+      <description></description>
+      <id>3a5d5120-8743-49dc-bd32-d3be2acf9b90</id>
+      <masked>false</masked>
+      <name>productCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Increasing Risk'</defaultValue>
+      <description></description>
+      <id>e0adfc51-bf4f-4f02-935c-1b5782671553</id>
+      <masked>false</masked>
+      <name>alterType</name>
+   </variable>
+   <variable>
+      <defaultValue>'DECLINE'</defaultValue>
+      <description></description>
+      <id>2fe2a3ef-23d7-4cc0-8de1-347f0599ef27</id>
+      <masked>false</masked>
+      <name>magnumDecision</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>06623824-3834-4c31-872b-86b20111701e</id>
+      <masked>false</masked>
+      <name>code</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add Rider Positive TC</name>
+   <tag></tag>
+   <comment>Verify evidence code is ENS
+Verify Response Status Code is 200</comment>
+   <testCaseGuid>f4fbec73-fa81-418b-842c-2d14f3ba5b12</testCaseGuid>
+   <variable>
+      <defaultValue>'Major'</defaultValue>
+      <description></description>
+      <id>da998206-e5c9-4585-a09e-5b276c40d155</id>
+      <masked>false</masked>
+      <name>transactionType</name>
+   </variable>
+   <variable>
+      <defaultValue>'LA1'</defaultValue>
+      <description></description>
+      <id>c063b8c0-ff49-45c0-bdef-94d9bcf29b62</id>
+      <masked>false</masked>
+      <name>role</name>
+   </variable>
+   <variable>
+      <defaultValue>'AddRider'</defaultValue>
+      <description></description>
+      <id>5f2dabf5-d066-4a48-867d-0deca669ba7d</id>
+      <masked>false</masked>
+      <name>subAlter</name>
+   </variable>
+   <variable>
+      <defaultValue>'H1G1'</defaultValue>
+      <description></description>
+      <id>bd1a8179-2dc5-4ade-9c65-9c42549a8c4e</id>
+      <masked>false</masked>
+      <name>riderCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Y'</defaultValue>
+      <description></description>
+      <id>7c14da51-8138-4287-895a-7833053bb9b4</id>
+      <masked>false</masked>
+      <name>substandardHospitalFlag</name>
+   </variable>
+</TestCaseEntity>

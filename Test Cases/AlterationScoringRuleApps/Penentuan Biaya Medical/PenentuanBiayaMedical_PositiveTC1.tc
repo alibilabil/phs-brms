@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PenentuanBiayaMedical_PositiveTC1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>129bbdc3-2616-41a3-97bb-9e0e572f43fe</testCaseGuid>
+   <variable>
+      <defaultValue>'Major'</defaultValue>
+      <description></description>
+      <id>3ac8c004-63d4-4b89-b9b1-e181837e0612</id>
+      <masked>false</masked>
+      <name>transactionType</name>
+   </variable>
+   <variable>
+      <defaultValue>'IF'</defaultValue>
+      <description></description>
+      <id>a1738a76-196d-4c58-93db-d22374d70eee</id>
+      <masked>false</masked>
+      <name>policyStatus</name>
+   </variable>
+   <variable>
+      <defaultValue>'IncreaseTotalPremium'</defaultValue>
+      <description></description>
+      <id>de3fb7d8-ef63-4efa-8580-dba4b6eda47b</id>
+      <masked>false</masked>
+      <name>subAlter</name>
+   </variable>
+   <variable>
+      <defaultValue>'IPR'</defaultValue>
+      <description></description>
+      <id>8e027e47-44d5-4e8f-b80f-069f45a6bfcc</id>
+      <masked>false</masked>
+      <name>eviCode</name>
+   </variable>
+</TestCaseEntity>

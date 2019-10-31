@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+AML Rules,,,2019-10-16 14:41:52,2019-10-16 14:42:00,8.144s,ERROR
+,,,,,,
+Test Cases/AlterationScoringRuleApps/AML Rules/Payor Name Rules,,,2019-10-16 14:41:53,2019-10-16 14:42:00,7.198s,ERROR
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/AML Rules/Payor Name Rules/Object Request"", [""transactionType"":transactionType, ""role"":role, ""flagChangePayor"":flagChangePayor, ""paymentMethod"":paymentMethod]))",,,2019-10-16 14:41:54,2019-10-16 14:42:00,5.569s,PASSED
+if (response.getStatusCode() == 500),,,2019-10-16 14:42:00,2019-10-16 14:42:00,0.015s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,2019-10-16 14:42:00,2019-10-16 14:42:00,0.022s,PASSED
+parsingResponse = slurper.parseText(response.getResponseText()),,,2019-10-16 14:42:00,2019-10-16 14:42:00,0.027s,ERROR

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Maximum Additional CC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>380ca9c4-4e78-4570-91b2-216207a72533</testCaseGuid>
+   <variable>
+      <defaultValue>'Major'</defaultValue>
+      <description></description>
+      <id>9a05acb9-96a1-4154-9156-b06a59eb9966</id>
+      <masked>false</masked>
+      <name>transactionType</name>
+   </variable>
+   <variable>
+      <defaultValue>'Increasing Risk'</defaultValue>
+      <description></description>
+      <id>57ed5e8c-9765-4510-b4eb-f5d02bb1978f</id>
+      <masked>false</masked>
+      <name>alterType</name>
+   </variable>
+   <variable>
+      <defaultValue>'LA1'</defaultValue>
+      <description></description>
+      <id>07d56838-c7af-4ca3-85bd-df299f3ec4fc</id>
+      <masked>false</masked>
+      <name>role</name>
+   </variable>
+   <variable>
+      <defaultValue>'HSWF'</defaultValue>
+      <description></description>
+      <id>da143daa-8870-420b-8f3c-689452bf7a37</id>
+      <masked>false</masked>
+      <name>occupationCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'N'</defaultValue>
+      <description></description>
+      <id>4960d39f-c9bb-4e42-92b7-92dd87c44de4</id>
+      <masked>false</masked>
+      <name>fsaAddCCLimit</name>
+   </variable>
+   <variable>
+      <defaultValue>'false'</defaultValue>
+      <description></description>
+      <id>6b57582c-3f49-4b7f-8bd7-cbf361e0ee2b</id>
+      <masked>false</masked>
+      <name>expectedMaximumAdditionalcc</name>
+   </variable>
+   <variable>
+      <defaultValue>'MAC'</defaultValue>
+      <description></description>
+      <id>cb374d6d-fa96-4673-867a-6869e5ff4334</id>
+      <masked>false</masked>
+      <name>expectedEvidenceCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Policy Limit - Maximum Additional CC'</defaultValue>
+      <description></description>
+      <id>52b57bae-ba28-4877-8a1a-5a216c126a7f</id>
+      <masked>false</masked>
+      <name>expectedDescription</name>
+   </variable>
+</TestCaseEntity>

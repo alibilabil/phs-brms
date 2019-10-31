@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PositiveCase</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e8492b33-aaef-4f06-8d6f-57ad0459c36b</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Alteration Scoring/AgentLicenseForPPHandPPHPluss/AgentLicenseForPPHandPPHPlusPositive').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>80cc299e-238a-41f9-82ae-15a0ed97300b</id>
+      <masked>false</masked>
+      <name>transactionType</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Alteration Scoring/AgentLicenseForPPHandPPHPluss/AgentLicenseForPPHandPPHPlusPositive').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>8c30b0a1-bdc2-4068-a92c-e2d225dee1c0</id>
+      <masked>false</masked>
+      <name>subAlter</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Alteration Scoring/AgentLicenseForPPHandPPHPluss/AgentLicenseForPPHandPPHPlusPositive').getValue(3, 1)</defaultValue>
+      <description></description>
+      <id>1f0aae6f-25aa-4f54-82e5-ed9aa5337286</id>
+      <masked>false</masked>
+      <name>riderCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Alteration Scoring/AgentLicenseForPPHandPPHPluss/AgentLicenseForPPHandPPHPlusPositive').getValue(4, 1)</defaultValue>
+      <description></description>
+      <id>f264beaf-435e-4ee5-98d9-13448551e4de</id>
+      <masked>false</masked>
+      <name>agentLicensepph</name>
+   </variable>
+</TestCaseEntity>

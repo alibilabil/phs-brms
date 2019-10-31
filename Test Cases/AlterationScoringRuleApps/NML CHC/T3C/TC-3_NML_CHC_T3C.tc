@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-3_NML_CHC_T3C</name>
+   <tag></tag>
+   <comment>Verify Response Status code is 200</comment>
+   <testCaseGuid>d4dfefec-7b67-40db-9f84-81b0098a3bbc</testCaseGuid>
+   <variable>
+      <defaultValue>'Major'</defaultValue>
+      <description></description>
+      <id>39bc11e9-b04e-4e42-b9b3-0df21aa3a6ca</id>
+      <masked>false</masked>
+      <name>transactionType</name>
+   </variable>
+   <variable>
+      <defaultValue>'5'</defaultValue>
+      <description></description>
+      <id>03f94d02-ce9c-4c03-ba57-4de78ea7304b</id>
+      <masked>false</masked>
+      <name>nmlFlag</name>
+   </variable>
+   <variable>
+      <defaultValue>'IDR'</defaultValue>
+      <description></description>
+      <id>f14d1391-4eea-4df6-afc8-6cf377274674</id>
+      <masked>false</masked>
+      <name>currency</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ResidentialRules_PositiveTC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a3128d9a-4e02-4223-8f71-a6ec453cfa0d</testCaseGuid>
+   <variable>
+      <defaultValue>'Major'</defaultValue>
+      <description></description>
+      <id>086b8c96-b745-43d7-8cfd-566cb7f9e392</id>
+      <masked>false</masked>
+      <name>transactionType</name>
+   </variable>
+   <variable>
+      <defaultValue>'LA1'</defaultValue>
+      <description></description>
+      <id>bf089749-0758-4dab-a237-8d49fb069fa6</id>
+      <masked>false</masked>
+      <name>role</name>
+   </variable>
+   <variable>
+      <defaultValue>'AddRider'</defaultValue>
+      <description></description>
+      <id>ac410f20-b1ff-4271-9585-e753912f3256</id>
+      <masked>false</masked>
+      <name>subAlter</name>
+   </variable>
+   <variable>
+      <defaultValue>'Increase Plan'</defaultValue>
+      <description></description>
+      <id>603df354-e304-483b-ad6c-07687b8d8aed</id>
+      <masked>false</masked>
+      <name>subAlterPlan</name>
+   </variable>
+   <variable>
+      <defaultValue>'H1GD'</defaultValue>
+      <description></description>
+      <id>eeb019fa-8932-45ce-89a9-cc219ce4edb5</id>
+      <masked>false</masked>
+      <name>riderCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'LAMPUNG'</defaultValue>
+      <description></description>
+      <id>99158ecf-ae4b-4593-a0ec-2028ffd4eb69</id>
+      <masked>false</masked>
+      <name>province</name>
+   </variable>
+   <variable>
+      <defaultValue>'N'</defaultValue>
+      <description></description>
+      <id>9fbf1564-a14a-4143-9e7b-00246b486275</id>
+      <masked>false</masked>
+      <name>flagEhsOrEsl</name>
+   </variable>
+</TestCaseEntity>

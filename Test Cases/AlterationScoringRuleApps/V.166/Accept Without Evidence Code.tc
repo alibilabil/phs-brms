@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Accept Without Evidence Code</name>
+   <tag></tag>
+   <comment>Verify Response Status Code is 200</comment>
+   <testCaseGuid>2201a02e-17e4-46af-b2b8-b293690fb33f</testCaseGuid>
+   <variable>
+      <defaultValue>'Major'</defaultValue>
+      <description></description>
+      <id>5c569c49-3e78-4753-8299-0b8d7121fc63</id>
+      <masked>false</masked>
+      <name>transactionType</name>
+   </variable>
+   <variable>
+      <defaultValue>'U11'</defaultValue>
+      <description></description>
+      <id>27f2edb9-1340-43dd-9775-fe6d9aa5cb58</id>
+      <masked>false</masked>
+      <name>productCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Increasing Risk'</defaultValue>
+      <description></description>
+      <id>c6b8a2d8-5e5f-4f7f-8a75-47dc944a79fa</id>
+      <masked>false</masked>
+      <name>alterType</name>
+   </variable>
+   <variable>
+      <defaultValue>'ACCEPT'</defaultValue>
+      <description></description>
+      <id>3264999c-1ad9-47cd-831e-37f2e96cdc11</id>
+      <masked>false</masked>
+      <name>magnumDecision</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e2bc7fcd-179e-4d3a-a75a-31f29f57eec3</id>
+      <masked>false</masked>
+      <name>code</name>
+   </variable>
+</TestCaseEntity>

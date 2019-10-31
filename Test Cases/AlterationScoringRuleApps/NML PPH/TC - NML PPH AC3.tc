@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC - NML PPH AC3</name>
+   <tag></tag>
+   <comment>Verify evidence code is AC2
+Verify Response Status code is 200</comment>
+   <testCaseGuid>5c913019-d053-4519-9363-ff11c2bff841</testCaseGuid>
+   <variable>
+      <defaultValue>'Major'</defaultValue>
+      <description></description>
+      <id>85ecd90c-b471-4d4e-b843-4ee2674979e7</id>
+      <masked>false</masked>
+      <name>transactionType</name>
+   </variable>
+   <variable>
+      <defaultValue>'4'</defaultValue>
+      <description></description>
+      <id>1acc876f-c370-4a0a-8e4e-9d23b6bb9b54</id>
+      <masked>false</masked>
+      <name>nmlFlag</name>
+   </variable>
+   <variable>
+      <defaultValue>'IDR'</defaultValue>
+      <description></description>
+      <id>64175212-d6c0-46f0-89db-3a31ac31bc3a</id>
+      <masked>false</masked>
+      <name>currency</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Postpone Magnum Pure Result</name>
+   <tag></tag>
+   <comment>Verify evidence code is MDD
+Verify Response Status Code is 200</comment>
+   <testCaseGuid>c565e8ce-161b-44ca-a187-db47d6a48f60</testCaseGuid>
+   <variable>
+      <defaultValue>'Major'</defaultValue>
+      <description></description>
+      <id>d7b15d92-a34f-4218-824b-a43830398e01</id>
+      <masked>false</masked>
+      <name>transactionType</name>
+   </variable>
+   <variable>
+      <defaultValue>'U11'</defaultValue>
+      <description></description>
+      <id>ef878008-5579-4b46-8a63-92c79ffa8ae8</id>
+      <masked>false</masked>
+      <name>productCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Increasing Risk'</defaultValue>
+      <description></description>
+      <id>1edb9384-cd5b-478e-9005-89e2fc56402b</id>
+      <masked>false</masked>
+      <name>alterType</name>
+   </variable>
+   <variable>
+      <defaultValue>'POSTPONE'</defaultValue>
+      <description></description>
+      <id>25f4545c-0d5a-4b03-998c-8883954adf87</id>
+      <masked>false</masked>
+      <name>magnumDecision</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8c44c34b-7649-45eb-84bf-d268daf5ef5f</id>
+      <masked>false</masked>
+      <name>code</name>
+   </variable>
+</TestCaseEntity>

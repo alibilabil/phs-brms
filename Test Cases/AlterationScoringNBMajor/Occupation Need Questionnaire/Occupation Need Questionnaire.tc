@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Occupation Need Questionnaire</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3c907614-971d-4783-a71c-006023651998</testCaseGuid>
+   <variable>
+      <defaultValue>'P'</defaultValue>
+      <description></description>
+      <id>04dd28ec-e3b9-47ea-9559-fc6e6f1669d5</id>
+      <masked>false</masked>
+      <name>clientType</name>
+   </variable>
+   <variable>
+      <defaultValue>'LA1'</defaultValue>
+      <description></description>
+      <id>78997180-046e-43c1-9743-2a005ccfb1a1</id>
+      <masked>false</masked>
+      <name>role</name>
+   </variable>
+   <variable>
+      <defaultValue>'Increasing Risk'</defaultValue>
+      <description></description>
+      <id>0657a72e-b64b-4977-af5e-94082048349b</id>
+      <masked>false</masked>
+      <name>alterType</name>
+   </variable>
+   <variable>
+      <defaultValue>'ACTR'</defaultValue>
+      <description></description>
+      <id>3ee2d01a-b800-4abe-aadb-15f8ac2f395b</id>
+      <masked>false</masked>
+      <name>occupationCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Alteration Scoring NB Major/Occupation Need Questionnaire/Occupation Need Questionnaire').getValue(5, 1)</defaultValue>
+      <description></description>
+      <id>fe9a5be7-447d-4dae-97d8-82f6375b8ac6</id>
+      <masked>false</masked>
+      <name>expectedEviCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Alteration Scoring NB Major/Occupation Need Questionnaire/Occupation Need Questionnaire').getValue(6, 1)</defaultValue>
+      <description></description>
+      <id>91a90ee2-512e-4346-b5b0-768149c54b87</id>
+      <masked>false</masked>
+      <name>expectedDescription</name>
+   </variable>
+</TestCaseEntity>

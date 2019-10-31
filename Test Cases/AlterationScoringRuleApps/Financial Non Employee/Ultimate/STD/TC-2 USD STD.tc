@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-2 USD STD</name>
+   <tag></tag>
+   <comment>Send request
+Verify response status code</comment>
+   <testCaseGuid>493648dd-459a-4c33-bd10-497f574e457f</testCaseGuid>
+   <variable>
+      <defaultValue>'Major'</defaultValue>
+      <description></description>
+      <id>540c13df-c1ce-45b5-bd45-f01cf931fd5e</id>
+      <masked>false</masked>
+      <name>transactionType</name>
+   </variable>
+   <variable>
+      <defaultValue>'LA1'</defaultValue>
+      <description></description>
+      <id>aa0d7f30-8ab5-425c-8cf9-70ca6325fa17</id>
+      <masked>false</masked>
+      <name>role</name>
+   </variable>
+   <variable>
+      <defaultValue>'Y'</defaultValue>
+      <description></description>
+      <id>fba8c840-451b-45dd-8d1f-c848de67c224</id>
+      <masked>false</masked>
+      <name>increasingFsaFlag</name>
+   </variable>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description></description>
+      <id>7fba23ae-6478-4057-b8ce-bf9c3c14d5bc</id>
+      <masked>false</masked>
+      <name>pecFlag</name>
+   </variable>
+   <variable>
+      <defaultValue>'COMS'</defaultValue>
+      <description></description>
+      <id>7764fdfe-de37-4736-b69f-4f679fc35efa</id>
+      <masked>false</masked>
+      <name>occupationCode</name>
+   </variable>
+</TestCaseEntity>

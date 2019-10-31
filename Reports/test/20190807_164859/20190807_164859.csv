@@ -1,0 +1,589 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test,,,,2019-08-07 16:49:03,2019-08-07 16:53:28,4m - 24.503s,INCOMPLETE
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:49:04,2019-08-07 16:49:10,6.313s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:49:04,2019-08-07 16:49:10,5.255s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:49:10,2019-08-07 16:49:10,0.333s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:49:10,2019-08-07 16:49:10,0.053s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:49:10,2019-08-07 16:49:10,0.023s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:49:10,2019-08-07 16:49:16,5.588s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:49:10,2019-08-07 16:49:15,5.508s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:49:15,2019-08-07 16:49:16,0.052s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:49:16,2019-08-07 16:49:16,0.009s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:49:16,2019-08-07 16:49:16,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:49:16,2019-08-07 16:49:27,11.379s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:49:16,2019-08-07 16:49:27,11.303s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:49:27,2019-08-07 16:49:27,0.056s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:49:27,2019-08-07 16:49:27,0.003s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:49:27,2019-08-07 16:49:27,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:49:27,2019-08-07 16:49:30,2.923s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:49:27,2019-08-07 16:49:30,2.858s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:49:30,2019-08-07 16:49:30,0.046s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:49:30,2019-08-07 16:49:30,0.003s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:49:30,2019-08-07 16:49:30,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:49:30,2019-08-07 16:49:39,9.490s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:49:30,2019-08-07 16:49:39,9.428s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:49:39,2019-08-07 16:49:39,0.043s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:49:39,2019-08-07 16:49:39,0.003s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:49:39,2019-08-07 16:49:39,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:49:39,2019-08-07 16:50:40,1m - 0.415s,FAILED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:49:39,2019-08-07 16:50:40,1m - 0.299s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:50:40,2019-08-07 16:50:40,0.076s,FAILED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:50:40,2019-08-07 16:50:40,0.001s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:50:40,2019-08-07 16:50:53,12.791s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:50:40,2019-08-07 16:50:53,12.705s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:50:53,2019-08-07 16:50:53,0.050s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:50:53,2019-08-07 16:50:53,0.003s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:50:53,2019-08-07 16:50:53,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:50:53,2019-08-07 16:50:53,0.790s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:50:53,2019-08-07 16:50:53,0.727s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:50:53,2019-08-07 16:50:53,0.047s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:50:53,2019-08-07 16:50:53,0.003s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:50:53,2019-08-07 16:50:53,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:50:53,2019-08-07 16:50:54,1.108s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:50:53,2019-08-07 16:50:54,1.031s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:50:54,2019-08-07 16:50:54,0.058s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:50:54,2019-08-07 16:50:54,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:50:54,2019-08-07 16:50:54,0.004s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:50:54,2019-08-07 16:51:06,11.352s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:50:55,2019-08-07 16:51:06,11.276s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:51:06,2019-08-07 16:51:06,0.043s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:51:06,2019-08-07 16:51:06,0.003s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:51:06,2019-08-07 16:51:06,0.001s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:51:06,2019-08-07 16:51:07,0.742s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:51:06,2019-08-07 16:51:07,0.683s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:51:07,2019-08-07 16:51:07,0.047s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:51:07,2019-08-07 16:51:07,0.001s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:51:07,2019-08-07 16:51:07,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:51:07,2019-08-07 16:51:10,3.470s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:51:07,2019-08-07 16:51:10,3.403s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:51:10,2019-08-07 16:51:10,0.047s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:51:10,2019-08-07 16:51:10,0.003s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:51:10,2019-08-07 16:51:10,0.001s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:51:10,2019-08-07 16:51:23,13.080s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:51:10,2019-08-07 16:51:23,13.030s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:51:23,2019-08-07 16:51:23,0.036s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:51:23,2019-08-07 16:51:23,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:51:23,2019-08-07 16:51:23,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:51:23,2019-08-07 16:51:24,1.351s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:51:23,2019-08-07 16:51:24,1.286s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:51:24,2019-08-07 16:51:24,0.050s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:51:24,2019-08-07 16:51:24,0.003s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:51:24,2019-08-07 16:51:24,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:51:25,2019-08-07 16:51:28,3.459s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:51:25,2019-08-07 16:51:28,3.400s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:51:28,2019-08-07 16:51:28,0.043s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:51:28,2019-08-07 16:51:28,0.003s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:51:28,2019-08-07 16:51:28,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:51:28,2019-08-07 16:51:31,2.885s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:51:28,2019-08-07 16:51:31,2.839s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:51:31,2019-08-07 16:51:31,0.034s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:51:31,2019-08-07 16:51:31,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:51:31,2019-08-07 16:51:31,0.001s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:51:31,2019-08-07 16:51:32,1.321s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:51:31,2019-08-07 16:51:32,1.267s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:51:32,2019-08-07 16:51:32,0.038s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:51:32,2019-08-07 16:51:32,0.003s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:51:32,2019-08-07 16:51:32,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:51:32,2019-08-07 16:51:36,3.783s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:51:32,2019-08-07 16:51:36,3.715s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:51:36,2019-08-07 16:51:36,0.047s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:51:36,2019-08-07 16:51:36,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:51:36,2019-08-07 16:51:36,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:51:36,2019-08-07 16:51:42,6.500s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:51:36,2019-08-07 16:51:42,6.449s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:51:42,2019-08-07 16:51:42,0.038s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:51:42,2019-08-07 16:51:42,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:51:42,2019-08-07 16:51:42,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:51:42,2019-08-07 16:51:48,5.556s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:51:42,2019-08-07 16:51:48,5.502s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:51:48,2019-08-07 16:51:48,0.028s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:51:48,2019-08-07 16:51:48,0.004s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:51:48,2019-08-07 16:51:48,0.001s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:51:48,2019-08-07 16:51:49,1.063s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:51:48,2019-08-07 16:51:49,1.005s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:51:49,2019-08-07 16:51:49,0.044s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:51:49,2019-08-07 16:51:49,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:51:49,2019-08-07 16:51:49,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:51:49,2019-08-07 16:51:50,0.812s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:51:49,2019-08-07 16:51:50,0.725s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:51:50,2019-08-07 16:51:50,0.075s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:51:50,2019-08-07 16:51:50,0.003s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:51:50,2019-08-07 16:51:50,0.001s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:51:50,2019-08-07 16:51:51,0.734s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:51:50,2019-08-07 16:51:51,0.684s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:51:51,2019-08-07 16:51:51,0.037s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:51:51,2019-08-07 16:51:51,0.001s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:51:51,2019-08-07 16:51:51,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:51:51,2019-08-07 16:51:52,1.115s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:51:51,2019-08-07 16:51:52,1.050s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:51:52,2019-08-07 16:51:52,0.050s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:51:52,2019-08-07 16:51:52,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:51:52,2019-08-07 16:51:52,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:51:52,2019-08-07 16:51:55,3.139s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:51:52,2019-08-07 16:51:55,3.085s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:51:55,2019-08-07 16:51:55,0.042s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:51:55,2019-08-07 16:51:55,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:51:55,2019-08-07 16:51:55,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:51:55,2019-08-07 16:51:56,1.015s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:51:55,2019-08-07 16:51:56,0.965s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:51:56,2019-08-07 16:51:56,0.036s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:51:56,2019-08-07 16:51:56,0.003s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:51:56,2019-08-07 16:51:56,0.001s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:51:56,2019-08-07 16:51:57,1.017s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:51:56,2019-08-07 16:51:57,0.967s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:51:57,2019-08-07 16:51:57,0.038s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:51:57,2019-08-07 16:51:57,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:51:57,2019-08-07 16:51:57,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:51:57,2019-08-07 16:51:59,1.925s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:51:57,2019-08-07 16:51:59,1.870s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:51:59,2019-08-07 16:51:59,0.040s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:51:59,2019-08-07 16:51:59,0.003s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:51:59,2019-08-07 16:51:59,0.001s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:51:59,2019-08-07 16:52:00,1.042s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:51:59,2019-08-07 16:52:00,0.983s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:52:00,2019-08-07 16:52:00,0.045s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:52:00,2019-08-07 16:52:00,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:52:00,2019-08-07 16:52:00,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:52:00,2019-08-07 16:52:03,2.850s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:52:00,2019-08-07 16:52:03,2.797s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:52:03,2019-08-07 16:52:03,0.037s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:52:03,2019-08-07 16:52:03,0.005s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:52:03,2019-08-07 16:52:03,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:52:03,2019-08-07 16:52:04,1.049s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:52:03,2019-08-07 16:52:04,1.007s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:52:04,2019-08-07 16:52:04,0.027s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:52:04,2019-08-07 16:52:04,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:52:04,2019-08-07 16:52:04,0.001s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:52:04,2019-08-07 16:52:05,0.737s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:52:04,2019-08-07 16:52:05,0.684s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:52:05,2019-08-07 16:52:05,0.040s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:52:05,2019-08-07 16:52:05,0.003s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:52:05,2019-08-07 16:52:05,0.001s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:52:05,2019-08-07 16:52:07,1.935s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:52:05,2019-08-07 16:52:06,1.883s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:52:06,2019-08-07 16:52:07,0.040s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:52:07,2019-08-07 16:52:07,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:52:07,2019-08-07 16:52:07,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:52:07,2019-08-07 16:52:17,10.109s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:52:07,2019-08-07 16:52:17,10.059s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:52:17,2019-08-07 16:52:17,0.035s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:52:17,2019-08-07 16:52:17,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:52:17,2019-08-07 16:52:17,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:52:17,2019-08-07 16:52:18,1.305s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:52:17,2019-08-07 16:52:18,1.254s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:52:18,2019-08-07 16:52:18,0.041s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:52:18,2019-08-07 16:52:18,0.001s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:52:18,2019-08-07 16:52:18,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:52:18,2019-08-07 16:52:22,4.379s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:52:18,2019-08-07 16:52:22,4.322s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:52:22,2019-08-07 16:52:22,0.044s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:52:22,2019-08-07 16:52:22,0.003s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:52:22,2019-08-07 16:52:22,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:52:22,2019-08-07 16:52:24,1.327s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:52:22,2019-08-07 16:52:24,1.280s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:52:24,2019-08-07 16:52:24,0.034s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:52:24,2019-08-07 16:52:24,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:52:24,2019-08-07 16:52:24,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:52:24,2019-08-07 16:52:25,1.351s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:52:24,2019-08-07 16:52:25,1.299s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:52:25,2019-08-07 16:52:25,0.038s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:52:25,2019-08-07 16:52:25,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:52:25,2019-08-07 16:52:25,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:52:25,2019-08-07 16:52:30,5.240s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:52:25,2019-08-07 16:52:30,5.181s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:52:30,2019-08-07 16:52:30,0.046s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:52:30,2019-08-07 16:52:30,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:52:30,2019-08-07 16:52:30,0.001s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:52:30,2019-08-07 16:52:43,12.431s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:52:30,2019-08-07 16:52:43,12.381s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:52:43,2019-08-07 16:52:43,0.035s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:52:43,2019-08-07 16:52:43,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:52:43,2019-08-07 16:52:43,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:52:43,2019-08-07 16:52:49,6.123s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:52:43,2019-08-07 16:52:49,6.072s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:52:49,2019-08-07 16:52:49,0.039s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:52:49,2019-08-07 16:52:49,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:52:49,2019-08-07 16:52:49,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:52:49,2019-08-07 16:52:50,0.772s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:52:49,2019-08-07 16:52:50,0.720s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:52:50,2019-08-07 16:52:50,0.039s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:52:50,2019-08-07 16:52:50,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:52:50,2019-08-07 16:52:50,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:52:50,2019-08-07 16:52:51,1.384s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:52:50,2019-08-07 16:52:51,1.337s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:52:51,2019-08-07 16:52:51,0.033s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:52:51,2019-08-07 16:52:51,0.004s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:52:51,2019-08-07 16:52:51,0.001s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:52:51,2019-08-07 16:52:53,1.965s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:52:51,2019-08-07 16:52:53,1.908s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:52:53,2019-08-07 16:52:53,0.042s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:52:53,2019-08-07 16:52:53,0.001s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:52:53,2019-08-07 16:52:53,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:52:53,2019-08-07 16:52:55,2.527s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:52:53,2019-08-07 16:52:55,2.479s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:52:55,2019-08-07 16:52:55,0.037s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:52:55,2019-08-07 16:52:55,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:52:55,2019-08-07 16:52:55,0.001s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:52:56,2019-08-07 16:52:56,0.711s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:52:56,2019-08-07 16:52:56,0.662s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:52:56,2019-08-07 16:52:56,0.037s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:52:56,2019-08-07 16:52:56,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:52:56,2019-08-07 16:52:56,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:52:56,2019-08-07 16:52:57,1.034s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:52:56,2019-08-07 16:52:57,0.997s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:52:57,2019-08-07 16:52:57,0.024s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:52:57,2019-08-07 16:52:57,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:52:57,2019-08-07 16:52:57,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:52:57,2019-08-07 16:52:59,1.307s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:52:57,2019-08-07 16:52:59,1.268s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:52:59,2019-08-07 16:52:59,0.028s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:52:59,2019-08-07 16:52:59,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:52:59,2019-08-07 16:52:59,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:52:59,2019-08-07 16:53:00,1.584s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:52:59,2019-08-07 16:53:00,1.551s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:00,2019-08-07 16:53:00,0.021s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:00,2019-08-07 16:53:00,0.003s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:00,2019-08-07 16:53:00,0.001s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:00,2019-08-07 16:53:02,2.201s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:00,2019-08-07 16:53:02,2.158s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:02,2019-08-07 16:53:02,0.031s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:02,2019-08-07 16:53:02,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:02,2019-08-07 16:53:02,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:02,2019-08-07 16:53:04,1.641s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:02,2019-08-07 16:53:04,1.597s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:04,2019-08-07 16:53:04,0.035s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:04,2019-08-07 16:53:04,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:04,2019-08-07 16:53:04,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:04,2019-08-07 16:53:05,1.004s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:04,2019-08-07 16:53:05,0.957s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:05,2019-08-07 16:53:05,0.036s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:05,2019-08-07 16:53:05,0.003s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:05,2019-08-07 16:53:05,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:05,2019-08-07 16:53:05,0.116s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:05,2019-08-07 16:53:05,0.083s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:05,2019-08-07 16:53:05,0.021s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:05,2019-08-07 16:53:05,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:05,2019-08-07 16:53:05,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:05,2019-08-07 16:53:06,1.359s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:05,2019-08-07 16:53:06,1.306s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:06,2019-08-07 16:53:06,0.043s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:06,2019-08-07 16:53:06,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:06,2019-08-07 16:53:06,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:06,2019-08-07 16:53:10,3.901s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:07,2019-08-07 16:53:10,3.853s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:10,2019-08-07 16:53:10,0.034s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:10,2019-08-07 16:53:10,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:10,2019-08-07 16:53:10,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:10,2019-08-07 16:53:10,0.074s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:10,2019-08-07 16:53:10,0.042s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:10,2019-08-07 16:53:10,0.021s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:10,2019-08-07 16:53:10,0.001s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:10,2019-08-07 16:53:10,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:10,2019-08-07 16:53:11,0.066s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:10,2019-08-07 16:53:11,0.029s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:11,2019-08-07 16:53:11,0.026s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:11,2019-08-07 16:53:11,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:11,2019-08-07 16:53:11,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:11,2019-08-07 16:53:11,0.299s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:11,2019-08-07 16:53:11,0.269s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:11,2019-08-07 16:53:11,0.020s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:11,2019-08-07 16:53:11,0.001s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:11,2019-08-07 16:53:11,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:11,2019-08-07 16:53:11,0.305s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:11,2019-08-07 16:53:11,0.031s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:11,2019-08-07 16:53:11,0.022s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:11,2019-08-07 16:53:11,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:11,2019-08-07 16:53:11,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:11,2019-08-07 16:53:12,0.408s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:12,2019-08-07 16:53:12,0.031s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:12,2019-08-07 16:53:12,0.024s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:12,2019-08-07 16:53:12,0.001s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:12,2019-08-07 16:53:12,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:12,2019-08-07 16:53:12,0.349s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:12,2019-08-07 16:53:12,0.024s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:12,2019-08-07 16:53:12,0.021s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:12,2019-08-07 16:53:12,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:12,2019-08-07 16:53:12,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:12,2019-08-07 16:53:13,0.618s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:12,2019-08-07 16:53:12,0.023s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:12,2019-08-07 16:53:12,0.134s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:12,2019-08-07 16:53:12,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:12,2019-08-07 16:53:12,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:13,2019-08-07 16:53:13,0.369s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:13,2019-08-07 16:53:13,0.036s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:13,2019-08-07 16:53:13,0.033s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:13,2019-08-07 16:53:13,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:13,2019-08-07 16:53:13,0.001s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:13,2019-08-07 16:53:13,0.064s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:13,2019-08-07 16:53:13,0.028s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:13,2019-08-07 16:53:13,0.024s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:13,2019-08-07 16:53:13,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:13,2019-08-07 16:53:13,0.001s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:13,2019-08-07 16:53:14,0.602s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:13,2019-08-07 16:53:13,0.025s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:13,2019-08-07 16:53:13,0.261s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:13,2019-08-07 16:53:14,0.304s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:14,2019-08-07 16:53:14,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:14,2019-08-07 16:53:14,0.072s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:14,2019-08-07 16:53:14,0.022s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:14,2019-08-07 16:53:14,0.040s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:14,2019-08-07 16:53:14,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:14,2019-08-07 16:53:14,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:14,2019-08-07 16:53:14,0.419s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:14,2019-08-07 16:53:14,0.026s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:14,2019-08-07 16:53:14,0.067s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:14,2019-08-07 16:53:14,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:14,2019-08-07 16:53:14,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:14,2019-08-07 16:53:14,0.319s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:14,2019-08-07 16:53:14,0.290s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:14,2019-08-07 16:53:14,0.018s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:14,2019-08-07 16:53:14,0.001s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:14,2019-08-07 16:53:14,0.001s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:14,2019-08-07 16:53:15,0.415s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:14,2019-08-07 16:53:15,0.352s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:15,2019-08-07 16:53:15,0.055s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:15,2019-08-07 16:53:15,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:15,2019-08-07 16:53:15,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:15,2019-08-07 16:53:15,0.336s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:15,2019-08-07 16:53:15,0.023s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:15,2019-08-07 16:53:15,0.018s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:15,2019-08-07 16:53:15,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:15,2019-08-07 16:53:15,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:15,2019-08-07 16:53:16,0.390s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:16,2019-08-07 16:53:16,0.024s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:16,2019-08-07 16:53:16,0.020s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:16,2019-08-07 16:53:16,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:16,2019-08-07 16:53:16,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:16,2019-08-07 16:53:16,0.674s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:16,2019-08-07 16:53:16,0.020s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:16,2019-08-07 16:53:16,0.025s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:16,2019-08-07 16:53:16,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:16,2019-08-07 16:53:16,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:16,2019-08-07 16:53:17,0.355s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:16,2019-08-07 16:53:16,0.018s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:16,2019-08-07 16:53:16,0.018s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:16,2019-08-07 16:53:16,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:17,2019-08-07 16:53:17,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:17,2019-08-07 16:53:17,0.320s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:17,2019-08-07 16:53:17,0.021s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:17,2019-08-07 16:53:17,0.019s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:17,2019-08-07 16:53:17,0.273s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:17,2019-08-07 16:53:17,0.001s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:17,2019-08-07 16:53:17,0.372s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:17,2019-08-07 16:53:17,0.019s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:17,2019-08-07 16:53:17,0.344s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:17,2019-08-07 16:53:17,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:17,2019-08-07 16:53:17,0.001s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:17,2019-08-07 16:53:18,0.395s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:17,2019-08-07 16:53:17,0.019s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:17,2019-08-07 16:53:18,0.366s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:18,2019-08-07 16:53:18,0.003s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:18,2019-08-07 16:53:18,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:18,2019-08-07 16:53:18,0.353s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:18,2019-08-07 16:53:18,0.325s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:18,2019-08-07 16:53:18,0.017s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:18,2019-08-07 16:53:18,0.001s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:18,2019-08-07 16:53:18,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:18,2019-08-07 16:53:18,0.393s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:18,2019-08-07 16:53:18,0.368s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:18,2019-08-07 16:53:18,0.017s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:18,2019-08-07 16:53:18,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:18,2019-08-07 16:53:18,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:18,2019-08-07 16:53:19,0.396s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:19,2019-08-07 16:53:19,0.023s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:19,2019-08-07 16:53:19,0.019s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:19,2019-08-07 16:53:19,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:19,2019-08-07 16:53:19,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:19,2019-08-07 16:53:19,0.458s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:19,2019-08-07 16:53:19,0.027s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:19,2019-08-07 16:53:19,0.025s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:19,2019-08-07 16:53:19,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:19,2019-08-07 16:53:19,0.001s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:19,2019-08-07 16:53:20,0.737s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:20,2019-08-07 16:53:20,0.023s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:20,2019-08-07 16:53:20,0.023s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:20,2019-08-07 16:53:20,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:20,2019-08-07 16:53:20,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:20,2019-08-07 16:53:20,0.407s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:20,2019-08-07 16:53:20,0.023s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:20,2019-08-07 16:53:20,0.030s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:20,2019-08-07 16:53:20,0.003s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:20,2019-08-07 16:53:20,0.342s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:20,2019-08-07 16:53:21,0.459s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:20,2019-08-07 16:53:21,0.021s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:21,2019-08-07 16:53:21,0.019s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:21,2019-08-07 16:53:21,0.412s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:21,2019-08-07 16:53:21,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:21,2019-08-07 16:53:21,0.420s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:21,2019-08-07 16:53:21,0.020s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:21,2019-08-07 16:53:21,0.034s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:21,2019-08-07 16:53:21,0.359s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:21,2019-08-07 16:53:21,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:21,2019-08-07 16:53:22,0.430s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:21,2019-08-07 16:53:21,0.023s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:21,2019-08-07 16:53:22,0.394s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:22,2019-08-07 16:53:22,0.003s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:22,2019-08-07 16:53:22,0.002s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:22,2019-08-07 16:53:22,0.418s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:22,2019-08-07 16:53:22,0.018s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:22,2019-08-07 16:53:22,0.027s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:22,2019-08-07 16:53:22,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:22,2019-08-07 16:53:22,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:22,2019-08-07 16:53:23,0.410s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:22,2019-08-07 16:53:23,0.379s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:23,2019-08-07 16:53:23,0.022s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:23,2019-08-07 16:53:23,0.001s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:23,2019-08-07 16:53:23,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:23,2019-08-07 16:53:23,0.421s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:23,2019-08-07 16:53:23,0.019s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:23,2019-08-07 16:53:23,0.018s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:23,2019-08-07 16:53:23,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:23,2019-08-07 16:53:23,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:23,2019-08-07 16:53:23,0.420s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:23,2019-08-07 16:53:23,0.019s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:23,2019-08-07 16:53:23,0.019s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:23,2019-08-07 16:53:23,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:23,2019-08-07 16:53:23,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:23,2019-08-07 16:53:24,0.815s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:24,2019-08-07 16:53:24,0.018s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:24,2019-08-07 16:53:24,0.022s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:24,2019-08-07 16:53:24,0.001s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:24,2019-08-07 16:53:24,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:24,2019-08-07 16:53:25,0.390s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:24,2019-08-07 16:53:24,0.018s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:24,2019-08-07 16:53:24,0.025s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:24,2019-08-07 16:53:24,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:24,2019-08-07 16:53:25,0.338s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:25,2019-08-07 16:53:25,0.407s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:25,2019-08-07 16:53:25,0.022s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:25,2019-08-07 16:53:25,0.031s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:25,2019-08-07 16:53:25,0.347s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:25,2019-08-07 16:53:25,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:25,2019-08-07 16:53:25,0.374s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:25,2019-08-07 16:53:25,0.017s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:25,2019-08-07 16:53:25,0.019s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:25,2019-08-07 16:53:25,0.330s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:25,2019-08-07 16:53:25,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:25,2019-08-07 16:53:26,0.415s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:26,2019-08-07 16:53:26,0.018s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:26,2019-08-07 16:53:26,0.377s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:26,2019-08-07 16:53:26,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:26,2019-08-07 16:53:26,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:26,2019-08-07 16:53:26,0.443s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:26,2019-08-07 16:53:26,0.019s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:26,2019-08-07 16:53:26,0.020s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:26,2019-08-07 16:53:26,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:26,2019-08-07 16:53:26,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:26,2019-08-07 16:53:27,0.418s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:26,2019-08-07 16:53:27,0.382s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:27,2019-08-07 16:53:27,0.026s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:27,2019-08-07 16:53:27,0.001s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:27,2019-08-07 16:53:27,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:27,2019-08-07 16:53:27,0.433s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:27,2019-08-07 16:53:27,0.018s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:27,2019-08-07 16:53:27,0.020s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:27,2019-08-07 16:53:27,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:27,2019-08-07 16:53:27,0.000s,PASSED
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1_Positive Case,,,,2019-08-07 16:53:27,2019-08-07 16:53:28,0.444s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/PositiveCase"", [""URL"":URL, ""transactionType"":""Major"", ""alterType"":""Increasing Risk"", ""role"":""LA1"", ""occupation"":""MARK"", ""vendorName"":""DMC"", ... ]))",,,,2019-08-07 16:53:28,2019-08-07 16:53:28,0.021s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-07 16:53:28,2019-08-07 16:53:28,0.025s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-07 16:53:28,2019-08-07 16:53:28,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-07 16:53:28,2019-08-07 16:53:28,0.001s,PASSED

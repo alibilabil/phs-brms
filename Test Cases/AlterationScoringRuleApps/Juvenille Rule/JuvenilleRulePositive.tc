@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>JuvenilleRulePositive</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e64481cc-92dd-470b-b72f-a308670e6808</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Alteration Scoring/JuvenilleRule/JuvenilleRulePositive').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>13c6bc14-d857-4b7e-8516-6166ecbfe65c</id>
+      <masked>false</masked>
+      <name>transactionType</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Alteration Scoring/JuvenilleRule/JuvenilleRulePositive').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>9df4a718-a9bc-46be-8827-db8b0f15a26e</id>
+      <masked>false</masked>
+      <name>role</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Alteration Scoring/JuvenilleRule/JuvenilleRulePositive').getValue(3, 1)</defaultValue>
+      <description></description>
+      <id>316924d1-87c8-4f23-99b4-4804a69c6300</id>
+      <masked>false</masked>
+      <name>owner</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Alteration Scoring/JuvenilleRule/JuvenilleRulePositive').getValue(4, 1)</defaultValue>
+      <description></description>
+      <id>46c89aa3-ced7-4d12-93b3-86e5bba52326</id>
+      <masked>false</masked>
+      <name>ageNextBirthday</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Alteration Scoring/JuvenilleRule/JuvenilleRulePositive').getValue(5, 1)</defaultValue>
+      <description></description>
+      <id>de0d52b5-4f2a-4e77-bd4d-8d3955d2fb3e</id>
+      <masked>false</masked>
+      <name>newMsaDeath</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Alteration Scoring/JuvenilleRule/JuvenilleRulePositive').getValue(6, 1)</defaultValue>
+      <description></description>
+      <id>14d32210-e637-4033-9a46-992b25002bce</id>
+      <masked>false</masked>
+      <name>newMsaAdditionalcc</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Alteration Scoring/JuvenilleRule/JuvenilleRulePositive').getValue(7, 1)</defaultValue>
+      <description></description>
+      <id>e31ca2e4-9dd8-4830-bdee-dd75cecf194d</id>
+      <masked>false</masked>
+      <name>subAlter</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Alteration Scoring/JuvenilleRule/JuvenilleRulePositive').getValue(8, 1)</defaultValue>
+      <description></description>
+      <id>a9083e3b-bd3a-4e56-98e8-7b04e53d1bab</id>
+      <masked>false</masked>
+      <name>riderCode</name>
+   </variable>
+</TestCaseEntity>

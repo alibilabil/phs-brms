@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Increase SA Positive TC</name>
+   <tag></tag>
+   <comment>Verify evidence code is ENS
+Verify Response Status Code is 200</comment>
+   <testCaseGuid>4bac5318-c5ea-4319-86b2-b3f593be3290</testCaseGuid>
+   <variable>
+      <defaultValue>'Major'</defaultValue>
+      <description></description>
+      <id>ce95d48c-6788-4adc-ad06-1a8142473c47</id>
+      <masked>false</masked>
+      <name>transactionType</name>
+   </variable>
+   <variable>
+      <defaultValue>'LA1'</defaultValue>
+      <description></description>
+      <id>de339e77-d654-4670-8ebd-6bd755f872ec</id>
+      <masked>false</masked>
+      <name>role</name>
+   </variable>
+   <variable>
+      <defaultValue>'H1G1'</defaultValue>
+      <description></description>
+      <id>1803016f-5b63-459e-b6fa-576f2954282c</id>
+      <masked>false</masked>
+      <name>riderCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'IncreaseSumAssured'</defaultValue>
+      <description></description>
+      <id>b775bf7c-168f-4ee6-9014-d9b9a3038e1d</id>
+      <masked>false</masked>
+      <name>subAlter</name>
+   </variable>
+   <variable>
+      <defaultValue>'Y'</defaultValue>
+      <description></description>
+      <id>256fc79f-09d6-41d5-bbf5-8af56329af26</id>
+      <masked>false</masked>
+      <name>substandardFlag</name>
+   </variable>
+</TestCaseEntity>

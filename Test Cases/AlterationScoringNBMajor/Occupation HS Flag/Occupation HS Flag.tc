@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Occupation HS Flag</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bb05034c-7f8d-4776-af10-cb3a3059d671</testCaseGuid>
+   <variable>
+      <defaultValue>'Major'</defaultValue>
+      <description></description>
+      <id>dd5bf2a3-c2f2-4e32-a3a6-5a99caca1a10</id>
+      <masked>false</masked>
+      <name>transactionType</name>
+   </variable>
+   <variable>
+      <defaultValue>'P'</defaultValue>
+      <description></description>
+      <id>81d38303-f126-484a-b5bb-b2dbf2e7758b</id>
+      <masked>false</masked>
+      <name>clientType</name>
+   </variable>
+   <variable>
+      <defaultValue>'LA1'</defaultValue>
+      <description></description>
+      <id>0c5a151a-b6ff-46ab-b639-805b7457dcf5</id>
+      <masked>false</masked>
+      <name>role</name>
+   </variable>
+   <variable>
+      <defaultValue>'AddRider'</defaultValue>
+      <description></description>
+      <id>98c198e1-ba6e-4a16-a07f-19e03fee4556</id>
+      <masked>false</masked>
+      <name>subAlter</name>
+   </variable>
+   <variable>
+      <defaultValue>'IDR'</defaultValue>
+      <description></description>
+      <id>09d3f95f-ea7f-480f-bb60-c935ba49ed15</id>
+      <masked>false</masked>
+      <name>eviCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'H1ED'</defaultValue>
+      <description></description>
+      <id>d0003a77-9b8d-4b0c-9c8c-dcd68a374b16</id>
+      <masked>false</masked>
+      <name>riderCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'SHSH'</defaultValue>
+      <description></description>
+      <id>00d18492-114a-47e2-8af9-4524e365dab8</id>
+      <masked>false</masked>
+      <name>occupationCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Alteration Scoring NB Major/Occupation PHS Flag/OccupationHSFLag').getValue(9, 1)</defaultValue>
+      <description></description>
+      <id>86c83685-aaf1-4f8a-98eb-a11ffe690ef5</id>
+      <masked>false</masked>
+      <name>expectedDescription</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Alteration Scoring NB Major/Occupation PHS Flag/OccupationHSFLag').getValue(8, 1)</defaultValue>
+      <description></description>
+      <id>7afc4891-34bc-46b0-851a-4b03221773d7</id>
+      <masked>false</masked>
+      <name>expectedEviCode</name>
+   </variable>
+</TestCaseEntity>

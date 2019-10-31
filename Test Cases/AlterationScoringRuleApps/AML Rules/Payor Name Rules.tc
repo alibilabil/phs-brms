@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Payor Name Rules</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bf8fb1ea-87aa-4f52-9a3e-bc57845cfa33</testCaseGuid>
+   <variable>
+      <defaultValue>'Major'</defaultValue>
+      <description></description>
+      <id>7273bee7-32ee-4f39-9463-9a49e5be9c3d</id>
+      <masked>false</masked>
+      <name>transactionType</name>
+   </variable>
+   <variable>
+      <defaultValue>'Payor'</defaultValue>
+      <description></description>
+      <id>7157dc0a-b771-492c-bf66-981b59e2da8a</id>
+      <masked>false</masked>
+      <name>role</name>
+   </variable>
+   <variable>
+      <defaultValue>'Y'</defaultValue>
+      <description></description>
+      <id>b99800a0-32cb-45cc-9b71-ba2b8189617d</id>
+      <masked>false</masked>
+      <name>flagChangePayor</name>
+   </variable>
+   <variable>
+      <defaultValue>'K'</defaultValue>
+      <description></description>
+      <id>0a918a40-6b68-4f40-b13a-d8275cdf8762</id>
+      <masked>false</masked>
+      <name>paymentMethod</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>9f66cc4b-a15a-4be5-9eaa-3b4dafb50cda</id>
+      <masked>false</masked>
+      <name>expectedPayorNameValue</name>
+   </variable>
+   <variable>
+      <defaultValue>'PYD '</defaultValue>
+      <description></description>
+      <id>cea5b655-a882-4d39-b645-2bfcf3be37a3</id>
+      <masked>false</masked>
+      <name>expectedFollowUpCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Payor beda dgn Payor disistem'</defaultValue>
+      <description></description>
+      <id>d62cfe4e-f656-4d32-9889-c41c54ddd138</id>
+      <masked>false</masked>
+      <name>expectedFollowUpDesc</name>
+   </variable>
+   <variable>
+      <defaultValue>'CPR'</defaultValue>
+      <description></description>
+      <id>6919828a-2514-4981-9094-c8c7a2b786b5</id>
+      <masked>false</masked>
+      <name>expectedEvidenceCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Perubahan nama Pembayar Premi'</defaultValue>
+      <description></description>
+      <id>e580e3d7-0723-48ce-a328-73cbc2c1d2fe</id>
+      <masked>false</masked>
+      <name>expectedEvidenceDesc</name>
+   </variable>
+</TestCaseEntity>

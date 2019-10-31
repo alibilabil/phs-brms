@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PositiveCase</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>566463f9-45ec-48b9-a2b2-a3c256c4ae9d</testCaseGuid>
+   <variable>
+      <defaultValue>'Major'</defaultValue>
+      <description></description>
+      <id>00be0772-2831-4fed-af76-67141db21f01</id>
+      <masked>false</masked>
+      <name>transactionType</name>
+   </variable>
+   <variable>
+      <defaultValue>'Increasing Risk'</defaultValue>
+      <description></description>
+      <id>d2948348-18ea-41ef-862f-1136b436f3e5</id>
+      <masked>false</masked>
+      <name>alterType</name>
+   </variable>
+   <variable>
+      <defaultValue>'LA1'</defaultValue>
+      <description></description>
+      <id>9a57d19b-3393-4f51-a01c-a7b6947c34ea</id>
+      <masked>false</masked>
+      <name>role</name>
+   </variable>
+   <variable>
+      <defaultValue>'MARK'</defaultValue>
+      <description></description>
+      <id>c70d9443-d5ca-4a98-b283-73bacde3b850</id>
+      <masked>false</masked>
+      <name>occupation</name>
+   </variable>
+   <variable>
+      <defaultValue>'DMC'</defaultValue>
+      <description></description>
+      <id>f1a34361-57d4-4870-bb01-126d69d46b08</id>
+      <masked>false</masked>
+      <name>vendorName</name>
+   </variable>
+   <variable>
+      <defaultValue>500000000</defaultValue>
+      <description></description>
+      <id>150add5d-c86e-4dec-a2df-9017a5dc1af1</id>
+      <masked>false</masked>
+      <name>compareNewFsaDeathandTotalccWithoutWop</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test,,,,2019-08-05 14:11:59,2019-08-05 14:12:04,4.319s,INCOMPLETE
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1,,,,2019-08-05 14:12:00,2019-08-05 14:12:04,3.841s,PASSED
+"response = sendRequest(findTestObject(""AlterationScoringRuleApps/AlterationScoringRuleApps""))",,,,2019-08-05 14:12:02,2019-08-05 14:12:04,1.442s,PASSED
+jsonSlurper = new groovy.json.JsonSlurper(),,,,2019-08-05 14:12:04,2019-08-05 14:12:04,0.012s,PASSED
+content_length = response.getResponseBodyContent(),,,,2019-08-05 14:12:04,2019-08-05 14:12:04,0.017s,PASSED
+println(content_length),,,,2019-08-05 14:12:04,2019-08-05 14:12:04,0.005s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-05 14:12:04,2019-08-05 14:12:04,0.013s,PASSED
+"verifyElementPropertyValue(response, ""request.alterationScoring[0].response.eligibityTsa"", true)",,,,2019-08-05 14:12:04,2019-08-05 14:12:04,0.092s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-08-05 14:12:04,2019-08-05 14:12:04,0.007s,PASSED

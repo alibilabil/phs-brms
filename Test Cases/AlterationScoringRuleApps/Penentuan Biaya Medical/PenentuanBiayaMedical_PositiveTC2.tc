@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PenentuanBiayaMedical_PositiveTC2</name>
+   <tag></tag>
+   <comment>Verify Response Status Code is 200</comment>
+   <testCaseGuid>8ed8848f-5171-4782-9c06-f5e6ec38b494</testCaseGuid>
+   <variable>
+      <defaultValue>'Major'</defaultValue>
+      <description></description>
+      <id>46c63ba9-169e-4c79-827c-22f14665688e</id>
+      <masked>false</masked>
+      <name>transactionType</name>
+   </variable>
+   <variable>
+      <defaultValue>'IF'</defaultValue>
+      <description></description>
+      <id>dbafe3d9-d10f-4e25-8a03-92d75f000fd7</id>
+      <masked>false</masked>
+      <name>policyStatus</name>
+   </variable>
+   <variable>
+      <defaultValue>'DPR'</defaultValue>
+      <description></description>
+      <id>790fdb1d-b505-4b5b-9bb1-d9b0f44bc38e</id>
+      <masked>false</masked>
+      <name>eviCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'DecreaseTotalPremium'</defaultValue>
+      <description></description>
+      <id>6a906d2c-76ad-4133-a90e-2cf8fa8b9e1a</id>
+      <masked>false</masked>
+      <name>subAlter</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test,,,,2019-08-02 16:03:07,2019-08-02 16:03:11,3.716s,INCOMPLETE
+,,,,,,,
+Test Cases/Eligibility TSA Rules/TC-1,,,,2019-08-02 16:03:07,2019-08-02 16:03:11,3.166s,FAILED
+"sendRequest(findTestObject(""AlterationScoringRuleApps/AlterationScoringRuleApps""))",,,,2019-08-02 16:03:10,2019-08-02 16:03:11,1.059s,FAILED
+Start listener action : sampleAfterTestCase,,,,2019-08-02 16:03:11,2019-08-02 16:03:11,0.010s,PASSED

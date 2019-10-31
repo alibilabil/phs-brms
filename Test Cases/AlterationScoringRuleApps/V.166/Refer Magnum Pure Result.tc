@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Refer Magnum Pure Result</name>
+   <tag></tag>
+   <comment>Verify evidence code is MRF
+Verify Response Status Code is 200</comment>
+   <testCaseGuid>c29a735d-92dd-47cf-be33-cfa74dec5b64</testCaseGuid>
+   <variable>
+      <defaultValue>'Major'</defaultValue>
+      <description></description>
+      <id>7892a1f6-6d6e-4893-a2b4-366fc2fde44e</id>
+      <masked>false</masked>
+      <name>transactionType</name>
+   </variable>
+   <variable>
+      <defaultValue>'U11'</defaultValue>
+      <description></description>
+      <id>5dc7d0f2-244d-4997-8f99-a47beb92d4aa</id>
+      <masked>false</masked>
+      <name>productCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Increasing Risk'</defaultValue>
+      <description></description>
+      <id>e59ee7d0-f1e5-4b49-b88a-1a1d84ebb3c3</id>
+      <masked>false</masked>
+      <name>alterType</name>
+   </variable>
+   <variable>
+      <defaultValue>'REFER'</defaultValue>
+      <description></description>
+      <id>d5000484-32e7-4ff1-a797-34f083034db5</id>
+      <masked>false</masked>
+      <name>magnumDecision</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3e039742-386c-4891-9427-bc0a0320e526</id>
+      <masked>false</masked>
+      <name>code</name>
+   </variable>
+</TestCaseEntity>

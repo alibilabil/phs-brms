@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-3 Add Rider</name>
+   <tag></tag>
+   <comment>Verify NML Flags value is equal 3
+Verify Response Status Code is 200</comment>
+   <testCaseGuid>e7a322e6-78b3-47fa-b739-8e43cd68c28c</testCaseGuid>
+   <variable>
+      <defaultValue>'Major'</defaultValue>
+      <description></description>
+      <id>6cc82638-41fb-4575-9818-e05b6c1226d8</id>
+      <masked>false</masked>
+      <name>transactionType</name>
+   </variable>
+   <variable>
+      <defaultValue>'AddRider'</defaultValue>
+      <description></description>
+      <id>7e586777-8a6a-474c-a8f3-8b8cd0f9a3f7</id>
+      <masked>false</masked>
+      <name>subAlter</name>
+   </variable>
+   <variable>
+      <defaultValue>'IRD'</defaultValue>
+      <description></description>
+      <id>04b7cdd1-a885-43bf-855d-1ac9fd0e1fc0</id>
+      <masked>false</masked>
+      <name>eviCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'C106'</defaultValue>
+      <description></description>
+      <id>a3b42744-e23d-47ce-a32c-aee6ee61cc12</id>
+      <masked>false</masked>
+      <name>riderCode</name>
+   </variable>
+</TestCaseEntity>

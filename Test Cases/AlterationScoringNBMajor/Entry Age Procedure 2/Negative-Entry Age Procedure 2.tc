@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Negative-Entry Age Procedure 2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>82150cc8-41b0-4b96-a72d-a6265a527d14</testCaseGuid>
+   <variable>
+      <defaultValue>'Major'</defaultValue>
+      <description></description>
+      <id>970def7a-9ee5-42fc-8c5a-a07ea42f46be</id>
+      <masked>false</masked>
+      <name>transactionType</name>
+   </variable>
+   <variable>
+      <defaultValue>'U1T'</defaultValue>
+      <description></description>
+      <id>1759ed64-fadd-40bd-9783-2023d3b8c2b4</id>
+      <masked>false</masked>
+      <name>productCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'LA1'</defaultValue>
+      <description></description>
+      <id>a01ab279-560d-4652-b1cf-907bc3553d21</id>
+      <masked>false</masked>
+      <name>role</name>
+   </variable>
+   <variable>
+      <defaultValue>'741'</defaultValue>
+      <description></description>
+      <id>ebbbf173-a514-4194-98ae-609797ecf19d</id>
+      <masked>false</masked>
+      <name>age</name>
+   </variable>
+   <variable>
+      <defaultValue>'2499'</defaultValue>
+      <description></description>
+      <id>afbf66f6-2c2a-4672-9385-471b4290b6f3</id>
+      <masked>false</masked>
+      <name>weight</name>
+   </variable>
+   <variable>
+      <defaultValue>'CBP'</defaultValue>
+      <description></description>
+      <id>8a824fc7-bdcd-447d-845f-721e3321773e</id>
+      <masked>false</masked>
+      <name>expectedEviCode</name>
+   </variable>
+   <variable>
+      <defaultValue>' Refer to processor karena Usia tertanggung Dibawah 3 bulan harus melampirkan SKKA - Entry Age Procedure 1'</defaultValue>
+      <description></description>
+      <id>49025a19-3443-4aee-9363-6cb837f97a6e</id>
+      <masked>false</masked>
+      <name>expectedDescription</name>
+   </variable>
+</TestCaseEntity>

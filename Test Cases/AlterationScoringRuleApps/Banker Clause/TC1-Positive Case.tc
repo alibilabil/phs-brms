@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC1-Positive Case</name>
+   <tag></tag>
+   <comment>Verify evidence code is BKC
+Verify response status code is 200</comment>
+   <testCaseGuid>d29d130f-bf26-49bb-8533-4287867de25e</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Alteration Scoring/Bankers Clause/TC1-Bankers Clause').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>acb87f7b-7564-4574-8eef-280aed377199</id>
+      <masked>false</masked>
+      <name>transactionType</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Alteration Scoring/Bankers Clause/TC1-Bankers Clause').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>11a9ac91-679a-49f6-8581-22c45b088d75</id>
+      <masked>false</masked>
+      <name>role</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Alteration Scoring/Bankers Clause/TC1-Bankers Clause').getValue(3, 1)</defaultValue>
+      <description></description>
+      <id>d422a780-5733-4d11-9fa1-e6fafcc4a3ce</id>
+      <masked>false</masked>
+      <name>followUpCodeBkcOrLbc</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Alteration Scoring/Bankers Clause/TC1-Bankers Clause').getValue(4, 1)</defaultValue>
+      <description></description>
+      <id>cd7acefb-c709-41f9-b55b-09f4af9ee18e</id>
+      <masked>false</masked>
+      <name>bankersFlag</name>
+   </variable>
+</TestCaseEntity>

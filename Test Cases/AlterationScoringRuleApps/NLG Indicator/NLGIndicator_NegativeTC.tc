@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>NLGIndicator_NegativeTC</name>
+   <tag></tag>
+   <comment>Verify Response Status Code is 200</comment>
+   <testCaseGuid>fa1460e8-af1d-42c3-b20c-ec11523a1674</testCaseGuid>
+   <variable>
+      <defaultValue>'Major'</defaultValue>
+      <description></description>
+      <id>b4e8eb00-2e61-4158-ba61-a806c3868354</id>
+      <masked>false</masked>
+      <name>transactionType</name>
+   </variable>
+   <variable>
+      <defaultValue>'Increasing Risk'</defaultValue>
+      <description></description>
+      <id>eddb9064-4e95-4722-adcd-e574fd39fb1d</id>
+      <masked>false</masked>
+      <name>alterType</name>
+   </variable>
+   <variable>
+      <defaultValue>'P'</defaultValue>
+      <description></description>
+      <id>b950d4d7-e674-4a0e-a870-32599eca5284</id>
+      <masked>false</masked>
+      <name>clientType</name>
+   </variable>
+   <variable>
+      <defaultValue>615623</defaultValue>
+      <description></description>
+      <id>51786da8-85db-4abd-ae3a-d133fd11a40a</id>
+      <masked>false</masked>
+      <name>totalcoi</name>
+   </variable>
+   <variable>
+      <defaultValue>532631024</defaultValue>
+      <description></description>
+      <id>c29c2205-9809-4d78-869b-e031643da26b</id>
+      <masked>false</masked>
+      <name>debtAmount</name>
+   </variable>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>6115b47c-5707-43b8-9a47-322ba19805c3</id>
+      <masked>false</masked>
+      <name>nlgIndicator</name>
+   </variable>
+   <variable>
+      <defaultValue>2000000000</defaultValue>
+      <description></description>
+      <id>2c004098-e80d-4c39-92a0-8257cb720c49</id>
+      <masked>false</masked>
+      <name>cashValue</name>
+   </variable>
+</TestCaseEntity>

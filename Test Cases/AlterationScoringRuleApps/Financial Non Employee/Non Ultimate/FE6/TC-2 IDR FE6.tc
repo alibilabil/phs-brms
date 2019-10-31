@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-2 IDR FE6</name>
+   <tag></tag>
+   <comment>Send request
+Verify evidence code is FE6 and have description &quot;Butuh LSAR, ABR, BSM, RoC, RNA, Bukti Aset, F2F meeting&quot;
+Verify response status code</comment>
+   <testCaseGuid>11598890-6365-4a70-af99-9fde0b539685</testCaseGuid>
+   <variable>
+      <defaultValue>'Major'</defaultValue>
+      <description></description>
+      <id>4cb5f446-7b5f-466d-8773-0455c1c0325f</id>
+      <masked>false</masked>
+      <name>transactionType</name>
+   </variable>
+   <variable>
+      <defaultValue>'LA1'</defaultValue>
+      <description></description>
+      <id>ccfc7ab7-5cc8-4842-b832-96152e5e8625</id>
+      <masked>false</masked>
+      <name>role</name>
+   </variable>
+   <variable>
+      <defaultValue>'Y'</defaultValue>
+      <description></description>
+      <id>85c9671a-5f82-4936-97b1-a45605103e09</id>
+      <masked>false</masked>
+      <name>increasingFsaFlag</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>77ca4bd8-36a8-4f1c-a5ea-e7c19d9fba21</id>
+      <masked>false</masked>
+      <name>pecFlag</name>
+   </variable>
+   <variable>
+      <defaultValue>'COMS'</defaultValue>
+      <description></description>
+      <id>7792ca17-fd50-425e-9394-b26f4608cdf4</id>
+      <masked>false</masked>
+      <name>occupationCode</name>
+   </variable>
+</TestCaseEntity>

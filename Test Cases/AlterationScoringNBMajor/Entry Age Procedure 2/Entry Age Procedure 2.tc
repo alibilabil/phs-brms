@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Entry Age Procedure 2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9c290814-45e7-460d-bddb-4018529b3985</testCaseGuid>
+   <variable>
+      <defaultValue>'Major'</defaultValue>
+      <description></description>
+      <id>dfe11f2b-c0f3-4974-b8fa-70d04d2dad60</id>
+      <masked>false</masked>
+      <name>transactionType</name>
+   </variable>
+   <variable>
+      <defaultValue>'U1T'</defaultValue>
+      <description></description>
+      <id>c9449514-408c-43f2-bb8d-2675d57811b8</id>
+      <masked>false</masked>
+      <name>productCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'LA1'</defaultValue>
+      <description></description>
+      <id>e23fc2e2-8c92-471a-abb1-fe2182fb9fc6</id>
+      <masked>false</masked>
+      <name>role</name>
+   </variable>
+   <variable>
+      <defaultValue>'364'</defaultValue>
+      <description></description>
+      <id>181edb1a-4564-4e6f-a022-a7888806a5b7</id>
+      <masked>false</masked>
+      <name>age</name>
+   </variable>
+   <variable>
+      <defaultValue>'2499'</defaultValue>
+      <description></description>
+      <id>02513230-e297-4e0f-b8e7-1b4b583a7e0b</id>
+      <masked>false</masked>
+      <name>weight</name>
+   </variable>
+   <variable>
+      <defaultValue>'CBP'</defaultValue>
+      <description></description>
+      <id>6bf84b25-8da8-4ef9-bc2a-b6a2d19c1f98</id>
+      <masked>false</masked>
+      <name>expectedEviCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Postpone karena usia &lt; 1 tahun dengan BBLR &lt;2500gr - Entry Age Procedure 2'</defaultValue>
+      <description></description>
+      <id>f77ee20d-cf18-4340-9317-eb97b9a82df2</id>
+      <masked>false</masked>
+      <name>expectedDescription</name>
+   </variable>
+</TestCaseEntity>

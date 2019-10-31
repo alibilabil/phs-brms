@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-1 USD FU4</name>
+   <tag></tag>
+   <comment>Send request
+Verify evidence code is FU4 and have description &quot;Butuh LSAR, ABR&quot;
+Verify response status code</comment>
+   <testCaseGuid>6b33f7bb-8644-4a24-86fc-3343d24ab83d</testCaseGuid>
+   <variable>
+      <defaultValue>'Major'</defaultValue>
+      <description></description>
+      <id>f99a867e-9aa3-4633-9398-e502f41e8a78</id>
+      <masked>false</masked>
+      <name>transactionType</name>
+   </variable>
+   <variable>
+      <defaultValue>'LA1'</defaultValue>
+      <description></description>
+      <id>dd2d2dc7-50bc-4e97-b5dd-35857e0795f3</id>
+      <masked>false</masked>
+      <name>role</name>
+   </variable>
+   <variable>
+      <defaultValue>'Y'</defaultValue>
+      <description></description>
+      <id>5ba56081-e0f7-4441-a571-fb48a28f52c4</id>
+      <masked>false</masked>
+      <name>increasingFsaFlag</name>
+   </variable>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description></description>
+      <id>65e89954-4fec-4d50-9bac-58e9f9b73646</id>
+      <masked>false</masked>
+      <name>pecFlag</name>
+   </variable>
+   <variable>
+      <defaultValue>'COMS'</defaultValue>
+      <description></description>
+      <id>f1ab648e-8225-4246-96a6-cfe11ddf8a19</id>
+      <masked>false</masked>
+      <name>occupationCode</name>
+   </variable>
+</TestCaseEntity>

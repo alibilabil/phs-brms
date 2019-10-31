@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Occupation RDO List</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>72aaf933-ba52-46a0-8fca-55ac603e0eb7</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Alteration Scoring NB Major/Occupation RDO List/Occupation RDO List').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>1e91ba66-d02c-4516-a043-f1606e026a59</id>
+      <masked>false</masked>
+      <name>transactionType</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Alteration Scoring NB Major/Occupation RDO List/Occupation RDO List').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>167920f9-5a6b-418d-b76e-0691fbae8c39</id>
+      <masked>false</masked>
+      <name>clientType</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Alteration Scoring NB Major/Occupation RDO List/Occupation RDO List').getValue(3, 1)</defaultValue>
+      <description></description>
+      <id>08cf2bba-c540-41bf-a4a5-3a35b90973e3</id>
+      <masked>false</masked>
+      <name>role</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Alteration Scoring NB Major/Occupation RDO List/Occupation RDO List').getValue(4, 1)</defaultValue>
+      <description></description>
+      <id>812ac768-4570-4983-80eb-59d4f39658ba</id>
+      <masked>false</masked>
+      <name>alterType</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Alteration Scoring NB Major/Occupation RDO List/Occupation RDO List').getValue(5, 1)</defaultValue>
+      <description></description>
+      <id>101a624e-e598-48fe-ac11-b8c11b087eef</id>
+      <masked>false</masked>
+      <name>occupationCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Alteration Scoring NB Major/Occupation RDO List/Occupation RDO List').getValue(6, 1)</defaultValue>
+      <description></description>
+      <id>ea0c745d-79e7-45da-bca0-486463b07fa9</id>
+      <masked>false</masked>
+      <name>expectedEvidenceCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Alteration Scoring NB Major/Occupation RDO List/Occupation RDO List').getValue(7, 1)</defaultValue>
+      <description></description>
+      <id>52ac8441-791a-4fdb-986b-c56b52d36945</id>
+      <masked>false</masked>
+      <name>expectedDescription</name>
+   </variable>
+</TestCaseEntity>

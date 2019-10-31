@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Increase Term Positive TC</name>
+   <tag></tag>
+   <comment>Verify evidence code is ENS
+Verify Response Status Code is 200</comment>
+   <testCaseGuid>de0baa8b-7c44-46d9-b9dd-bf56be3dfb6d</testCaseGuid>
+   <variable>
+      <defaultValue>'Major'</defaultValue>
+      <description></description>
+      <id>cd34ab8f-4ac6-4bdc-a730-b77994d27ac4</id>
+      <masked>false</masked>
+      <name>transactionType</name>
+   </variable>
+   <variable>
+      <defaultValue>'LA1'</defaultValue>
+      <description></description>
+      <id>32815070-1733-438d-8517-dffac0103f56</id>
+      <masked>false</masked>
+      <name>role</name>
+   </variable>
+   <variable>
+      <defaultValue>'IncreaseTerm'</defaultValue>
+      <description></description>
+      <id>eebf729e-a6ba-469f-aca6-0659c43c35d2</id>
+      <masked>false</masked>
+      <name>subAlter</name>
+   </variable>
+   <variable>
+      <defaultValue>'H1G1'</defaultValue>
+      <description></description>
+      <id>6d5fa367-b5d4-4bdd-924b-23bab769ccff</id>
+      <masked>false</masked>
+      <name>riderCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Y'</defaultValue>
+      <description></description>
+      <id>3d20f2fe-f794-4b2e-8cb7-c46150897fad</id>
+      <masked>false</masked>
+      <name>substandardHospitalFlag</name>
+   </variable>
+</TestCaseEntity>

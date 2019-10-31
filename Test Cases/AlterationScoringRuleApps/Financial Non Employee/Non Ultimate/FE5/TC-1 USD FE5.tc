@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-1 USD FE5</name>
+   <tag></tag>
+   <comment>Send request
+Verify evidence code is FE5 and have description &quot;Butuh LSAR, ABR, BSM, RoC, RNA, Bukti Aset&quot;
+Verify response status code</comment>
+   <testCaseGuid>f9ba4b6e-c7fe-4c30-b468-79fbf762ef50</testCaseGuid>
+   <variable>
+      <defaultValue>'Major'</defaultValue>
+      <description></description>
+      <id>15a4b881-5e48-4c9c-9359-3573d51f346e</id>
+      <masked>false</masked>
+      <name>transactionType</name>
+   </variable>
+   <variable>
+      <defaultValue>'LA1'</defaultValue>
+      <description></description>
+      <id>f0dc846d-9bcb-42bd-a26e-e4bcc159e0f5</id>
+      <masked>false</masked>
+      <name>role</name>
+   </variable>
+   <variable>
+      <defaultValue>'Y'</defaultValue>
+      <description></description>
+      <id>bda46c9d-49d3-4d2a-a3b4-b5032a4cdfa3</id>
+      <masked>false</masked>
+      <name>increasingFsaFlag</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>b8f5fe6c-49ee-4a14-a0d3-0d5cac3df81b</id>
+      <masked>false</masked>
+      <name>pecFlag</name>
+   </variable>
+   <variable>
+      <defaultValue>'COMS'</defaultValue>
+      <description></description>
+      <id>273adc87-6084-44ec-b609-83cf0943512b</id>
+      <masked>false</masked>
+      <name>occupationCode</name>
+   </variable>
+</TestCaseEntity>
